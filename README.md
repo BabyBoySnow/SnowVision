@@ -49,7 +49,7 @@ Download the theme file from [our official support server](https://clearvision.g
 Check out our replugged theme [here!](https://github.com/ClearVision/CV-Replugged)
 
 ## Installing Winter Wonderland
-Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder.
+Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder. This theme uses the Amazon kindle font "Bookerly" and a custom font "lovely home" and they can be installed [here](https://www.cufonfonts.com/font/bookerly) and [here](https://www.dafont.com/lovely-home.font)
 
 ## Building from source
 
