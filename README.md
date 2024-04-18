@@ -19,7 +19,7 @@
 [![Issues][issues-badge]][issues-link]
 [![Pull Requests][prs-badge]][prs-link]
 
-![v6 Sapphire](https://i.imgur.com/U7UXrEN.png)
+![v1](https://i.imgur.com/p99DoDp.png)
 
 </div>
 
@@ -33,7 +33,7 @@ Please keep in mind that **we do not manage the theme editor**, and cannot help 
 
 _Thank you to @Gibbu to providing this._
 
-## Installing
+## Installing official ClearVision
 
 Note: ClearVision doesn't actively support plugins (as in, we don't seek out and actively theme fixes to every new plugin). However, when a plugin is widely used, we try our best to stay compatible.
 
@@ -47,6 +47,9 @@ Download the theme file from [our official support server](https://clearvision.g
 **For Replugged:**
 
 Check out our replugged theme [here!](https://github.com/ClearVision/CV-Replugged)
+
+## Installing Winter Wonderland
+Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder.
 
 ## Building from source
 
@@ -65,3 +68,18 @@ To build the theme from source, you can simply run `npm install` to install all 
 
 You can run `npm run test` to compile the theme.
 The `main.css` file will be in the `/test` directory, which can then be copied into BetterDiscord's Custom CSS.
+
+## Changelog 
+
++ Move date dividers to the middle. 
++ add new options alt-color to use in several places. 
++ Remove the annoying help message from hepboat in ClearVision Support server
++ Remove annoying border around nitro for "most popular".
++ Use radical status
++ Move new message pill to the middle.
++ Remove some borders on stuff, use more shading. 
++ Remove glow from wordmark. Change to "Winter Wonderland v1.3.1"
++ Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non nitro users look cool.
++ Use snippet to make pings stand out more and look cool. 
++ Changes the border on the spotify controls plugin for vencord
++ Various changes and improvements, information not provided by developer. 
