@@ -75,11 +75,12 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 + add new options alt-color to use in several places. 
 + Remove the annoying help message from hepboat in ClearVision Support server
 + Remove annoying border around nitro for "most popular".
-+ Use radical status
++ Use radical status.
 + Move new message pill to the middle.
 + Remove some borders on stuff, use more shading. 
-+ Remove glow from wordmark. Change to "Winter Wonderland v1.3.1"
++ Remove glow from wordmark. Change to "Winter Wonderland v1.3.1".
 + Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non nitro users look cool.
 + Use snippet to make pings stand out more and look cool. 
-+ Changes the border on the spotify controls plugin for vencord
++ Changes the border on the spotify controls plugin for vencord.
++ Make a few buttons round.
 + Various changes and improvements, information not provided by developer. 
