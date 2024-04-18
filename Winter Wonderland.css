@@ -1,0 +1,835 @@
+/**
+
+ * @name Winter Wonderland
+ * @author therealjustsnow and ClearVision Team
+ * @version 1.2.1
+ * @description Highly customizable theme for BetterDiscord. Adds more smoothness than traditional ClearVision.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+
+/* Credits to Zerthox for making the original theme. */
+
+/* IMPORT CSS */
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+
+/* SETTINGS */
+:root {
+  /*
+    * Spacing
+    */
+    --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 0px; /* Gap between avatar and status for User profiles | MUST end in px */
+    /*
+      * Widths
+      */
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+    /*
+      * Shape
+      */
+    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+    /*
+      * Colours
+      */
+    --rs-online-color: #43b581; /* Colour for online status */
+    --rs-idle-color: #faa61a; /* Colour for idle status */
+    --rs-dnd-color: #982929; /* Colour for dnd status */
+    --rs-offline-color: #636b75; /* Colour for offline status */
+    --rs-streaming-color: #593695; /* Colour for streaming status */
+    --rs-invisible-color: #808080; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-self-speaking-color: hsl(180, 95%, 76%); /* Colour for speaking ring in the bottom left while in a voice chat/call */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone  */
+    /*
+      * Others
+      */
+    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+
+    --server-size: 48px;
+
+
+    /* ACCENT COLORS */
+    --main-color: hsla(265, 100%, 50%, 1);
+    /* main accent color (hex,rgb or hsl) [default:#2780e6] */
+    --alt-color: rgba(135, 252, 252, 1);
+    /* custom second color */
+    --hover-color: rgba(227, 61, 148, 1);
+    /* hover accent color (hex,rgb or hsl) [default:#1e63b3] */
+    --success-color: #43b581;
+    /* success accent color (hex,rgb or hsl) [default:#43b581] */
+    --danger-color: #982929;
+    /* danger accent color (hex,rgb or hsl) [default:#982929] */
+    --url-color: var(--main-color);
+    /*The color of url links [default:var(--main-color)]*/
+
+    /* STATUS COLORS */
+    --online-color: none;
+    /* online status color (hex,rgb or hsl) [default:#43b581] */
+    --idle-color: none;
+    /* idle status color (hex,rgb or hsl) [default:#faa61a] */
+    --dnd-color: none;
+    /* dnd status color (hex,rgb or hsl) [default:#982929] */
+    --streaming-color: none;
+    /* streaming status color (hex,rgb or hsl) [default:#593695] */
+    --offline-color: none;
+    /* offline/invisible status color (hex,rgb or hsl) [default:#808080] */
+
+    /* GENERAL */
+    --main-font: Bookerly Display Regular, Bookerly, Comic Sans MS, gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* main font for app (font must be installed) [default:gg sans,Helvetica Neue,Helvetica,Arial,sans-serif] */
+    --code-font: Hack, Consolas, Liberation Mono, Menlo, Courier, monospace;
+    /* font for codeblocks (font must be installed) [default:Consolas,Liberation Mono,Menlo,Courier,monospace] */
+    --text-normal: #fff;
+    /* color of default discord text */
+    --text-muted: rgb(114, 118, 125);
+    /* color of default discord muted text (e.g.text found in input fields before typing).*/
+    --channels-width: 220px;
+    /* channel list width (240px for Discord default) [default:220px] */
+    --members-width: 240px;
+    /* member list width [default:240px] */
+
+    /* APP BACKGROUND */
+    --background-shading: 0%;
+    /* app background shading (0 for complete smoothness) [default:100%] */
+    --background-overlay: rgba(0, 0, 0, 0.3);
+    /* app background overlay color/gradient [default:rgba(0,0,0,0.6)] */
+    --background-image: url(https://i.imgur.com/kCndyb2.jpeg);
+    /* app background image (link must be HTTPS) [default:url(https://clearvision.github.io/images/sapphire.jpg)]*/
+    --background-position: center;
+    /* app background position [default:center] */
+    --background-size: cover;
+    /* app background size [default:cover] */
+    --background-repeat: no-repeat;
+    /* app background repeat [default:no-repeat] */
+    --background-attachment: fixed;
+    /* app background attachment [default:fixed] */
+    --background-brightness: 80%;
+    /* app background brightness (< 100% for darken,> 100% for lighten) [default:100%] */
+    --background-contrast: 80%;
+    /* app background contrast [default:100%] */
+    --background-saturation: 100%;
+    /* app background saturation [default:100%] */
+    --background-invert: 0%;
+    /* app background invert (0 - 100%)  [default:0%] */
+    --background-grayscale: 0%;
+    /* app background grayscale ( 0 - 100%) [default:0%] */
+    --background-sepia: 0%;
+    /* app background sepia (0 - 100%) [default:0%] */
+    --background-blur: 0px;
+    /* app background blur [default:0px] */
+
+    /* HOME BUTTON ICON */
+    --home-icon: url(https://i.imgur.com/PmIFJmU.png);
+    /* home button icon (link must be HTTPS) [default:url(https://clearvision.github.io/icons/discord.svg)]*/
+    --home-position: center;
+    /* home button icon position [default:center] */
+    --home-size: 50px;
+    /* home button icon size [default:40px] */
+
+    /* CHANNEL COLORS */
+    --channel-unread: var(--alt-color);
+    /* Unread Server channel color. [default:var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+    --channel-color: rgba(255, 255, 255, 0.3);
+    /*Read Server channel color  [default:rgba(255,255,255,0.3);
+  ]*/
+    --channel-text-selected: #fff;
+    /* Selected channel text color,CV default is #fff */
+    --muted-color: rgba(255, 255, 255, 0.1);
+    /*Muted channel color  [default:rgba(255,255,255,0.1);
+  ]*/
+
+    /* MODAL BACKDROP */
+    --backdrop-overlay: rgba(0, 0, 0, 0);
+    /* modal backdrop overlay color/gradient [default:rgba(0,0,0,0.8)] */
+    --backdrop-image: var(--background-image);
+    /* modal backdrop image (link must be HTTPS) [default:var(--background-image)] */
+    --backdrop-position: var(--background-position);
+    /* modal backdrop position [default:var(--background-position)] */
+    --backdrop-size: var(--background-size);
+    /* modal backdrop size [default:var(--background-size)] */
+    --backdrop-repeat: var(--background-repeat);
+    /* modal backdrop repeat [default:var(--background-repeat)] */
+    --backdrop-attachment: var(--background-attachment);
+    /* modal backdrop attachment [default:var(--background-attachment)] */
+    --backdrop-brightness: var(--background-brightness);
+    /* modal backdrop brightness (< 100% for darken,> 100% for lighten) [default:var(--background-brightness)] */
+    --backdrop-contrast: var(--background-contrast);
+    /* modal backdrop contrast [default:var(--background-contrast)] */
+    --backdrop-saturation: var(--background-saturation);
+    /* modal backdrop saturation [default:var(--background-saturation)] */
+    --backdrop-invert: var(--background-invert);
+    /* modal backdrop invert (0 - 100%)  [default:var(--background-invert)] */
+    --backdrop-grayscale: var(--background-grayscale);
+    /* modal backdrop grayscale ( 0 - 100%) [default:var(--background-grayscale)] */
+    --backdrop-sepia: var(--background-sepia);
+    /* modal backdrop sepia (0 - 100%) [default:var(--background-sepia)] */
+    --backdrop-blur: var(--background-blur);
+    /* modal backdrop blur [default:var(--background-blur)] */
+
+    /* USER POPOUT BACKGROUND */
+    --user-popout-image: var(--background-image);
+    /* app background image (link must be HTTPS) [default:var(--background-image)] */
+    --user-popout-position: var(--background-position);
+    /* user popout background position [default:var(--background-position)] */
+    --user-popout-size: var(--background-size);
+    /* user popout background size [default:var(--background-size)] */
+    --user-popout-repeat: var(--background-repeat);
+    /* user popout background repeat [default:var(--background-repeat)] */
+    --user-popout-attachment: var(--background-attachment);
+    /* user popout background attachment [default:var(--background-attachment)] */
+    --user-popout-brightness: var(--background-brightness);
+    /* user popout background brightness (< 100% for darken,> 100% for lighten) [default:var(--background-brightness)] */
+    --user-popout-contrast: var(--background-contrast);
+    /* user popout background contrast [default:var(--background-contrast)] */
+    --user-popout-saturation: var(--background-saturation);
+    /* user popout background saturation [default:var(--background-saturation)] */
+    --user-popout-invert: var(--background-invert);
+    /* user popout background invert (0 - 100%) [default:var(--background-invert)] */
+    --user-popout-grayscale: var(--background-grayscale);
+    /* user popout background grayscale (0 - 100%) [default:var(--background-grayscale)] */
+    --user-popout-sepia: var(--background-sepia);
+    /* user popout background sepia (0 - 100%) [default:var(--background-sepia)] */
+    --user-popout-blur: calc(var(--background-blur) + 3px);
+    /* user popout background blur [default:calc(var(--background-blur) + 3px)] */
+    --user-popout-overlay: rgba(0, 0, 0, 0.6);
+    /* user popout overlay color [default:rgba(0,0,0,.6)] */
+
+    /* USER MODAL BACKGROUND */
+    --user-modal-image: var(--background-image);
+    /* app background image (link must be HTTPS) [default:var(--background-image)] */
+    --user-modal-position: var(--background-position);
+    /* user modal background position [default:var(--background-position)] */
+    --user-modal-size: var(--background-size);
+    /* user modal background size [default:var(--background-size)] */
+    --user-modal-repeat: var(--background-repeat);
+    /* user modal background repeat [default:var(--background-repeat)] */
+    --user-modal-attachment: var(--background-attachment);
+    /* user modal background attachment [default:var(--background-attachment)] */
+    --user-modal-brightness: var(--background-brightness);
+    /* user modal background brightness (< 100% for darken,> 100% for lighten) [default:var(--background-brightness)] */
+    --user-modal-contrast: var(--background-contrast);
+    /* user modal background contrast [default:var(--background-contrast)] */
+    --user-modal-saturation: var(--background-saturation);
+    /* user modal background saturation [default:var(--background-saturation)] */
+    --user-modal-invert: var(--background-invert);
+    /* user modal background invert (0 - 100%) [default:var(--background-invert)] */
+    --user-modal-grayscale: var(--background-grayscale);
+    /* user modal background grayscale (0 - 100%) [default:var(--background-grayscale)] */
+    --user-modal-sepia: var(--background-sepia);
+    /* user modal background sepia (0 - 100%) [default:var(--background-sepia)] */
+    --user-modal-blur: calc(var(--background-blur) + 3px);
+    /* user modal background blur [default:calc(var(--background-blur) + 3px)] */
+
+    /* THEME BD COLORS */
+    --bd-blue: var(--main-color);
+    /* betterdiscord main color [default:var(--main-color)] */
+    --bd-blue-hover: var(--hover-color);
+    /* betterdiscord hover color [default:var(--hover-color)] */
+    --bd-blue-active: var(--hover-color);
+    /* betterdiscord active color [default:var(--hover-color)] */
+}
+
+.buttonWhite__913ed {
+    color: white;
+}
+
+.pill_f055c3,
+.increasedActivityPill__2620e {
+    background: var(--background-shading);
+    border: 2px solid var(--main-color);
+}
+
+.group-spacing-16 .divider__01aed.hasContent__1fe13 {
+    border: none;
+    background: none;
+}
+
+.divider__855e3 {
+    border: none;
+    background: none;
+}
+
+.group-spacing-16 .divider__01aed {
+    border: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    background: none;
+}
+
+.members__573eb .member_aa4760 .activityText__31c22 {
+    color: var(--alt-color);
+}
+
+.song-tIdBpF {
+    font-weight: 500;
+    color: var(--alt-color);
+}
+
+.interpret-F93iqP {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--alt-color);
+}
+
+.members__573eb .member_aa4760 .activityText__31c22 {
+    color: var(--alt-color);
+    transition: all .3s ease-in-out;
+}
+
+.members__573eb .member_aa4760 .activityText__31c22 strong {
+    color: var(--alt-color);
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.members__573eb .member_aa4760 .activityText__31c22 strong {
+    color: var(--alt-color);
+}
+
+.privateChannels__9b518 .channel__0aef5 .interactive__3e804.interactiveSelected__689f0 .activityText__56d3b strong {
+    color: var(--alt-color);
+}
+
+.privateChannels__9b518 .channel__0aef5 .interactive__3e804 .activityText__56d3b strong {
+    color: var(--alt-color);
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+}
+
+.activity_d189d8 {
+    color: var(--alt-color);
+}
+
+/*remove borders from friends list */
+.peopleListItem_dab480 {
+    border-top: transparent;
+}
+
+.channelTextArea__648e5:focus-within {
+    box-shadow: 0 0 2px 2px var(--alt-color);
+}
+
+.channelTextArea__648e5 {
+    box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
+}
+
+
+.voiceChannelsButton_fd0b98 {
+    border: 2px solid var(--main-color);
+}
+
+.voiceChannelsButton_fd0b98:hover {
+    border: 2px solid var(--hover-color);
+    background: transparent;
+}
+
+.imageDetails-1t6Zms {
+    color: var(--url-color);
+}
+
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  color: var(--text-normal);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
+  background-color: var(--hover-color);
+  border-radius: 50px;
+  color: var(--text-normal);
+  transition: all .6s ease-in-out;
+}
+
+/* Make most buttons round */
+.button__581d0 {
+  border-radius: 50px;
+}
+
+/* Remove annoying border around second nitro option. */
+.tier2ColumnOuter_c78c33 {
+    display: none;
+}
+
+.tier0ColumnOuter__36507,
+.tier2ColumnOuter_c78c33 {
+    display: none;
+}
+
+.typeWindows_e41dab>.wordmark__5b8c9:before {
+    color: var(--alt-color);
+    content: "Winter WonderLand";
+    font-size: 14px;
+    text-shadow: unset;
+    filter: unset;
+    font-family: "Lovely Home";
+}
+
+.typeWindows_e41dab>.wordmark__5b8c9>svg>g>path {
+    fill: var(--alt-color);
+}
+
+.typeWindows_e41dab>.wordmark__5b8c9>svg {
+    color: var(--alt-color);
+    filter: unset;
+}
+
+.typeWindows_e41dab>.wordmark__5b8c9:after {
+    color: var(--alt-color);
+    content: "v1.3.1";
+    font-family: "Lovely Home";
+}
+
+.toolbar__62fb5 .iconWrapper_de6cd1>svg:not(.icon_ae0b42) {
+    color: #fff;
+    filter: unset;
+    transition: unset;
+}
+
+.toolbar__62fb5 .iconWrapper_de6cd1:hover>svg:not(.icon_ae0b42) {
+    color: #fff;
+}
+
+.toolbar__62fb5 .iconWrapper_de6cd1:hover>svg:not(.icon_ae0b42) {
+    filter: drop-shadow(0 0 15px transparent);
+    color: unset;
+}
+
+button.button_ae40a4.enabled__214db:hover {
+    color: #fff;
+    background-color: hsla(0, 0%, 30%, 0.5);
+}
+
+.button_ae40a4 .enabled__214db .button__581d0 .lookBlank_a5b4ca .colorBrand__27d57 .grow__4c8a4 .button_ae40a4:hover {
+    color: #fff;
+    background-color: hsla(0, 0%, 30%, 0.5);
+}
+
+.increasedActivityMainCard-2ry6hI.isOpen__8593d,
+.increasedActivityMainCard-2ry6hI.isOpen__036bf,
+.mainCard__0ec2c.isOpen__8593d,
+.mainCard__0ec2c.isOpen__036bf {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.unreadPill__1b4fa {
+    background-color: var(--alt-color);
+    height: 25px;
+    width: 55px;
+    position: absolute;
+    right: 50%;
+    border-radius: unset;
+    display: flex;
+    padding-left: 6px;
+    color: ivory;
+}
+
+.unreadPillCap__44e20 {
+    display: none;
+}
+
+.unreadPillCapStroke__89d64 {
+    fill: var(--alt-color);
+    color: var(--alt-color);
+}
+
+.group-spacing-16 .divider__01aed.beforeGroup__6532c {
+    border-radius: unset;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.group-spacing-16 .divider__01aed.hasContent__1fe13 .unreadPill__1b4fa {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.newMessagesBar__8b272:before {
+    opacity: .3;
+    background: var(--main-color);
+}
+
+.containerWrapper_b1818f {
+    background: var(--background-overlay);
+    border: 2px solid var(--main-color);
+}
+
+.members__573eb .membersGroup_cad095 {
+    color: var(--alt-color);
+}
+
+.members__573eb .membersGroup_cad095:before,
+.members__573eb .membersGroup_cad095:after {
+    background: linear-gradient(to left, var(--main-color) 50%, transparent);
+}
+
+.username__267df {
+    color: var(--alt-color);
+}
+
+.text_bd79a3 {
+    color: var(--alt-color);
+}
+
+.activity_f466d8 {
+    color: var(--alt-color);
+}
+
+.activity_f466d8 strong {
+    color: var(--alt-color);
+}
+
+/* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
+/* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
+@supports selector(a:has(+ a)) {
+
+    .header__6a14d:has(.vc-pronoundb-compact) .timestampInline__430cf:last-child,
+    [class*="compact"] .header_39b23 .vc-pronoundb-compact:last-child {
+        color: var(--alt-color);
+    }
+}
+
+.message_ccca67 .timestamp_c79dd2 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.icon__1ab4f {
+    color: var(--alt-color);
+}
+
+.content__7191e {
+    color: var(--alt-color);
+}
+
+.groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
+    display: none;
+}
+
+.sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
+    color: var(--alt-color);
+    text-shadow: 0 0 3px;
+}
+
+[class^="theme-"] #vc-spotify-player {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#vc-spotify-song-title {
+    color: var(--alt-color);
+}
+
+.vc-spotify-artist,
+.vc-spotify-album {
+    color: var(--alt-color);
+}
+
+.vc-spotify-ellipoverflow {
+    color: var(--alt-color);
+}
+
+#vc-spotify-player {
+    border: solid var(--alt-color);
+    border-width: thin;
+    margin-top: 10%;
+}
+
+#vc-spotify-player:hover {
+    border: solid var(--hover-color);
+    border-width: thin;
+    margin-top: 10%;
+}
+
+.vc-notification-root {
+    background-color: var(--background-overlay);
+}
+
+.vc-notification-root:hover {
+    background-color: var(--hover-color);
+}
+
+.groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
+    display: none;
+}
+
+.messageListItem__050f9[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
+    display: none;
+}
+
+/* // %userSettingsPremium */
+.perkCard__412af {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) *0.4));
+    border: 2px solid var(--main-color)
+}
+
+.theme-dark .tooltipGrey__3108e {
+    background-color: var(--main-color) !important;
+}
+
+.streamPreview__3a6b0 {
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+}
+
+.selectedScreen__23136 {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+}
+
+
+
+.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f) .userPopoutInner_e90432::before {
+    display: none;
+}
+
+/* Settings*/
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda {
+    color: #fff;
+}
+
+/* Possibly outdated? */
+.readAllButton {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--main-color);
+}
+
+/* Possibly outdated? */
+.readAllButton:hover {
+    background-color: var(--hover-color);
+    color: var(--main-color);
+    transition: .6s ease-in-out;
+}
+
+/* Vencord read all plugin*/
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    color: var(--text-normal);
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+
+  /* Vencord read all plugin*/
+  button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
+    background-color: var(--hover-color);
+    border-radius: 50px;
+    color: var(--text-normal);
+    transition: all .6s ease-in-out;
+  }
+
+/* Vencord Versioning Info*/
+.line_cdcacc {
+    color: #fff !important;
+}
+
+/*ping icon*/
+.listItem__48528 .numberBadge__40d6f,
+.listItem__48528 .base__5ed84 {
+    font-size: calc(var(--server-size)/4);
+    width: calc(var(--server-size)/3) !important;
+    height: calc(var(--server-size)/3);
+}
+.listItem__48528 .baseShapeRound_c1de89 {
+    border-radius: 100%;
+}
+
+/* Make My Mention Different From Other Mentions without affecting #CHANNEL */
+.theme-dark .mentioned_fa6fd2 .mention {
+    color: var(--alt-color) !important;
+}
+
+
+.mentioned_fa6fd2:before, .ephemeral_eb5d84:before, .automodMessage__43f24:before, .replying__38514:before, .highlighted_fc800f:before {
+    width: 4px;
+}
+
+/* Better Mentions Pulse (after fix) */
+.mentioned_fa6fd2 .mention {
+  background-color: transparent !important;
+}
+.theme-dark .mentioned_fa6fd2 .mention {
+  cursor: pointer;
+  box-shadow: 0 0 0 var(--alt-color);
+  animation: pulse 1.6s infinite;
+}
+
+.cozy_f5c119 .messageContent_abea64
+{
+  padding-top: 1px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 2px 2px transparent;
+  }
+  70% { 
+      -webkit-box-shadow: 0 0 2px 2px var(--alt-color);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+  70% { 
+      -moz-box-shadow: 0 0 2px 2px var(--alt-color);
+      box-shadow: 0 0 2px 2px var(--alt-color);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 transparent;
+      box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+.vc-rdb-modal-footer .vc-rdb-input {
+    background:rgba(0, 0, 0, 0.4);
+}
+/*Nyx Stuff */
+/*profile animations*/
+.userProfileOuter__4ac83 {
+    overflow: visible;
+}
+.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f)::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  background: linear-gradient(
+        135deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+   );
+  background-size: 300%;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  animation: border 5s linear infinite;
+  z-index: -99;
+  filter: blur(5px);
+}
+.bannerSVGWrapper__8a38c {
+    border-radius: 8px 8px 0 0;
+}
+@keyframes border {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*Match User bg to chat bg */
+.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f) .userPopoutInner_e90432 {
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+}
+.layer__6b5c3:has(.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f))::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--user-popout-image) 0 0/100% 100% var(--user-popout-repeat) fixed;
+    filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.layer__6b5c3::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--background-overlay);
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f) .userPopoutInner_e90432::before {
+    display: none;
+}
+
+.eyebrow_b3f8ba {
+    overflow: hidden !important;
+}
+
+.input_f27786.focused__86d46, .input_f27786:focus {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.input_f27786:focus, .input_f27786.focused__86d46 {
+    box-shadow: none;
+}
+
+.input_f27786 {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.input_f27786.flexCenter__4d123 {
+    box-shadow: 0 0 2px 2px var(--main-color);
+}
+
+.input_f27786.flexCenter__4d123:hover {
+    box-shadow: 0 0 2px 2px var(--hover-color);
+}
+
+
+
+.lookFilled__950dd.colorWhite__0033e {
+    color: var(--main-color) !important;
+    background: transparent !important;
+    border: 2px solid var(--main-color);
+}
+
+.lookFilled__950dd.colorWhite__0033e:hover {
+    color: var(--hover-color) !important;
+    background: transparent !important;
+    border: 2px solid var(--hover-color);
+    transition: 1s ease-in-out !important;
+}
+
+.shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine__62b48 {
+    display: none !important;
+}
+
+/* Mod View */
+.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e, .userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+    background: transparent !important;
+}
+
+/*Inside messageble channel*/
+.channelTextArea__648e5 {
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+}
+
+.wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
+    transform: scale(1.50);
+}
