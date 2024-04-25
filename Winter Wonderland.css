@@ -66,15 +66,15 @@
   /*The color of url links [default:var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: none;
+  --online-color: #43b581;
   /* online status color (hex,rgb or hsl) [default:#43b581] */
-  --idle-color: none;
+  --idle-color: #faa61a;
   /* idle status color (hex,rgb or hsl) [default:#faa61a] */
-  --dnd-color: none;
+  --dnd-color: #982929;
   /* dnd status color (hex,rgb or hsl) [default:#982929] */
-  --streaming-color: none;
+  --streaming-color: #593695;
   /* streaming status color (hex,rgb or hsl) [default:#593695] */
-  --offline-color: none;
+  --offline-color: #808080;
   /* offline/invisible status color (hex,rgb or hsl) [default:#808080] */
 
   /* GENERAL */
@@ -832,5 +832,10 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
 }
 
 .vc-plugins-badge {
+  display: none;
+}
+
+/* Okay so this is a weird one but it's like the popout for statuses */
+.separator__174fc {
   display: none;
 }
