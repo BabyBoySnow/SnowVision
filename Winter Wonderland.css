@@ -818,3 +818,19 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
   transform: scale(1.5);
 }
+
+/* Fix long plugin names for vencord */
+.vc-addon-header {
+  justify-content: flex-start;
+}
+
+.vc-addon-name {
+  display: block;
+  text-overflow: ellipsis;
+  width: 205px;
+  overflow: hidden;
+}
+
+.vc-plugins-badge {
+  display: none;
+}
