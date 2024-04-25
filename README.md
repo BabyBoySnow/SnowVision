@@ -50,7 +50,7 @@ Check out our replugged theme [here!](https://github.com/ClearVision/CV-Replugge
 
 ## Installing Winter Wonderland
 
-Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder. This theme uses the Amazon kindle font "Bookerly" and a custom font "lovely home" and they can be installed [here](https://www.cufonfonts.com/font/bookerly) and [here](https://www.dafont.com/lovely-home.font)
+Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder. This theme uses the Amazon kindle font ["Bookerly"](https://www.cufonfonts.com/font/bookerly) and a custom font ["lovely home"](https://www.dafont.com/lovely-home.font)
 
 ## Building from source
 
@@ -81,6 +81,7 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Remove some borders on stuff, use more shading.
 - Remove glow from wordmark. Change to "Winter Wonderland v1.3.1".
 - Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non nitro users look cool.
+- Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to fit long plugin names inside the box.
 - Use snippet to make pings stand out more and look cool.
 - Changes the border on the spotify controls plugin for vencord.
 - Make a few buttons round.
