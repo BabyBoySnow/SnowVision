@@ -839,3 +839,13 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
 .separator__174fc {
   display: none;
 }
+
+/* Vencord Plugin Descriptions? */ 
+.h5__28baa, .label_bf6957, .legend__2459b {
+  color: #fff;
+}
+
+/* Some kinda boxes. So far only seen on vencord plugins */
+.theme-dark .modal__6a96b, .theme-dark .root_a28985 {
+  background: rgba(0, 0, 0,  0.8);
+}
