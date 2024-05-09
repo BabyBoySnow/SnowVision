@@ -458,10 +458,12 @@ button.button_ae40a4.enabled__214db:hover {
   border: 2px solid var(--main-color);
 }
 
+/* Role Names in member sidebar */
 .members__573eb .membersGroup_cad095 {
   color: var(--alt-color);
 }
 
+/* The lines that go to either side of the role names on the members sidebar */
 .members__573eb .membersGroup_cad095:before,
 .members__573eb .membersGroup_cad095:after {
   background: linear-gradient(to left, var(--main-color) 50%, transparent);
@@ -509,9 +511,10 @@ button.button_ae40a4.enabled__214db:hover {
   display: none;
 }
 
+/* Channel Catagory Names */
 .sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
   color: var(--alt-color);
-  text-shadow: 0 0 3px;
+  text-shadow: none;
 }
 
 [class^='theme-'] #vc-spotify-player {
