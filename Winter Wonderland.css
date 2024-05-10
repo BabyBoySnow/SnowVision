@@ -380,7 +380,8 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
 .typeWindows_e41dab > .wordmark__5b8c9:after {
   color: var(--alt-color);
   content: 'v1.3.2';
-  font-family: 'Lovely Home';
+  font-family: 'Bookerly Display Regular';
+  margin-bottom: 5px;
 }
 
 .toolbar__62fb5 .iconWrapper_de6cd1 > svg:not(.icon_ae0b42) {
