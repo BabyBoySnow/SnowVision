@@ -515,7 +515,7 @@ button.button_ae40a4.enabled__214db:hover {
 /* Channel Catagory Names */
 .sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
   color: var(--alt-color);
-  text-shadow: none;
+  text-shadow: 0 0 2px;
 }
 
 [class^='theme-'] #vc-spotify-player {
@@ -821,22 +821,6 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
   transform: scale(1.5);
-}
-
-/* Fix long plugin names for vencord */
-.vc-addon-header {
-  justify-content: flex-start;
-}
-
-.vc-addon-name {
-  display: block;
-  text-overflow: ellipsis;
-  width: 205px;
-  overflow: hidden;
-}
-
-.vc-plugins-badge {
-  display: none;
 }
 
 /* Okay so this is a weird one but it's like the popout for statuses */
