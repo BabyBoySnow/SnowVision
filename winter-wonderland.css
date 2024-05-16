@@ -228,6 +228,8 @@
   /* Role Names in member sidebar */
   .members__573eb .membersGroup_cad095 {
     color: var(--alt-color);
+    opacity: 1;
+    text-shadow: 0 0 2px;
   }
   
   /* The lines that go to either side of the role names on the members sidebar */
@@ -281,7 +283,8 @@
   /* Channel Catagory Names */
   .sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
     color: var(--alt-color);
-    text-shadow: 0 0 2px;
+    text-shadow: 0 0 3px;
+    opacity: 2;
   }
   
   [class^='theme-'] #vc-spotify-player {
