@@ -625,3 +625,8 @@
   .theme-dark .modal__6a96b, .theme-dark .root_a28985 {
     background: rgba(0, 0, 0,  0.8);
   }
+
+  /* home -> shop mosiac background on top */
+  .root__3594f {
+    display: none;
+  }
