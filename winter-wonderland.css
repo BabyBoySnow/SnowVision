@@ -537,8 +537,17 @@ button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4
 .summaryEndIcon__71ddc {
   color: var(--alt-color);
   background: transparent;
-  margin-right: 94.5%;
+  margin-right: 93.5%;
+  width: 2.5rem;
+  height: 3rem;
+  font-weight: 900;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .summaryStartIcon_f4a16a {
   color: var(--alt-color);
+  width: 2.5rem;
+  height: 3rem;
+  font-weight: 900;
+  margin-left: 42px;
 }
