@@ -1,471 +1,376 @@
 .buttonWhite__913ed {
-    color: white;
-  }
-  
-  .pill_f055c3,
-  .increasedActivityPill__2620e {
-    background: var(--background-shading);
-    border: 2px solid var(--main-color);
-  }
-  
-  .group-spacing-16 .divider__01aed.hasContent__1fe13 {
-    border: none;
-    background: none;
-  }
-  
-  .divider__855e3 {
-    border: none;
-    background: none;
-  }
-  
-  .group-spacing-16 .divider__01aed {
-    border: none;
-    margin: 10px;
-    margin-bottom: 20px;
-    background: none;
-  }
-  
-  .members__573eb .member_aa4760 .activityText__31c22 {
-    color: var(--alt-color);
-  }
-  
-  .song-tIdBpF {
-    font-weight: 500;
-    color: var(--alt-color);
-  }
-  
-  .interpret-F93iqP {
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--alt-color);
-  }
-  
-  .members__573eb .member_aa4760 .activityText__31c22 {
-    color: var(--alt-color);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .members__573eb .member_aa4760 .activityText__31c22 strong {
-    color: var(--alt-color);
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .members__573eb .member_aa4760 .activityText__31c22 strong {
-    color: var(--alt-color);
-  }
-  
-  .privateChannels__9b518 .channel__0aef5 .interactive__3e804.interactiveSelected__689f0 .activityText__56d3b strong {
-    color: var(--alt-color);
-  }
-  
-  .privateChannels__9b518 .channel__0aef5 .interactive__3e804 .activityText__56d3b strong {
-    color: var(--alt-color);
-    font-weight: 700;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .activity_d189d8 {
-    color: var(--alt-color);
-  }
-  
-  /*remove borders from friends list */
-  .peopleListItem_dab480 {
-    border-top: transparent;
-  }
-  
-  .channelTextArea__648e5:focus-within {
-    box-shadow: 0 0 2px 2px var(--alt-color);
-  }
-  
-  .channelTextArea__648e5 {
-    box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
-  }
-  
-  .voiceChannelsButton_fd0b98 {
-    border: 2px solid var(--main-color);
-  }
-  
-  .voiceChannelsButton_fd0b98:hover {
-    border: 2px solid var(--hover-color);
-    background: transparent;
-  }
-  
-  .imageDetails-1t6Zms {
-    color: var(--url-color);
-  }
-  
-  button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    color: var(--text-normal);
-    box-sizing: border-box;
-    padding: 5px;
-  }
-  
-  button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
-    background-color: var(--hover-color);
-    border-radius: 50px;
-    color: var(--text-normal);
-    transition: all 0.6s ease-in-out;
-  }
-  
-  /* Make most buttons round */
-  .button__581d0 {
-    border-radius: 50px;
-  }
-  
-  /* Remove annoying border around second nitro option. */
-  .tier2ColumnOuter_c78c33 {
-    display: none;
-  }
-  
-  .tier0ColumnOuter__36507,
-  .tier2ColumnOuter_c78c33 {
-    display: none;
-  }
-  
-  .typeWindows_e41dab > .wordmark__5b8c9:before {
-    color: var(--alt-color);
-    content: 'Winter Wonderland';
-    font-size: 14px;
-    text-shadow: unset;
-    filter: unset;
-    font-family: 'Lovely Home';
-  }
-  
-  .typeWindows_e41dab > .wordmark__5b8c9 > svg > g > path {
-    fill: var(--alt-color);
-  }
-  
-  .typeWindows_e41dab > .wordmark__5b8c9 > svg {
-    color: var(--alt-color);
-    filter: unset;
-  }
-  
-  .typeWindows_e41dab > .wordmark__5b8c9:after {
-    color: var(--alt-color);
-    content: 'v1.3.2';
-    font-family: 'Bookerly Display Regular';
-    margin-bottom: 5px;
-  }
-  
-  .toolbar__62fb5 .iconWrapper_de6cd1 > svg:not(.icon_ae0b42) {
-    color: #fff;
-    filter: unset;
-    transition: unset;
-  }
-  
-  .toolbar__62fb5 .iconWrapper_de6cd1:hover > svg:not(.icon_ae0b42) {
-    color: #fff;
-  }
-  
-  .toolbar__62fb5 .iconWrapper_de6cd1:hover > svg:not(.icon_ae0b42) {
-    filter: drop-shadow(0 0 15px transparent);
-    color: unset;
-  }
-  
-  button.button_ae40a4.enabled__214db:hover {
-    color: #fff;
-    background-color: hsla(0, 0%, 30%, 0.5);
-  }
-  
-  .button_ae40a4 .enabled__214db .button__581d0 .lookBlank_a5b4ca .colorBrand__27d57 .grow__4c8a4 .button_ae40a4:hover {
-    color: #fff;
-    background-color: hsla(0, 0%, 30%, 0.5);
-  }
-  
-  .increasedActivityMainCard-2ry6hI.isOpen__8593d,
-  .increasedActivityMainCard-2ry6hI.isOpen__036bf,
-  .mainCard__0ec2c.isOpen__8593d,
-  .mainCard__0ec2c.isOpen__036bf {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .unreadPill__1b4fa {
-    background-color: var(--alt-color);
-    height: 25px;
-    width: 55px;
-    position: absolute;
-    right: 50%;
-    border-radius: unset;
-    display: flex;
-    padding-left: 6px;
-    color: ivory;
-  }
-  
-  .unreadPillCap__44e20 {
-    display: none;
-  }
-  
-  .unreadPillCapStroke__89d64 {
-    fill: var(--alt-color);
-    color: var(--alt-color);
-  }
-  
-  .group-spacing-16 .divider__01aed.beforeGroup__6532c {
-    border-radius: unset;
-    margin-top: 45px;
-    margin-bottom: 50px;
-  }
-  
-  .group-spacing-16 .divider__01aed.hasContent__1fe13 .unreadPill__1b4fa {
-    display: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .newMessagesBar__8b272:before {
-    opacity: 0.3;
-    background: var(--main-color);
-  }
-  
-  .containerWrapper_b1818f {
-    background: var(--background-overlay);
-    border: 2px solid var(--main-color);
-  }
-  
-  /* Role Names in member sidebar */
-  .members__573eb .membersGroup_cad095 {
-    color: var(--alt-color);
-    opacity: 1;
-    text-shadow: 0 0 2px;
-  }
-  
-  /* The lines that go to either side of the role names on the members sidebar */
-  .members__573eb .membersGroup_cad095:before,
-  .members__573eb .membersGroup_cad095:after {
-    background: linear-gradient(to left, var(--main-color) 50%, transparent);
-  }
-  
-  .username__267df {
-    color: var(--alt-color);
-  }
-  
-  .text_bd79a3 {
-    color: var(--alt-color);
-  }
-  
-  .activity_f466d8 {
-    color: var(--alt-color);
-  }
-  
-  .activity_f466d8 strong {
-    color: var(--alt-color);
-  }
-  
-  /* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
-  /* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
-  @supports selector(a:has(+ a)) {
-    .header__6a14d:has(.vc-pronoundb-compact) .timestampInline__430cf:last-child,
-    [class*='compact'] .header_39b23 .vc-pronoundb-compact:last-child {
+  color: white;
+}
+.pill_f055c3, .increasedActivityPill__2620e {
+  background: var(--background-shading);
+  border: 2px solid var(--main-color);
+}
+.group-spacing-16 .divider__01aed.hasContent__1fe13 {
+  border: none;
+  background: none;
+}
+.divider__855e3 {
+  border: none;
+  background: none;
+}
+.group-spacing-16 .divider__01aed {
+  border: none;
+  margin: 10px;
+  margin-bottom: 20px;
+  background: none;
+}
+.members__573eb .member_aa4760 .activityText__31c22 {
+  color: var(--alt-color);
+}
+.song-tIdBpF {
+  font-weight: 500;
+  color: var(--alt-color);
+}
+.interpret-F93iqP {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--alt-color);
+}
+.members__573eb .member_aa4760 .activityText__31c22 {
+  color: var(--alt-color);
+  transition: all 0.3s ease-in-out;
+}
+.members__573eb .member_aa4760 .activityText__31c22 strong {
+  color: var(--alt-color);
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+.members__573eb .member_aa4760 .activityText__31c22 strong {
+  color: var(--alt-color);
+}
+.privateChannels__9b518 .channel__0aef5 .interactive__3e804.interactiveSelected__689f0 .activityText__56d3b strong {
+  color: var(--alt-color);
+}
+.privateChannels__9b518 .channel__0aef5 .interactive__3e804 .activityText__56d3b strong {
+  color: var(--alt-color);
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+.activity_d189d8 {
+  color: var(--alt-color);
+}
+/*remove borders from friends list */
+.peopleListItem_dab480 {
+  border-top: transparent;
+}
+.channelTextArea__648e5:focus-within {
+  box-shadow: 0 0 2px 2px var(--alt-color);
+}
+.channelTextArea__648e5 {
+  box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
+}
+.voiceChannelsButton_fd0b98 {
+  border: 2px solid var(--main-color);
+}
+.voiceChannelsButton_fd0b98:hover {
+  border: 2px solid var(--hover-color);
+  background: transparent;
+}
+.imageDetails-1t6Zms {
+  color: var(--url-color);
+}
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  color: var(--text-normal);
+  box-sizing: border-box;
+  padding: 5px;
+}
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
+  background-color: var(--hover-color);
+  border-radius: 50px;
+  color: var(--text-normal);
+  transition: all 0.6s ease-in-out;
+}
+/* Make most buttons round */
+.button__581d0 {
+  border-radius: 50px;
+}
+/* Remove annoying border around second nitro option. */
+.tier2ColumnOuter_c78c33 {
+  display: none;
+}
+.tier0ColumnOuter__36507, .tier2ColumnOuter_c78c33 {
+  display: none;
+}
+.typeWindows_e41dab > .wordmark__5b8c9:before {
+  color: var(--alt-color);
+  content: 'Winter Wonderland';
+  font-size: 14px;
+  text-shadow: unset;
+  filter: unset;
+  font-family: 'Lovely Home';
+}
+.typeWindows_e41dab > .wordmark__5b8c9 > svg > g > path {
+  fill: var(--alt-color);
+}
+.typeWindows_e41dab > .wordmark__5b8c9 > svg {
+  color: var(--alt-color);
+  filter: unset;
+}
+.typeWindows_e41dab > .wordmark__5b8c9:after {
+  color: var(--alt-color);
+  content: 'v1.3.2';
+  font-family: 'Bookerly Display Regular';
+  margin-bottom: 5px;
+}
+.toolbar__62fb5 .iconWrapper_de6cd1 > svg:not(.icon_ae0b42) {
+  color: #fff;
+  filter: unset;
+  transition: unset;
+}
+.toolbar__62fb5 .iconWrapper_de6cd1:hover > svg:not(.icon_ae0b42) {
+  color: #fff;
+}
+.toolbar__62fb5 .iconWrapper_de6cd1:hover > svg:not(.icon_ae0b42) {
+  filter: drop-shadow(0 0 15px transparent);
+  color: unset;
+}
+button.button_ae40a4.enabled__214db:hover {
+  color: #fff;
+  background-color: hsla(0, 0%, 30%, 0.5);
+}
+.button_ae40a4 .enabled__214db .button__581d0 .lookBlank_a5b4ca .colorBrand__27d57 .grow__4c8a4 .button_ae40a4:hover {
+  color: #fff;
+  background-color: hsla(0, 0%, 30%, 0.5);
+}
+.increasedActivityMainCard-2ry6hI.isOpen__8593d, .increasedActivityMainCard-2ry6hI.isOpen__036bf, .mainCard__0ec2c.isOpen__8593d, .mainCard__0ec2c.isOpen__036bf {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.unreadPill__1b4fa {
+  background-color: var(--alt-color);
+  height: 25px;
+  width: 55px;
+  position: absolute;
+  right: 50%;
+  border-radius: unset;
+  display: flex;
+  padding-left: 6px;
+  color: ivory;
+}
+.unreadPillCap__44e20 {
+  display: none;
+}
+.unreadPillCapStroke__89d64 {
+  fill: var(--alt-color);
+  color: var(--alt-color);
+}
+.group-spacing-16 .divider__01aed.beforeGroup__6532c {
+  border-radius: unset;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+.group-spacing-16 .divider__01aed.hasContent__1fe13 .unreadPill__1b4fa {
+  display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.newMessagesBar__8b272:before {
+  opacity: 0.3;
+  background: var(--main-color);
+}
+.containerWrapper_b1818f {
+  background: var(--background-overlay);
+  border: 2px solid var(--main-color);
+}
+/* Role Names in member sidebar */
+.members__573eb .membersGroup_cad095 {
+  color: var(--alt-color);
+  opacity: 1;
+  text-shadow: 0 0 2px;
+}
+/* The lines that go to either side of the role names on the members sidebar */
+.members__573eb .membersGroup_cad095:before, .members__573eb .membersGroup_cad095:after {
+  background: linear-gradient(to left, var(--main-color) 50%, transparent);
+}
+.username__267df {
+  color: var(--alt-color);
+}
+.text_bd79a3 {
+  color: var(--alt-color);
+}
+.activity_f466d8 {
+  color: var(--alt-color);
+}
+.activity_f466d8 strong {
+  color: var(--alt-color);
+}
+/* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
+/* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
+@supports selector(a:has(+ a)) {
+  .header__6a14d:has(.vc-pronoundb-compact) .timestampInline__430cf:last-child, [class*='compact'] .header_39b23 .vc-pronoundb-compact:last-child {
       color: var(--alt-color);
-    }
-  }
-  
-  .message_ccca67 .timestamp_c79dd2 {
-    color: #fff;
-    font-weight: bolder;
-  }
-  
-  .icon__1ab4f {
-    color: var(--alt-color);
-  }
-  
-  .content__7191e {
-    color: var(--alt-color);
-  }
-  
-  .groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
-    display: none;
-  }
-  
-  /* Channel Catagory Names */
-  .sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
-    color: var(--alt-color);
-    text-shadow: 0 0 3px;
-    opacity: 2;
-  }
-  
-  [class^='theme-'] #vc-spotify-player {
-    background: rgba(0, 0, 0, 0.4);
-  }
-  
-  #vc-spotify-song-title {
-    color: var(--alt-color);
-  }
-  
-  .vc-spotify-artist,
-  .vc-spotify-album {
-    color: var(--alt-color);
-  }
-  
-  .vc-spotify-ellipoverflow {
-    color: var(--alt-color);
-  }
-  
-  #vc-spotify-player {
-    border: solid var(--alt-color);
-    border-width: thin;
-    margin-top: 10%;
-  }
-  
-  #vc-spotify-player:hover {
-    border: solid var(--hover-color);
-    border-width: thin;
-    margin-top: 10%;
-  }
-  
-  .vc-notification-root {
-    background-color: var(--background-overlay);
-  }
-  
-  .vc-notification-root:hover {
-    background-color: var(--hover-color);
-  }
-  
-  .groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
-    display: none;
-  }
-  
-  .messageListItem__050f9[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
-    display: none;
-  }
-  
-  /* // %userSettingsPremium */
-  .perkCard__412af {
-    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
-    border: 2px solid var(--main-color);
-  }
-  
-  .theme-dark .tooltipGrey__3108e {
-    background-color: var(--main-color) !important;
-  }
-  
-  .streamPreview__3a6b0 {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
-  }
-  
-  .selectedScreen__23136 {
-    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
-  }
-  
-  .userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f) .userPopoutInner_e90432::before {
-    display: none;
-  }
-  
-  /* Settings*/
-  .standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda {
-    color: #fff;
-  }
-  
-  /* Possibly outdated? */
-  .readAllButton {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: var(--main-color);
-  }
-  
-  /* Possibly outdated? */
-  .readAllButton:hover {
-    background-color: var(--hover-color);
-    color: var(--main-color);
-    transition: 0.6s ease-in-out;
-  }
-  
-  /* Vencord read all plugin*/
-  button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    color: var(--text-normal);
-    box-sizing: border-box;
-    padding: 5px;
-  }
-  
-  /* Vencord read all plugin*/
-  button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
-    background-color: var(--hover-color);
-    border-radius: 50px;
-    color: var(--text-normal);
-    transition: all 0.6s ease-in-out;
-  }
-  
-  /* Vencord Versioning Info*/
-  .line_cdcacc {
-    color: #fff !important;
-  }
-  
-  /*ping icon*/
-  .listItem__48528 .numberBadge__40d6f,
-  .listItem__48528 .base__5ed84 {
-    font-size: calc(var(--server-size) / 4);
-    width: calc(var(--server-size) / 3) !important;
-    height: calc(var(--server-size) / 3);
-  }
-  .listItem__48528 .baseShapeRound_c1de89 {
-    border-radius: 100%;
-  }
-  
-  /* Make My Mention Different From Other Mentions without affecting #CHANNEL */
-  .theme-dark .mentioned_fa6fd2 .mention {
-    color: var(--alt-color) !important;
-  }
-  
-  .mentioned_fa6fd2:before,
-  .ephemeral_eb5d84:before,
-  .automodMessage__43f24:before,
-  .replying__38514:before,
-  .highlighted_fc800f:before {
-    width: 4px;
-  }
-  
-  /* Better Mentions Pulse (after fix) */
-  .mentioned_fa6fd2 .mention {
-    background-color: transparent !important;
-  }
-  .theme-dark .mentioned_fa6fd2 .mention {
-    cursor: pointer;
-    box-shadow: 0 0 0 var(--alt-color);
-    animation: pulse 1.6s infinite;
-  }
-  
-  .cozy_f5c119 .messageContent_abea64 {
-    padding-top: 1px;
-  }
-  
-  @-webkit-keyframes pulse {
-    0% {
+ }
+}
+.message_ccca67 .timestamp_c79dd2 {
+  color: #fff;
+  font-weight: bolder;
+}
+.icon__1ab4f {
+  color: var(--alt-color);
+}
+.content__7191e {
+  color: var(--alt-color);
+}
+.groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
+  display: none;
+}
+/* Channel Catagory Names */
+.sidebar_e031be :is(.containerDefault_e3b32b, .containerDragAfter_e03e10, .containerDragBefore__1b24b, .containerUserOver__91b97) .wrapper__07e2f .name__27f04 {
+  color: var(--alt-color);
+  text-shadow: 0 0 3px;
+  opacity: 2;
+}
+[class^='theme-'] #vc-spotify-player {
+  background: rgba(0, 0, 0, 0.4);
+}
+#vc-spotify-song-title {
+  color: var(--alt-color);
+}
+.vc-spotify-artist, .vc-spotify-album {
+  color: var(--alt-color);
+}
+.vc-spotify-ellipoverflow {
+  color: var(--alt-color);
+}
+#vc-spotify-player {
+  border: solid var(--alt-color);
+  border-width: thin;
+  margin-top: 10%;
+}
+#vc-spotify-player:hover {
+  border: solid var(--hover-color);
+  border-width: thin;
+  margin-top: 10%;
+}
+.vc-notification-root {
+  background-color: var(--background-overlay);
+}
+.vc-notification-root:hover {
+  background-color: var(--hover-color);
+}
+.groupStart__7b93c:has(.blockedSystemMessage_d1b25e) {
+  display: none;
+}
+.messageListItem__050f9[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
+  display: none;
+}
+/* // %userSettingsPremium */
+.perkCard__412af {
+  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
+  border: 2px solid var(--main-color);
+}
+.theme-dark .tooltipGrey__3108e {
+  background-color: var(--main-color) !important;
+}
+.streamPreview__3a6b0 {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+}
+.selectedScreen__23136 {
+  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+}
+.userPopoutOuter__3884e.userProfileOuterUnthemed_e14365:not(.profileCustomizationPreview_a1502f) .userPopoutInner_e90432::before {
+  display: none;
+}
+/* Settings*/
+.standardSidebarView__12528 .sidebar__02e8d .side_b4b3f6 .item__48dda {
+  color: #fff;
+}
+/* Possibly outdated? */
+.readAllButton {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: var(--main-color);
+}
+/* Possibly outdated? */
+.readAllButton:hover {
+  background-color: var(--hover-color);
+  color: var(--main-color);
+  transition: 0.6s ease-in-out;
+}
+/* Vencord read all plugin*/
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  color: var(--text-normal);
+  box-sizing: border-box;
+  padding: 5px;
+}
+/* Vencord read all plugin*/
+button.vc-ranb-button.button__581d0.lookFilled__950dd.sizeMin__508da.grow__4c8a4:hover {
+  background-color: var(--hover-color);
+  border-radius: 50px;
+  color: var(--text-normal);
+  transition: all 0.6s ease-in-out;
+}
+/* Vencord Versioning Info*/
+.line_cdcacc {
+  color: #fff !important;
+}
+/*ping icon*/
+.listItem__48528 .numberBadge__40d6f, .listItem__48528 .base__5ed84 {
+  font-size: calc(var(--server-size) / 4);
+  width: calc(var(--server-size) / 3) !important;
+  height: calc(var(--server-size) / 3);
+}
+.listItem__48528 .baseShapeRound_c1de89 {
+  border-radius: 100%;
+}
+/* Make My Mention Different From Other Mentions without affecting #CHANNEL */
+.theme-dark .mentioned_fa6fd2 .mention {
+  color: var(--alt-color) !important;
+}
+.mentioned_fa6fd2:before, .ephemeral_eb5d84:before, .automodMessage__43f24:before, .replying__38514:before, .highlighted_fc800f:before {
+  width: 4px;
+}
+/* Better Mentions Pulse (after fix) */
+.mentioned_fa6fd2 .mention {
+  background-color: transparent !important;
+}
+.theme-dark .mentioned_fa6fd2 .mention {
+  cursor: pointer;
+  box-shadow: 0 0 0 var(--alt-color);
+  animation: pulse 1.6s infinite;
+}
+.cozy_f5c119 .messageContent_abea64 {
+  padding-top: 1px;
+}
+@-webkit-keyframes pulse {
+  0% {
       -webkit-box-shadow: 0 0 2px 2px transparent;
-    }
-    70% {
+ }
+  70% {
       -webkit-box-shadow: 0 0 2px 2px var(--alt-color);
-    }
-    100% {
+ }
+  100% {
       -webkit-box-shadow: 0 0 0 0 transparent;
-    }
-  }
-  
-  @keyframes pulse {
-    0% {
+ }
+}
+@keyframes pulse {
+  0% {
       -moz-box-shadow: 0 0 0 0 transparent;
       box-shadow: 0 0 0 0 transparent;
-    }
-    70% {
+ }
+  70% {
       -moz-box-shadow: 0 0 2px 2px var(--alt-color);
       box-shadow: 0 0 2px 2px var(--alt-color);
-    }
-    100% {
+ }
+  100% {
       -moz-box-shadow: 0 0 0 0 transparent;
       box-shadow: 0 0 0 0 transparent;
-    }
-  }
-  
-  .vc-rdb-modal-footer .vc-rdb-input {
-    background: rgba(0, 0, 0, 0.4);
-  }
-  /*Nyx Stuff */
-  /*profile animations*/
-  .userProfileOuter__35e59 {
-    overflow: visible;
+ }
+}
+.vc-rdb-modal-footer .vc-rdb-input {
+  background: rgba(0, 0, 0, 0.4);
+}
+/*Nyx Stuff */
+/*profile animations*/
+.userProfileOuter__35e59 {
+  overflow: visible;
 }
 .userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c:not(.profileCustomizationPreview_a1502f)::after {
   content: "";
@@ -474,20 +379,7 @@
   right: -5px;
   bottom: -5px;
   left: -5px;
-  background: linear-gradient(
-        135deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-   );
+  background: linear-gradient( 135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100% );
   background-size: 300%;
   width: calc(100% + 10px);
   height: calc(100% + 10px);
@@ -495,138 +387,158 @@
   z-index: -99;
   filter: blur(5px);
 }
-
 .bannerSVGWrapper__8a38c {
-    border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
 }
-
 @keyframes border {
   0% {
-    background-position: 0% 50%;
-  }
+      background-position: 0% 50%;
+ }
   50% {
-    background-position: 100% 50%;
-  }
+      background-position: 100% 50%;
+ }
   100% {
-    background-position: 0% 50%;
-  }
+      background-position: 0% 50%;
+ }
 }
-
-  /*Match User bg to chat bg */
-  .userPopoutOuter_d739b2.userProfileOuterUnthemed__48723:not(.profileCustomizationPreview_ccc6a9) .userPopoutInner_f545a3 {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+/*Match User bg to chat bg */
+.userPopoutOuter_d739b2.userProfileOuterUnthemed__48723:not(.profileCustomizationPreview_ccc6a9) .userPopoutInner_f545a3 {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
 }
-
 .layer_ec16dd:has(.userPopoutOuter_d739b2.userProfileOuterUnthemed__48723:not(.profileCustomizationPreview_ccc6a9))::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: var(--user-popout-image) 0 0/100% 100% var(--user-popout-repeat) fixed;
-    filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
-    width: auto;
-    height: auto;
-    z-index: -1;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--user-popout-image) 0 0/100% 100% var(--user-popout-repeat) fixed;
+  filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
+  width: auto;
+  height: auto;
+  z-index: -1;
 }
-
 .layer_ec16dd::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: var(--background-overlay);
-    width: auto;
-    height: auto;
-    z-index: -1;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--background-overlay);
+  width: auto;
+  height: auto;
+  z-index: -1;
 }
-
 .userPopoutOuter_d739b2.userProfileOuterUnthemed__48723:not(.profileCustomizationPreview_ccc6a9) .userPopoutInner_f545a3::before {
-    display: none;
+  display: none;
 }
-  
-  .eyebrow_b3f8ba {
-    overflow: hidden !important;
-  }
-  
-  .input_f27786.focused__86d46,
-  .input_f27786:focus {
-    border: none;
-    background-color: transparent;
-    box-shadow: none;
-  }
-  
-  .input_f27786:focus,
-  .input_f27786.focused__86d46 {
-    box-shadow: none;
-  }
-  
-  .input_f27786 {
-    background-color: transparent;
-    box-shadow: none;
-  }
-  
-  .input_f27786.flexCenter__4d123 {
-    box-shadow: 0 0 2px 2px var(--main-color);
-  }
-  
-  .input_f27786.flexCenter__4d123:hover {
-    box-shadow: 0 0 2px 2px var(--hover-color);
-  }
-  
-  .lookFilled__950dd.colorWhite__0033e {
-    color: var(--main-color) !important;
-    background: transparent !important;
-    border: 2px solid var(--main-color);
-  }
-  
-  .lookFilled__950dd.colorWhite__0033e:hover {
-    color: var(--hover-color) !important;
-    background: transparent !important;
-    border: 2px solid var(--hover-color);
-    transition: 1s ease-in-out !important;
-  }
-  
-  .shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine__62b48 {
-    display: none !important;
-  }
-  
-  /* Mod View */
-  .userProfileOuterThemed__1fbd7.userPopoutOuter__3884e,
-  .userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
-    background: transparent !important;
-  }
-  
-  /*Inside messageble channel*/
-  .channelTextArea__648e5 {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
-  }
-  
-  .wrapper__8436d:hover .childWrapper_a6ce15,
-  .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
-    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
-    transform: scale(1.5);
-  }
-  
-  /* Okay so this is a weird one but it's like the popout for statuses */
-  .separator__174fc {
-    display: none;
-  }
-  
-  /* Vencord Plugin Descriptions? */ 
-  .h5__28baa, .label_bf6957, .legend__2459b {
-    color: #fff;
-  }
-  
-  /* Some kinda boxes. So far only seen on vencord plugins */
-  .theme-dark .modal__6a96b, .theme-dark .root_a28985 {
-    background: rgba(0, 0, 0,  0.8);
-  }
-
-  /* home -> shop mosiac background on top */
-  .root__3594f {
-    display: none;
-  }
+.eyebrow_b3f8ba {
+  overflow: hidden !important;
+}
+.input_f27786.focused__86d46, .input_f27786:focus {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.input_f27786:focus, .input_f27786.focused__86d46 {
+  box-shadow: none;
+}
+.input_f27786 {
+  background-color: transparent;
+  box-shadow: none;
+}
+.input_f27786.flexCenter__4d123 {
+  box-shadow: 0 0 2px 2px var(--main-color);
+}
+.input_f27786.flexCenter__4d123:hover {
+  box-shadow: 0 0 2px 2px var(--hover-color);
+}
+.lookFilled__950dd.colorWhite__0033e {
+  color: var(--main-color) !important;
+  background: transparent !important;
+  border: 2px solid var(--main-color);
+}
+.lookFilled__950dd.colorWhite__0033e:hover {
+  color: var(--hover-color) !important;
+  background: transparent !important;
+  border: 2px solid var(--hover-color);
+  transition: 1s ease-in-out !important;
+}
+.shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine__62b48 {
+  display: none !important;
+}
+/* Mod View */
+.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e, .userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+  background: transparent !important;
+}
+/*Inside messageble channel*/
+.channelTextArea__648e5 {
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+}
+.wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
+  transform: scale(1.5);
+}
+/* Okay so this is a weird one but it's like the popout for statuses */
+.separator__174fc {
+  display: none;
+}
+/* Vencord Plugin Descriptions? */
+.h5__28baa, .label_bf6957, .legend__2459b {
+  color: #fff;
+}
+/* Some kinda boxes. So far only seen on vencord plugins */
+.theme-dark .modal__6a96b, .theme-dark .root_a28985 {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* home -> shop mosiac background on top */
+.root__3594f {
+  display: none;
+}
+/* Summaries in chat BETA */
+.topicsPillContainer__2c107 {
+  background: rgba(0, 0, 0, 0.6);
+}
+.topicsPillContainer__2c107:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.newTopicsBarContainer__8c1e3 {
+  background-color: var(--main-color);
+  opacity: .5 
+}
+.topicsPillCaret__46c3b {
+  background: var(--main-color);
+  color: #fff;
+}
+.topicsPillCaret__46c3b:hover {
+  background: var(--hover-color);
+  color: #fff;
+}
+.topicsPillTextSelected__717ea {
+  background: rgba(0, 0, 0, 0.8);
+}
+.topicsDropdownHeading__6fa9b {
+  background: rgba(0, 0, 0, 0.8);
+}
+.topicsScroller__64e73 {
+  background: rgba(0, 0, 0, 0.8);
+}
+.container_df5675:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.thumbIcon__954fb {
+  color: #fff;
+  background: var(--main-color);
+}
+.summaryFeedbackWrapper_a4b82f {
+  display: none;
+}
+.summaryEndIcon__71ddc {
+  color: var(--alt-color);
+  background: transparent;
+  margin-right: 94.5%;
+}
+.summaryStartIcon_f4a16a {
+  color: var(--alt-color);
+}
