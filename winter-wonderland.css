@@ -131,11 +131,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   filter: drop-shadow(0 0 15px transparent);
   color: unset;
 }
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
-.button_f67531 .enabled_f67531 .button_dd4f85 .lookBlank_dd4f85 .colorBrand_dd4f85 .grow_dd4f85 .button_f67531:hover {
+.button_adca65 .enabled_adca65 .button_dd4f85 .lookBlank_dd4f85 .colorBrand_dd4f85 .grow_dd4f85 .button_adca65:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
