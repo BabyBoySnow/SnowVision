@@ -551,3 +551,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   font-weight: 900;
   margin-left: 42px;
 }
+/* Home Icon Parent */
+.wrapper_f90abb:hover .childWrapper_f90abb, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+  background-color: transparent;
+  color: #fff;
+}
