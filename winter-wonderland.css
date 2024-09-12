@@ -556,11 +556,28 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color: transparent;
   color: #fff;
 }
-.theme-dark .combo_c90023 .key_c90023 {
-  border: 1px solid var(--main-color);
-  box-shadow: inset 0 -1px var(--main-color);
-}
-
 .integrationWrapper_e2a436 {
   background: var(--backdrop-image);
+}
+/* Add a status - full profile view */
+.statusBubbleOuter_d0a252:before {
+  display: none;
+}
+.statusBubbleOuter_d0a252:after {
+  display: none;
+}
+.statusBubble_d0a252 {
+  background: transparent !important;
+}
+.custom-profile-theme.theme-dark .statusBubbleOuter_d0a252, .custom-profile-theme.theme-dark .statusBubbleOuter_d0a252:before, .custom-profile-theme.theme-dark .statusBubbleOuter_d0a252:after {
+  border: 1px solid  var(--main-color);
+}
+.background_d0a252 {
+    --custom-status-bubble-background-color: transparent; /* don't ask, discord did this... */
+}
+.theme-dark .background_d0a252 {
+    background: transparent;
+}
+.custom-profile-theme .background_d0a252 {
+    --custom-status-bubble-background-color: transparent; /* don't ask, discord did this... */
 }
