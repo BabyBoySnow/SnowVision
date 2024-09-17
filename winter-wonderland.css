@@ -585,6 +585,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   border-color: var(--main-color);
   color: #fff;
 }
+.theme-dark .giftCardButton_d8f41e:hover {
+  border-color: var(--hover-color);
+  color: #fff;
+}
 .giftCardButton_d8f41e {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
 }
+
