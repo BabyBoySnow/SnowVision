@@ -42,11 +42,11 @@
     - **BetterDiscord:** `%appdata%\betterdiscord\themes`
     - **Vencord:** `%appdata%\vencord\themes`
 
-<!--
+
 ### For Replugged (Coming Soon)
 
 Support for Replugged is currently in development. Stay tuned for updates!
--->
+
 
 ## Building from source
 
