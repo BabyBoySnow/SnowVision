@@ -581,3 +581,10 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .custom-profile-theme .background_d0a252 {
     --custom-status-bubble-background-color: transparent; /* don't ask, discord did this... */
 }
+.theme-dark .giftCardButton_d8f41e {
+  border-color: var(--main-color);
+  color: #fff;
+}
+.giftCardButton_d8f41e {
+  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
