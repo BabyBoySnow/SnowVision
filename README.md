@@ -19,7 +19,7 @@
 [![Issues][issues-badge]][issues-link]
 [![Pull Requests][prs-badge]][prs-link]
 
-![Winter Wonderland Preview](https://i.imgur.com/mNu39Ps.png)
+![Winter Wonderland Preview](https://i.imgur.com/6gKOP6i.png)
 
 </div>
 
