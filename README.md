@@ -1,17 +1,17 @@
-[release-badge]: https://img.shields.io/github/v/release/ClearVision/ClearVision-v6?include_prereleases&style=flat-square
-[release-link]: https://github.com/ClearVision/ClearVision-v6/releases
-[license-badge]: https://img.shields.io/github/license/ClearVision/ClearVision-v6?style=flat-square
-[license-link]: https://github.com/ClearVision/ClearVision-v6/blob/master/LICENSE
+[release-badge]: https://img.shields.io/github/v/release/BabyBoySnow/SnowVision?include_prereleases&style=flat-square
+[release-link]: https://github.com/BabyBoySnow/SnowVision/releases
+[license-badge]: https://img.shields.io/github/license/BabyBoySnow/SnowVision?style=flat-square
+[license-link]: https://github.com/BabyBoySnow/SnowVision/blob/master/LICENSE
 [discord-badge]: https://discord.com/api/guilds/212324635356692500/widget.png?style=shield
 [discord-link]: https://clearvision.github.io/join
-[issues-badge]: https://img.shields.io/github/issues/ClearVision/ClearVision-v6?style=flat-square
-[issues-link]: https://github.com/ClearVision/ClearVision-v6/issues
-[prs-badge]: https://img.shields.io/github/issues-pr/ClearVision/ClearVision-v6?style=flat-square
-[prs-link]: https://github.com/ClearVision/ClearVision-v6/pulls
+[issues-badge]: https://img.shields.io/github/issues/BabyBoySnow/SnowVision?style=flat-square
+[issues-link]: https://github.com/BabyBoySnow/SnowVision/issues
+[prs-badge]: https://img.shields.io/github/issues-pr/BabyBoySnow/SnowVision?style=flat-square
+[prs-link]: https://github.com/BabyBoySnow/SnowVision/pulls
 
 <div align="center">
 
-# ClearVision v6
+# ClearVision v6 (SnowVision Fork)
 
 [![Releases][release-badge]][release-link]
 [![License][license-badge]][license-link]
@@ -19,42 +19,38 @@
 [![Issues][issues-badge]][issues-link]
 [![Pull Requests][prs-badge]][prs-link]
 
-![v1](https://i.imgur.com/p99DoDp.png)
+![Winter Wonderland Preview](https://i.imgur.com/mNu39Ps.png)
 
 </div>
 
-## Installing Winter Wonderland
+## Installation
 
-Follow the instructions above for injectors except replugged. Download the [file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css) and move it to your theme folder. This theme uses the Amazon kindle font ["Bookerly"](https://www.cufonfonts.com/font/bookerly) and a custom font ["lovely home"](https://www.dafont.com/lovely-home.font)
+### Winter Wonderland
 
-## Installing official ClearVision
+1. Download the [Winter Wonderland CSS file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css).
+2. Move it to your theme folder.
+3. This theme uses the Amazon Kindle font ["Bookerly"](https://www.cufonfonts.com/font/bookerly) and a custom font ["Lovely Home"](https://www.dafont.com/lovely-home.font).
 
-Note: ClearVision doesn't actively support plugins (as in, we don't seek out and actively theme fixes to every new plugin). However, when a plugin is widely used, we try our best to stay compatible.
+### SnowVision
 
-**For BD and Vencord:**
+**Note:** This fork of ClearVision doesn't actively support plugins but tries to maintain compatibility with widely used ones.
 
-Download the theme file from [our official support server](https://clearvision.github.io/join), [the BetterDiscord Website](https://betterdiscord.app/theme/ClearVision) or [releases](https://github.com/ClearVision/ClearVision-v6/releases) and move it into your injector's themes folder:
+#### For BetterDiscord and Vencord:
 
-- BetterDiscord: `%appdata%\betterdiscord\themes`
-- Vencord: `%appdata%\vencord\themes`
+1. Download the theme file from [Releases](https://github.com/BabyBoySnow/SnowVision/releases).
+2. Move the file into your injector's themes folder:
+    - **BetterDiscord:** `%appdata%\betterdiscord\themes`
+    - **Vencord:** `%appdata%\vencord\themes`
 
-**For Replugged:**
+<!--
+### For Replugged (Coming Soon)
 
-Check out our replugged theme [here!](https://github.com/ClearVision/CV-Replugged)
-
-## Theme Editor
-
-You can now customize the theme with a preview before downloading it to your computer.
-
-Please keep in mind that **we do not manage the theme editor**, and cannot help with any bugs that come from using it.
-
-> [Theme Editor](https://bdeditor.dev/theme/clearvision)
-
-_Thank you to @Gibbu to providing this._
+Support for Replugged is currently in development. Stay tuned for updates!
+-->
 
 ## Building from source
 
-To build the theme from source, you can simply run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder.
+To build the theme from source, first install npm from the dependecies below, then you can run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder.
 
 ### Dependencies
 
@@ -68,23 +64,26 @@ To build the theme from source, you can simply run `npm install` to install all 
 ## Contributing
 
 You can run `npm run test` to compile the theme.
-The `main.css` file will be in the `/test` directory, which can then be copied into BetterDiscord's Custom CSS.
+The `main.css` file will be in the `/test` directory, which can then be copied into BetterDiscord's Custom CSS, or placed in the themes folder and enabled in settings, make sure any other theme's are disabled for testing.
+
 
 ## Changelog
 
-- Move date dividers to the middle.
-- add new options alt-color to use in several places.
-- Remove the annoying help message from hepboat in ClearVision Support server
-- Remove annoying border around nitro for "most popular".
-- Use radical status.
-- Move new message pill to the middle.
-- Remove some borders on stuff, use more shading.
-- Remove glow from wordmark. Change to "Winter Wonderland v1.3.2".
-- Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non nitro users look cool.
-- Use snippet from [NyxIsBad](https://github.com/NyxIsBad) to fit long plugin names inside the box.
-- Use snippet to make pings stand out more and look cool.
-- Changes the border on the spotify controls plugin for vencord.
-- Make a few buttons round.
-- Darken vencord plugin boxes
-- Color vencord plugin info to #fff(white)
-- Various changes and improvements, information not provided by developer.
+### SnowVision (Differences from Original ClearVision)
+
+- Moved date dividers to the middle.
+- Added new options for `alt-color` to use in several places.
+- Removed the annoying help message from HepBoat in the ClearVision Support server.
+- Removed the border around Nitro for "most popular."
+- Added radical status.
+- Moved the new message pill to the middle.
+- Removed some borders and added more shading.
+- Removed glow from the wordmark. Changed to "Winter Wonderland v1.3.2".
+- Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non-Nitro users look cool.
+- Applied snippet to fit long plugin names inside the box.
+- Enhanced pings to stand out more.
+- Changed the border on the Spotify controls plugin for Vencord.
+- Rounded a few buttons.
+- Darkened Vencord plugin boxes.
+- Changed Vencord plugin info text color to white (`#fff`).
+- Various other changes and improvements.
