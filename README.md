@@ -86,4 +86,5 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Rounded a few buttons.
 - Darkened Vencord plugin boxes.
 - Changed Vencord plugin info text color to white (`#fff`).
+- Changed the status on the profile pop outs. Further adjustment needed.
 - Various other changes and improvements.
