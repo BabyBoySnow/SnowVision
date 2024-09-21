@@ -592,3 +592,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .giftCardButton_d8f41e {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
 }
+/* Enable clips now */
+.container_ff9ac4 {
+  background: rgba(0, 0, 0, 0.6)
+}
