@@ -596,3 +596,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .container_ff9ac4 {
   background: rgba(0, 0, 0, 0.6)
 }
+.headerText_a0 {
+  overflow: hidden;
+}
