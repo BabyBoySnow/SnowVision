@@ -599,3 +599,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .headerText_a0 {
   overflow: hidden;
 }
+
+/* activity in chat */
+.container_a3d172 {
+  background: rgba(0, 0, 0, 0.6);
+}
