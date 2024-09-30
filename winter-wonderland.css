@@ -455,7 +455,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   box-shadow: 0 0 2px 2px var(--hover-color);
 }
 .lookFilled_dd4f85.colorWhite_dd4f85 {
-  color: var(--main-color) !important;
+  color: #fff !important;
   background: transparent !important;
   border: 2px solid var(--main-color);
 }
