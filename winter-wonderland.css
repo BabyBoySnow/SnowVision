@@ -560,27 +560,48 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: var(--backdrop-image);
 }
 /* Add a status - full profile view */
-.statusBubbleOuter_d0a252:before {
+.theme-dark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
-.statusBubbleOuter_d0a252:after {
+
+.theme-dark .statusBubbleOuter_e6ac4a:after {
   display: none;
 }
-.statusBubble_d0a252 {
-  background: transparent !important;
+.statusBubble_e6ac4a {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
 }
-.custom-profile-theme.theme-dark .statusBubbleOuter_d0a252, .custom-profile-theme.theme-dark .statusBubbleOuter_d0a252:before, .custom-profile-theme.theme-dark .statusBubbleOuter_d0a252:after {
-  border: 1px solid  var(--main-color);
+.theme-dark .statusBubbleOuter_e6ac4a {
+  border: transparent;
 }
-.background_d0a252 {
-    --custom-status-bubble-background-color: transparent; /* don't ask, discord did this... */
+.custom-profile-theme.theme-dark .statusBubbleOuter_e6ac4a {
+  border: transparent;
 }
-.theme-dark .background_d0a252 {
-    background: transparent;
+.custom-profile-theme .background_e6ac4a {
+  --custom-status-bubble-background-coloor: transparent
 }
-.custom-profile-theme .background_d0a252 {
-    --custom-status-bubble-background-color: transparent; /* don't ask, discord did this... */
+.theme-dark .background_e6ac4a {
+  background: transparent;
 }
+.statusBubbleShape_e6ac4a {
+  border-radius: 16px;
+}
+.statusBubbleOuter_e6ac4a {
+  background: transparent
+}
+.wrapper_f7e168 .button_f7e168:hover {
+  background-color: var(--main-color);
+}
+.container_b64375 {
+  background: transparent;
+  border: transparent;
+}
+.custom-profile-theme .container_b64375 {
+  background: transparent;
+  border-color: transparent;
+}
+
+
 .theme-dark .giftCardButton_d8f41e {
   border-color: var(--main-color);
   color: #fff;
