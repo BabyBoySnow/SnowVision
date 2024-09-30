@@ -563,12 +563,14 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .theme-dark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
-
+.statusText_e6ac4a {
+  color: #fff;
+}
 .theme-dark .statusBubbleOuter_e6ac4a:after {
   display: none;
 }
 .statusBubble_e6ac4a {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 16px;
 }
 .theme-dark .statusBubbleOuter_e6ac4a {
