@@ -656,3 +656,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
   background-color: var(--hover-color);
 }
+
+/* Voice chat count */
+.users_a5bc92, .total_a5bc92 {
+  color: hsla(0,0%,100%,.75)
+}
