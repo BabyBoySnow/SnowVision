@@ -642,3 +642,13 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .vc-vmsg-preview {
   background: rgba(0, 0, 0, 0.4);
 }
+
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
+  background: var(--hover-color);
+  color: #fff;
+}
+
+.lottieIcon_f73ef7 svg {
+ fill: #fff;
+ transform: none;
+}
