@@ -133,8 +133,8 @@
   /* CHANNEL COLORS */
   --channel-unread: var(--alt-color);
   /* Unread Server channel color. [default:var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.3);
-  /*Read Server channel color  [default:rgba(255,255,255,0.3);
+  --channel-color: rgba(255, 255, 255, 0.6);
+  /*Read Server channel color  [default:rgba(255,255,255,0.6);
   ]*/
   --channel-text-selected: #fff;
   /* Selected channel text color,CV default is #fff */
