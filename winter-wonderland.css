@@ -5,6 +5,14 @@
   background: var(--background-shading);
   border: 2px solid var(--main-color);
 }
+.isUnread_c2654d .content_c2654d {
+  color: var(--main-color);
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+.divider_d5deea:has(.content_c2654d) {
+  background: transparent;
+}
 .group-spacing-16 .divider_d5deea.hasContent_d5deea {
   border: none;
   background: none;
