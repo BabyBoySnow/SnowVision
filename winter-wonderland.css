@@ -170,6 +170,9 @@ button.button_adca65.enabled_adca65:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.divider_d5deea.isUnread_c2654d {
+  background: transparent;
+}
 .newMessagesBar_cf58b5:before {
   opacity: 0.3;
   background: var(--main-color);
@@ -661,3 +664,4 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .users_a5bc92, .total_a5bc92 {
   color: hsla(0,0%,100%,.75)
 }
+
