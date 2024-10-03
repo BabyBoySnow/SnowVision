@@ -81,7 +81,7 @@
   /* GENERAL */
   --main-font: Bookerly Display Regular, Bookerly, Comic Sans MS, gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   /* main font for app (font must be installed) [default:gg sans,Helvetica Neue,Helvetica,Arial,sans-serif] */
-  --code-font: Hack, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --code-font: Hack Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
   /* font for codeblocks (font must be installed) [default:Consolas,Liberation Mono,Menlo,Courier,monospace] */
   --text-normal: #fff;
   /* color of default discord text */
