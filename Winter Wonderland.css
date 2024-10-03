@@ -63,7 +63,7 @@
   /* success accent color (hex,rgb or hsl) [default:#43b581] */
   --danger-color: #982929;
   /* danger accent color (hex,rgb or hsl) [default:#982929] */
-  --url-color: var(--main-color);
+  --url-color: var(--alt-color);
   /*The color of url links [default:var(--main-color)]*/
 
   /* STATUS COLORS */
