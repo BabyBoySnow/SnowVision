@@ -1,3 +1,7 @@
+:root {
+  --transition-6: .6s;
+  --transition-3: .3s;
+}
 .buttonWhite_b105e9 {
   color: white;
 }
@@ -28,9 +32,7 @@
   margin-bottom: 20px;
   background: none;
 }
-.members_cbd271 .member_a31c43 .activityText_a31c43 {
-  color: var(--alt-color);
-}
+
 .song-tIdBpF {
   font-weight: 500;
   color: var(--alt-color);
@@ -42,23 +44,14 @@
 }
 .members_cbd271 .member_a31c43 .activityText_a31c43 {
   color: var(--alt-color);
-  transition: all 0.3s ease-in-out;
+  transition: all var(--transition-3) ease-in-out;
 }
 .members_cbd271 .member_a31c43 .activityText_a31c43 strong {
   color: var(--alt-color);
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-.members_cbd271 .member_a31c43 .activityText_a31c43 strong {
-  color: var(--alt-color);
-}
-.privateChannels_f0963d
-  .channel_c91bad
-  .interactive_c91bad.interactiveSelected_c91bad
-  .activityText_c91bad
-  strong {
-  color: var(--alt-color);
-}
+
 .privateChannels_f0963d
   .channel_c91bad
   .interactive_c91bad
@@ -66,7 +59,7 @@
   strong {
   color: var(--alt-color);
   font-weight: 700;
-  transition: all 0.3s ease-in-out;
+  transition: all var(--transition-3) ease-in-out;
 }
 .activity_c91bad {
   color: var(--alt-color);
@@ -91,19 +84,7 @@
 .imageDetails-1t6Zms {
   color: var(--url-color);
 }
-button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50px;
-  color: var(--text-normal);
-  box-sizing: border-box;
-  padding: 5px;
-}
-button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
-  background-color: var(--hover-color);
-  border-radius: 50px;
-  color: var(--text-normal);
-  transition: all 0.6s ease-in-out;
-}
+
 /* Make most buttons round */
 .button_dd4f85 {
   border-radius: 50px;
@@ -231,14 +212,7 @@ button.button_adca65.enabled_adca65:hover {
 .activity_f7ebfd strong {
   color: var(--alt-color);
 }
-/* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
-/* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
-@supports selector(a:has(+ a)) {
-  .header_f9f2ca:has(.vc-pronoundb-compact) .timestampInline_f9f2ca:last-child,
-  [class*="compact"] .header_39b23 .vc-pronoundb-compact:last-child {
-    color: var(--alt-color);
-  }
-}
+
 .message_d5deea .timestamp_f9f2ca {
   color: #fff;
   font-weight: bolder;
@@ -249,9 +223,7 @@ button.button_adca65.enabled_adca65:hover {
 .content_c2654d {
   color: var(--alt-color);
 }
-.groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
-  display: none;
-}
+
 /* Channel Catagory Names */
 .sidebar_a4d4d9
   :is(
@@ -269,16 +241,14 @@ button.button_adca65.enabled_adca65:hover {
 [class^="theme-"] #vc-spotify-player {
   background: rgba(0, 0, 0, 0.4);
 }
-#vc-spotify-song-title {
-  color: var(--alt-color);
-}
+
+#vc-spotify-song-title,
 .vc-spotify-artist,
-.vc-spotify-album {
-  color: var(--alt-color);
-}
+.vc-spotify-album,
 .vc-spotify-ellipoverflow {
   color: var(--alt-color);
 }
+
 #vc-spotify-player {
   border: solid var(--alt-color);
   border-width: thin;
@@ -336,7 +306,7 @@ button.button_adca65.enabled_adca65:hover {
 .readAllButton:hover {
   background-color: var(--hover-color);
   color: var(--main-color);
-  transition: 0.6s ease-in-out;
+  transition: background-color var(--transition-6) ease-in-out;
 }
 /* Vencord read all plugin*/
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
@@ -351,7 +321,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color: var(--hover-color);
   border-radius: 50px;
   color: var(--text-normal);
-  transition: all 0.6s ease-in-out;
+  transition: all var(--transition-6) ease-in-out;
 }
 /* Vencord Versioning Info*/
 .line_c5a741 {
@@ -390,31 +360,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .cozy_f9f2ca .messageContent_f9f2ca {
   padding-top: 1px;
 }
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-box-shadow: 0 0 2px 2px transparent;
-  }
-  70% {
-    -webkit-box-shadow: 0 0 2px 2px var(--alt-color);
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 0 transparent;
-  }
-}
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 transparent;
-    box-shadow: 0 0 0 0 transparent;
-  }
-  70% {
-    -moz-box-shadow: 0 0 2px 2px var(--alt-color);
-    box-shadow: 0 0 2px 2px var(--alt-color);
-  }
-  100% {
-    -moz-box-shadow: 0 0 0 0 transparent;
-    box-shadow: 0 0 0 0 transparent;
-  }
-}
+
 .vc-rdb-modal-footer .vc-rdb-input {
   background: rgba(0, 0, 0, 0.4);
 }
@@ -539,11 +485,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 .lookFilled_dd4f85.colorWhite_dd4f85 {
   color: #fff !important;
-  background: transparent !important;
-  border: 2px solid var(--main-color);
+  background: var(--main-color) !important;
+  border: transparent;
 }
 .lookFilled_dd4f85.colorWhite_dd4f85:hover {
-  color: var(--hover-color) !important;
+  color: #fff !important;
   background: transparent !important;
   border: 2px solid var(--hover-color);
   transition: 1s ease-in-out !important;
@@ -749,4 +695,39 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .users_a5bc92,
 .total_a5bc92 {
   color: hsla(0, 0%, 100%, 0.75);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 2px 2px transparent;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 2px 2px var(--alt-color);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 transparent;
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+  70% {
+    -moz-box-shadow: 0 0 2px 2px var(--alt-color);
+    box-shadow: 0 0 2px 2px var(--alt-color);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+/* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
+/* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
+@supports selector(a:has(+ a)) {
+  .header_f9f2ca:has(.vc-pronoundb-compact) .timestampInline_f9f2ca:last-child,
+  [class*="compact"] .header_39b23 .vc-pronoundb-compact:last-child {
+    color: var(--alt-color);
+  }
 }
