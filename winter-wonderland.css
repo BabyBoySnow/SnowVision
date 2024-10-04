@@ -279,7 +279,7 @@ button.button_adca65.enabled_adca65:hover {
   border: 2px solid var(--main-color);
 }
 .theme-dark .tooltipGrey_b6c360 {
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
 }
 .streamPreview_ba4b17 {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
