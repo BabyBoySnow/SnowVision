@@ -11,9 +11,10 @@
   border: 2px solid var(--main-color);
 }
 .isUnread_c2654d .content_c2654d {
-  color: var(--main-color);
+  color: var(--alt-color);
   margin-bottom: 2rem;
   margin-right: 3rem;
+  padding-bottom: 2rem;
 }
 .divider_d5deea:has(.content_c2654d) {
   background: transparent;
@@ -179,6 +180,9 @@ button.button_adca65.enabled_adca65:hover {
   margin-bottom: 50px;
 }
 .divider_d5deea.isUnread_c2654d {
+  background: transparent;
+}
+.divider_d5deea.isUnread_c2654d:has(.content_c2654d) {
   background: transparent;
 }
 .newMessagesBar_cf58b5:before {
