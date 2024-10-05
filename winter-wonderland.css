@@ -35,7 +35,6 @@
   margin-bottom: 20px;
   background: none;
 }
-
 .song-tIdBpF {
   font-weight: 500;
   color: var(--alt-color);
@@ -183,9 +182,11 @@ button.button_adca65.enabled_adca65:hover {
 }
 .divider_d5deea.isUnread_c2654d {
   background: transparent;
+  margin: 3rem;
 }
 .divider_d5deea.isUnread_c2654d:has(.content_c2654d) {
   background: transparent;
+  margin: 3rem;
 }
 .newMessagesBar_cf58b5:before {
   opacity: 0.3;
