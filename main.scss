@@ -2,9 +2,6 @@ $version: '6.9.0';
 
 /* ### ClearVision v#{$version} by the ClearVision team ### */
 
-// CUSTOM CSS
-@import 'src/winter-wonderland.css';
-
 // SELECTORS
 @import 'lib/selectors/selectorPlaceholders';
 
@@ -172,3 +169,6 @@ $version: '6.9.0';
 @import 'src/injectors/bd/sidebar';
 @import 'src/injectors/bd/sources';
 @import 'src/injectors/bd/plugins';
+
+// CUSTOM CSS
+@import 'src/winter-wonderland.css';
