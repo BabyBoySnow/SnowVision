@@ -72,11 +72,12 @@
 
 // REPLY
 %messageReplied {
-  &:before {
+  %messageRepliedSpine {
     border-color: $main-color;
   }
   %messageRepliedTextPreview {
     opacity: 0.7;
+    max-height: unset;
     &%messageRepliedTextPreviewClickable:hover {
       opacity: 1;
     }
@@ -88,6 +89,15 @@
     }
   }
   &%messageRepliedExecutedCommand {
+    %messageRepliedAppLauncherCommandName {
+      color: $main-color;
+      background: transparent;
+      text-decoration: underline;
+      &:hover {
+        color: $hover-color;
+        background: transparent;
+      }
+    }
     %messageRepliedCommandName {
       color: $main-color;
     }
@@ -98,6 +108,7 @@
 %threadChatIcon {
   color: $main-color;
   filter: drop-shadow(0 0 3px);
+  height: 22px;
   width: 22px;
 }
 %threadEmbed {
@@ -181,6 +192,28 @@
 %messageAutomodFooterContainer {
   background-color: hsla(0, 0%, 0%, 0.4);
 }
-%messageAutomodFooterIcon path {
-  fill: $main-color;
+%messageAutomodCard {
+  &%messageAutomodCardSelected {
+    background-color: hsla(0, 0%, 0%, 0.4);
+  }
+}
+%messageAutomodFooterAction {
+  %textExtraSmallNormal,
+  %messageAutomodFooterIcon path {
+    color: var(--url-color);
+  }
+}
+
+// free nitro trial...idk where to put this - Snow
+%nitroTrial {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+  border: 1px solid $main-color;
+  &:hover {
+    border: 1px solid $hover-color;
+  }
+}
+
+%themeDark %nitroTrial:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }

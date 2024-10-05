@@ -6,9 +6,6 @@
     %defaultColor {
       color: #fff;
     }
-    %textSmallNormal {
-      color: hsla(0, 0%, 100%, 0.7) !important;
-    }
     %input {
       color: rgb(220, 221, 222);
     }
@@ -30,17 +27,8 @@
   color: hsla(0, 0%, 100%, 0.7) !important;
 }
 // CREATE SERVER
-%themeLight {
-  %createServerTitle,
-  %createServerSubtitle {
-    color: hsla(0, 0%, 100%, 0.7) !important;
-  }
-  %createServerIconContainer > svg > circle {
-    fill: $main-color;
-  }
-  %createServerSkip {
-    color: hsla(0, 0%, 100%, 0.7) !important;
-  }
+%createServerIconContainer > svg > circle {
+  fill: $main-color;
 }
 %createServerOtherBackButton,
 %createServerBackButton {

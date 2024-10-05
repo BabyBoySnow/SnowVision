@@ -97,9 +97,16 @@
   color: #fff;
   opacity: 0.3;
   transition: all 0.15s ease-in-out;
+  path {
+    fill: #fff;
+  }
   &:hover {
     opacity: 0.7;
   }
+}
+%channelStatusText,
+%channelStatusPencilIcon {
+  color: hsla(0, 0%, 100%, 0.7);
 }
 %channelWrapper {
   // HOVER
@@ -328,12 +335,11 @@
   }
 }
 %voiceChannelsButton {
+  border: 1px solid $main-color;
   &:hover {
     background: $hover-color;
+    border: 1px solid $hover-color;
     transition: ease-in-out 0.15s;
-  }
-  > %textSmallMedium {
-    color: #fff;
   }
 }
 

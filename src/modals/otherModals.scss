@@ -4,6 +4,14 @@
   box-shadow: 0 0 2px 2px $main-color;
 }
 
+// REPORT MESSAGE
+%messageReportOption {
+  background-color: $main-color;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
 // REACTIONS LIST
 %themeDark {
   %reactionModalScroller,
@@ -67,15 +75,15 @@
 }
 
 // SERVER BOOST PAYMENT MODAL
-%serverBoostPaymentIcon {
+%themeDark %serverBoostPaymentQuantityIconWrapper {
+  background: hsla(0, 0%, 0%, 0.4);
+}
+%serverBoostPaymentQuantityIcon {
   color: #fff;
   &:hover {
     color: #fff;
     background-color: $hover-color;
   }
-}
-%themeDark %serverBoostPaymentIconWrapper {
-  background: hsla(0, 0%, 0%, 0.4);
 }
 %serverBoostPaymentActions %input {
   box-shadow: none;
@@ -133,15 +141,6 @@
   }
 }
 
-// VERIFY PHONE
-%phoneVerification %phoneVerificationInput {
-  background-color: hsla(0, 0%, 100%, 0.07);
-}
-%phoneVerification {
-  background-color: hsla(0, 0%, 100%, 0.07);
-  border: 1px solid hsla(0, 0%, 100%, 0.07);
-}
-
 // ACTIVITIES
 %activityModalHeader,
 %activityModalDivider {
@@ -163,6 +162,11 @@
 }
 %activitiesScroller {
   background: transparent;
+}
+
+// INVITE BOT
+%botInviteModalContent {
+  background-color: hsla(0, 0%, 100%, 0.05);
 }
 
 // AUTH MODAL
@@ -196,29 +200,30 @@
     background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3));
   }
 }
-// CREATE SERVER MODAL
-%textSmallNormal {
-  color: var(--text-normal) !important;
-}
 
 // GIFT MODAL
 /*other modals, nitro gift*/
-/*header*/
+%giftModalSelectTierHeader,
+%giftModalSelectTier {
+  background: transparent;
+}
 %giftModalHeader {
   background: transparent;
-  border-bottom: 1.5px solid $main-color;
 }
-/*check out the shop icon*/
-%giftModalIconBackground {
+%giftModalGiftBoxSelected {
+  border: 2px solid $main-color;
+}
+%giftModalPlanSelected {
+  outline: 2px solid $main-color;
+}
+%giftModalShopIcon {
   background: $main-color;
-  > svg {
-    fill: #fff;
-  }
 }
 /*loading screen*/
 %giftModalSpinner {
   background: rgba(0, 0, 0, 0.4);
 }
+
 // YOU MUST COMPLETE A FEW MORE STEPS BEFORE YOU CAN TALK
 /*before you talk here popup*/
 %beforeTalkRuleContainer {
@@ -242,16 +247,13 @@
 %webhookFooter {
   background-color: transparent;
 }
-
 %themeDark %webhookPopout {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 %webhookEmojiRow {
   background-color: $main-color;
   color: var(--text-normal) !important;
 }
-
-%webhookBackground {
+%webhookBackground:after {
   background: var(--background-overlay);
 }
