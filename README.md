@@ -39,14 +39,12 @@
 
 1. Download the theme file from [Releases](https://github.com/BabyBoySnow/SnowVision/releases).
 2. Move the file into your injector's themes folder:
-    - **BetterDiscord:** `%appdata%\betterdiscord\themes`
-    - **Vencord:** `%appdata%\vencord\themes`
-
+   - **BetterDiscord:** `%appdata%\betterdiscord\themes`
+   - **Vencord:** `%appdata%\vencord\themes`
 
 ### For Replugged (Coming Soon)
 
 Support for Replugged is currently in development. Stay tuned for updates!
-
 
 ## Building from source
 
@@ -65,7 +63,6 @@ To build the theme from source, first install npm from the dependecies below, th
 
 You can run `npm run test` to compile the theme.
 The `main.css` file will be in the `/test` directory, which can then be copied into BetterDiscord's Custom CSS, or placed in the themes folder and enabled in settings, make sure any other theme's are disabled for testing.
-
 
 ## Changelog
 
