@@ -8,10 +8,10 @@
 .pill_c993da,
 .increasedActivityPill__2620e {
   background: var(--background-shading);
-  border: 2px solid var(--main-color);
+  border: $main-color;
 }
 .isUnread_c2654d .content_c2654d {
-  color: var(--main-color);
+  color: $main-color;
   margin-bottom: 2rem;
   margin-right: 3rem;
 }
@@ -71,10 +71,10 @@
   box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
 }
 .voiceChannelsButton_a08117 {
-  border: 2px solid var(--main-color);
+  border: 2px solid $main-color;
 }
 .voiceChannelsButton_a08117:hover {
-  border: 2px solid var(--hover-color);
+  border: 2px solid $hover-color;
   background: transparent;
 }
 .imageDetails-1t6Zms {
@@ -173,11 +173,11 @@ button.button_adca65.enabled_adca65:hover {
 }
 .newMessagesBar_cf58b5:before {
   opacity: 0.3;
-  background: var(--main-color);
+  background: $main-color;
 }
 .containerWrapper_e18107 {
   background: var(--background-overlay);
-  border: 2px solid var(--main-color);
+  border: 2px solid $main-color;
 }
 /* Role Names in member sidebar */
 .members_cbd271 .membersGroup_cbd271 {
@@ -188,7 +188,7 @@ button.button_adca65.enabled_adca65:hover {
 /* The lines that go to either side of the role names on the members sidebar */
 .members_cbd271 .membersGroup_cbd271:before,
 .members_cbd271 .membersGroup_cbd271:after {
-  background: linear-gradient(to left, var(--main-color) 50%, transparent);
+  background: linear-gradient(to left, $main-color 50%, transparent);
 }
 .username_f3939d {
   color: var(--alt-color);
@@ -237,7 +237,7 @@ button.button_adca65.enabled_adca65:hover {
   margin-top: 10%;
 }
 #vc-spotify-player:hover {
-  border: solid var(--hover-color);
+  border: solid $hover-color;
   border-width: thin;
   margin-top: 10%;
 }
@@ -245,7 +245,7 @@ button.button_adca65.enabled_adca65:hover {
   background-color: var(--background-overlay);
 }
 .vc-notification-root:hover {
-  background-color: var(--hover-color);
+  background-color: $hover-color;
 }
 .groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
   display: none;
@@ -256,10 +256,10 @@ button.button_adca65.enabled_adca65:hover {
 /* // %userSettingsPremium */
 .perkCard_d611db {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
-  border: 2px solid var(--main-color);
+  border: 2px solid $main-color;
 }
 .theme-dark .tooltipGrey_b6c360 {
-  background-color: var(--main-color);
+  background-color: $main-color;
 }
 .streamPreview_ba4b17 {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
@@ -277,12 +277,12 @@ button.button_adca65.enabled_adca65:hover {
 /* Possibly outdated? */
 .readAllButton {
   background-color: rgba(0, 0, 0, 0.4);
-  color: var(--main-color);
+  color: $main-color;
 }
 /* Possibly outdated? */
 .readAllButton:hover {
-  background-color: var(--hover-color);
-  color: var(--main-color);
+  background-color: $hover-color;
+  color: $main-color;
   transition: background-color var(--transition-6) ease-in-out;
 }
 /* Vencord read all plugin*/
@@ -295,7 +295,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 /* Vencord read all plugin*/
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
-  background-color: var(--hover-color);
+  background-color: $hover-color;
   border-radius: 50px;
   color: var(--text-normal);
   transition: all var(--transition-6) ease-in-out;
@@ -425,20 +425,20 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   box-shadow: none;
 }
 .input_f8bc55.flexCenter_ec1a20 {
-  box-shadow: 0 0 2px 2px var(--main-color);
+  box-shadow: 0 0 2px 2px $main-color;
 }
 .input_f8bc55.flexCenter_ec1a20:hover {
-  box-shadow: 0 0 2px 2px var(--hover-color);
+  box-shadow: 0 0 2px 2px $hover-color;
 }
 .lookFilled_dd4f85.colorWhite_dd4f85 {
   color: #fff !important;
-  background: var(--main-color) !important;
+  background: $main-color !important;
   border: transparent;
 }
 .lookFilled_dd4f85.colorWhite_dd4f85:hover {
   color: #fff !important;
   background: transparent !important;
-  border: 2px solid var(--hover-color);
+  border: 2px solid $hover-color;
   transition: 1s ease-in-out !important;
 }
 .shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine_cbe7a3 {
@@ -485,15 +485,15 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: rgba(0, 0, 0, 0.8);
 }
 .newTopicsBarContainer_cf58b5 {
-  background-color: var(--main-color);
+  background-color: $main-color;
   opacity: 0.5;
 }
 .topicsPillCaret_cf58b5 {
-  background: var(--main-color);
+  background: $main-color;
   color: #fff;
 }
 .topicsPillCaret_cf58b5:hover {
-  background: var(--hover-color);
+  background: $hover-color;
   color: #fff;
 }
 .topicsPillTextSelected_cf58b5 {
@@ -510,7 +510,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 .thumbIcon_b1a27b {
   color: #fff;
-  background: var(--main-color);
+  background: $main-color;
 }
 .summaryFeedbackWrapper_cabeb6 {
   display: none;
@@ -574,7 +574,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: transparent;
 }
 .wrapper_f7e168 .button_f7e168:hover {
-  background-color: var(--main-color);
+  background-color: $main-color;
 }
 .container_b64375 {
   background: transparent;
@@ -586,11 +586,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 
 .theme-dark .giftCardButton_d8f41e {
-  border-color: var(--main-color);
+  border-color: $main-color;
   color: #fff;
 }
 .theme-dark .giftCardButton_d8f41e:hover {
-  border-color: var(--hover-color);
+  border-color: $hover-color;
   color: #fff;
 }
 
@@ -625,7 +625,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 
 .button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover {
-  background: var(--hover-color);
+  background: $hover-color;
   color: #fff;
 }
 
@@ -635,7 +635,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 
 .button_adcaac.buttonColor_adcaac.buttonActive_adcaac {
-  background-color: var(--hover-color);
+  background-color: $hover-color;
 }
 
 /* Voice chat count */
