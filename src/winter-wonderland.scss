@@ -18,6 +18,9 @@
 .divider_d5deea:has(.content_c2654d) {
   background: transparent;
 }
+.divider_d5deea.isUnread_c2654d:has(.content_c2654d) {
+  background: transparent;
+}
 .group-spacing-16 .divider_d5deea.hasContent_d5deea {
   border: none;
   background: none;

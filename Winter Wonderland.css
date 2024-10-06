@@ -12,9 +12,8 @@
 /* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
-@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://babyboysnow.github.io/SnowVision/main.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
-@import url(https://babyboysnow.github.io/SnowVision/winter-wonderland.css);
 
 /* SETTINGS */
 :root {
@@ -54,11 +53,12 @@
 
   /* ACCENT COLORS */
   --main-color: hsla(265, 100%, 50%, 1);
-  /* main accent color (hex,rgb or hsl) [default:#2780e6] */
+  /* main accent color (hex,rgb or hsl) [default:hsla(265, 100%, 50%, 1)] */
   --alt-color: rgba(135, 252, 252, 1);
+  /* complimentary color, where main or hover just aren't appropiate. (hex, rgb, or hsl) [default:rgba(135, 252, 252, 1)]
   /* custom second color */
   --hover-color: rgba(227, 61, 148, 1);
-  /* hover accent color (hex,rgb or hsl) [default:#1e63b3] */
+  /* hover accent color (hex,rgb or hsl) [default:rgba(227, 61, 148, 1)] */
   --success-color: #43b581;
   /* success accent color (hex,rgb or hsl) [default:#43b581] */
   --danger-color: #982929;
@@ -80,9 +80,9 @@
 
   /* GENERAL */
   --main-font: Bookerly Display Regular, Bookerly, Comic Sans MS, gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-  /* main font for app (font must be installed) [default:gg sans,Helvetica Neue,Helvetica,Arial,sans-serif] */
+  /* main font for app (font must be installed) [default:Bookerly Display Regular, Bookerly, Comic Sans MS, gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Hack Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
-  /* font for codeblocks (font must be installed) [default:Consolas,Liberation Mono,Menlo,Courier,monospace] */
+  /* font for codeblocks (font must be installed) [default:Hack Regular, Consolas, Liberation Mono, Menlo, Courier, monospace] */
   --text-normal: #fff;
   /* color of default discord text */
   --text-muted: rgb(114, 118, 125);
@@ -94,11 +94,11 @@
 
   /* APP BACKGROUND */
   --background-shading: 0%;
-  /* app background shading (0 for complete smoothness) [default:100%] */
+  /* app background shading (0 for complete smoothness) [default:0%] */
   --background-overlay: rgba(0, 0, 0, 0.3);
-  /* app background overlay color/gradient [default:rgba(0,0,0,0.6)] */
+  /* app background overlay color/gradient [default:rgba(0,0,0,0.3)] */
   --background-image: url(https://i.imgur.com/kCndyb2.jpeg);
-  /* app background image (link must be HTTPS) [default:url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  /* app background image (link must be HTTPS) [default:url(https://i.imgur.com/kCndyb2.jpeg)]*/
   --background-position: center;
   /* app background position [default:center] */
   --background-size: cover;
@@ -108,7 +108,7 @@
   --background-attachment: fixed;
   /* app background attachment [default:fixed] */
   --background-brightness: 80%;
-  /* app background brightness (< 100% for darken,> 100% for lighten) [default:100%] */
+  /* app background brightness (< 100% for darken,> 100% for lighten) [default:80%] */
   --background-contrast: 80%;
   /* app background contrast [default:100%] */
   --background-saturation: 100%;
@@ -124,7 +124,7 @@
 
   /* HOME BUTTON ICON */
   --home-icon: url(https://i.imgur.com/PmIFJmU.png);
-  /* home button icon (link must be HTTPS) [default:url(https://clearvision.github.io/icons/discord.svg)]*/
+  /* home button icon (link must be HTTPS) [default:url(https://i.imgur.com/PmIFJmU.png)]*/
   --home-position: center;
   /* home button icon position [default:center] */
   --home-size: 50px;
@@ -144,7 +144,7 @@
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0);
-  /* modal backdrop overlay color/gradient [default:rgba(0,0,0,0.8)] */
+  /* modal backdrop overlay color/gradient [default:rgba(0,0,0,0)] */
   --backdrop-image: var(--background-image);
   /* modal backdrop image (link must be HTTPS) [default:var(--background-image)] */
   --backdrop-position: var(--background-position);
