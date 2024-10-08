@@ -75,11 +75,12 @@
 }
 .voiceChannelsButton_a08117 {
   border: 2px solid $main-color;
+  &:hover {
+    border: 2px solid $hover-color;
+    background: transparent;
+  }
 }
-.voiceChannelsButton_a08117:hover {
-  border: 2px solid $hover-color;
-  background: transparent;
-}
+
 .imageDetails-1t6Zms {
   color: var(--url-color);
 }
@@ -121,14 +122,13 @@
   color: #fff;
   filter: unset;
   transition: unset;
+  &:hover {
+    color: #fff;
+    filter: drop-shadow(0 0 15px transparent);
+    color: unset;
+  }
 }
-.toolbar_fc4f04 .iconWrapper_fc4f04:hover > svg:not(.icon_fc4f04) {
-  color: #fff;
-}
-.toolbar_fc4f04 .iconWrapper_fc4f04:hover > svg:not(.icon_fc4f04) {
-  filter: drop-shadow(0 0 15px transparent);
-  color: unset;
-}
+
 button.button_adca65.enabled_adca65:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
@@ -239,18 +239,20 @@ button.button_adca65.enabled_adca65:hover {
   border: solid var(--alt-color);
   border-width: thin;
   margin-top: 10%;
+  &:hover {
+    border: solid $hover-color;
+    border-width: thin;
+    margin-top: 10%;
+  }
 }
-#vc-spotify-player:hover {
-  border: solid $hover-color;
-  border-width: thin;
-  margin-top: 10%;
-}
+
 .vc-notification-root {
   background-color: var(--background-overlay);
+  &:hover {
+    background-color: $hover-color;
+  }
 }
-.vc-notification-root:hover {
-  background-color: $hover-color;
-}
+
 .groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
   display: none;
 }
@@ -278,17 +280,17 @@ button.button_adca65.enabled_adca65:hover {
 .standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0 {
   color: #fff;
 }
-/* Possibly outdated? */
+/* BD Real All */
 .readAllButton {
   background-color: rgba(0, 0, 0, 0.4);
   color: $main-color;
+  &:hover {
+    background-color: $hover-color;
+    color: $main-color;
+    transition: background-color var(--transition-6) ease-in-out;
+  }
 }
-/* Possibly outdated? */
-.readAllButton:hover {
-  background-color: $hover-color;
-  color: $main-color;
-  transition: background-color var(--transition-6) ease-in-out;
-}
+
 /* Vencord read all plugin*/
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
   background-color: rgba(0, 0, 0, 0.6);
@@ -296,14 +298,14 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: var(--text-normal);
   box-sizing: border-box;
   padding: 5px;
+  &:hover {
+    background-color: $hover-color;
+    border-radius: 50px;
+    color: var(--text-normal);
+    transition: all var(--transition-6) ease-in-out;
+  }
 }
-/* Vencord read all plugin*/
-button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
-  background-color: $hover-color;
-  border-radius: 50px;
-  color: var(--text-normal);
-  transition: all var(--transition-6) ease-in-out;
-}
+
 /* Vencord Versioning Info*/
 .line_c5a741 {
   color: #fff !important;
@@ -430,21 +432,23 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 .input_f8bc55.flexCenter_ec1a20 {
   box-shadow: 0 0 2px 2px $main-color;
+  &:hover {
+    box-shadow: 0 0 2px 2px $hover-color;
+  }
 }
-.input_f8bc55.flexCenter_ec1a20:hover {
-  box-shadow: 0 0 2px 2px $hover-color;
-}
+
 .lookFilled_dd4f85.colorWhite_dd4f85 {
   color: #fff !important;
   background: $main-color !important;
   border: transparent;
+  &:hover {
+    color: #fff !important;
+    background: transparent !important;
+    border: 2px solid $hover-color !important;
+    transition: .5s ease-in-out !important;
+  }
 }
-.lookFilled_dd4f85.colorWhite_dd4f85:hover {
-  color: #fff !important;
-  background: transparent !important;
-  border: 2px solid $hover-color;
-  transition: 1s ease-in-out !important;
-}
+
 .shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine_cbe7a3 {
   display: none !important;
 }
@@ -484,10 +488,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 /* Summaries in chat BETA */
 .topicsPillContainer_cf58b5 {
   background: rgba(0, 0, 0, 0.6);
+  &:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
 }
-.topicsPillContainer_cf58b5:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
+
 .newTopicsBarContainer_cf58b5 {
   background-color: $main-color;
   opacity: 0.5;
@@ -495,11 +500,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .topicsPillCaret_cf58b5 {
   background: $main-color;
   color: #fff;
+  &:hover {
+    background: $hover-color;
+    color: #fff;
+  }
 }
-.topicsPillCaret_cf58b5:hover {
-  background: $hover-color;
-  color: #fff;
-}
+
 .topicsPillTextSelected_cf58b5 {
   background: rgba(0, 0, 0, 0.8);
 }
@@ -592,6 +598,10 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .theme-dark .giftCardButton_d8f41e {
   border-color: $main-color;
   color: #fff;
+  &:hover {
+    border-color: $hover-color;
+    color: #fff;
+  }
 }
 .theme-dark .giftCardButton_d8f41e:hover {
   border-color: $hover-color;
@@ -654,8 +664,14 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: #fff !important
 }
 
+.container_d523a2 {
+  background: transparent;
+}
 
-
+.lookFilled_dd4f85.colorBrandInverted_dd4f85, .lookFilled_dd4f85.colorWhite_dd4f85 {
+  background: $main-color;
+  color: #fff;
+}
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
