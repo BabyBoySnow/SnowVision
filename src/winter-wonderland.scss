@@ -321,7 +321,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   border-radius: 100%;
 }
 /* Make My Mention Different From Other Mentions without affecting #CHANNEL */
-.theme-dark .mentioned_d5deea .mention {
+%themeDark .mentioned_d5deea .mention {
   color: $alt-color !important;
 }
 .mentioned_d5deea:before,
@@ -335,7 +335,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .mentioned_d5deea .mention {
   background-color: transparent !important;
 }
-.theme-dark .mentioned_d5deea .mention {
+%themeDark .mentioned_d5deea .mention {
   cursor: pointer;
   box-shadow: 0 0 0 $alt-color;
   animation: pulse 1.6s infinite;
@@ -477,8 +477,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: #fff;
 }
 /* Some kinda boxes. So far only seen on vencord plugins */
-.theme-dark .modal_ed23b8,
-.theme-dark .root_f9a4c9 {
+%themeDark .modal_ed23b8,
+%themeDark .root_f9a4c9 {
   background: rgba(0, 0, 0, 0.8);
 }
 /* home -> shop mosiac background on top */
@@ -552,29 +552,29 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: var(--backdrop-image);
 }
 /* Add a status - full profile view */
-.theme-dark .statusBubbleOuter_e6ac4a:before {
+%themeDark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
 .statusText_e6ac4a {
   color: #fff;
 }
-.theme-dark .statusBubbleOuter_e6ac4a:after {
+%themeDark .statusBubbleOuter_e6ac4a:after {
   display: none;
 }
 .statusBubble_e6ac4a {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 16px;
 }
-.theme-dark .statusBubbleOuter_e6ac4a {
+%themeDark .statusBubbleOuter_e6ac4a {
   border: transparent;
 }
-.custom-profile-theme.theme-dark .statusBubbleOuter_e6ac4a {
+.custom-profile-theme%themeDark .statusBubbleOuter_e6ac4a {
   border: transparent;
 }
 .custom-profile-theme .background_e6ac4a {
   --custom-status-bubble-background-coloor: transparent;
 }
-.theme-dark .background_e6ac4a {
+%themeDark .background_e6ac4a {
   background: transparent;
 }
 .statusBubbleShape_e6ac4a {
@@ -595,7 +595,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   border-color: transparent;
 }
 
-.theme-dark .giftCardButton_d8f41e {
+%themeDark .giftCardButton_d8f41e {
   border-color: $main-color;
   color: #fff;
   &:hover {
@@ -603,7 +603,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
     color: #fff;
   }
 }
-.theme-dark .giftCardButton_d8f41e:hover {
+%themeDark .giftCardButton_d8f41e:hover {
   border-color: $hover-color;
   color: #fff;
 }
