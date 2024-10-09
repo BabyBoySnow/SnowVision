@@ -91,6 +91,7 @@
   /* channel list width (240px for Discord default) [default:220px] */
   --members-width: 240px;
   /* member list width [default:240px] */
+  --server-unread: var(--alt-color); /* The color of the icon for servers with unread messages. [default: var(--alt-color)]
 
   /* APP BACKGROUND */
   --background-shading: 0%;
