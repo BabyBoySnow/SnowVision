@@ -26,6 +26,9 @@
 
 </div>
 
+## Credit
+Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this up and running! 
+
 ## Installation
 
 ### Winter Wonderland
