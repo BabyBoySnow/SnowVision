@@ -38,37 +38,37 @@
 
 .song-tIdBpF {
   font-weight: 500;
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .interpret-F93iqP {
   font-weight: 500;
   font-size: 14px;
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .members_cbd271 .member_a31c43 .activityText_a31c43 {
-  color: var(--alt-color);
+  color: $alt-color;
   transition: all var(--transition-3) ease-in-out;
 }
 .members_cbd271 .member_a31c43 .activityText_a31c43 strong {
-  color: var(--alt-color);
+  color: $alt-color;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
 
 .privateChannels_f0963d .channel_c91bad .interactive_c91bad .activityText_c91bad strong {
-  color: var(--alt-color);
+  color: $alt-color;
   font-weight: 700;
   transition: all var(--transition-3) ease-in-out;
 }
 .activity_c91bad {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 /*remove borders from friends list */
 .peopleListItem_d51464 {
   border-top: transparent;
 }
 .channelTextArea_d0696b:focus-within {
-  box-shadow: 0 0 2px 2px var(--alt-color);
+  box-shadow: 0 0 2px 2px $alt-color;
 }
 .channelTextArea_d0696b {
   box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
@@ -98,7 +98,7 @@
   display: none;
 }
 .typeWindows_a934d8 > .wordmark_a934d8:before {
-  color: var(--alt-color);
+  color: $alt-color;
   content: 'Winter Wonderland';
   font-size: 14px;
   text-shadow: unset;
@@ -106,14 +106,14 @@
   font-family: 'Lovely Home';
 }
 .typeWindows_a934d8 > .wordmark_a934d8 > svg > g > path {
-  fill: var(--alt-color);
+  fill: $alt-color;
 }
 .typeWindows_a934d8 > .wordmark_a934d8 > svg {
-  color: var(--alt-color);
+  color: $alt-color;
   filter: unset;
 }
 .typeWindows_a934d8 > .wordmark_a934d8:after {
-  color: var(--alt-color);
+  color: $alt-color;
   content: 'v1.3.3';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
@@ -144,7 +144,7 @@ button.button_adca65.enabled_adca65:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .unreadPill_c2654d {
-  background-color: var(--alt-color);
+  background-color: $alt-color;
   height: 25px;
   width: 55px;
   position: absolute;
@@ -158,8 +158,8 @@ button.button_adca65.enabled_adca65:hover {
   display: none;
 }
 .unreadPillCapStroke_c2654d {
-  fill: var(--alt-color);
-  color: var(--alt-color);
+  fill: $alt-color;
+  color: $alt-color;
 }
 .group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
   border-radius: unset;
@@ -185,7 +185,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 /* Role Names in member sidebar */
 .members_cbd271 .membersGroup_cbd271 {
-  color: var(--alt-color);
+  color: $alt-color;
   opacity: 1;
   text-shadow: 0 0 2px;
 }
@@ -195,16 +195,16 @@ button.button_adca65.enabled_adca65:hover {
   background: linear-gradient(to left, $main-color 50%, transparent);
 }
 .username_f3939d {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .text_f7ebfd {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .activity_f7ebfd {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .activity_f7ebfd strong {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 
 .message_d5deea .timestamp_f9f2ca {
@@ -212,15 +212,15 @@ button.button_adca65.enabled_adca65:hover {
   font-weight: bolder;
 }
 .icon_ad923e {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 .content_c2654d {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 
 /* Channel Catagory Names */
 .sidebar_a4d4d9 :is(.containerDefault_a08117, .containerDragAfter_a08117, .containerDragBefore_a08117, .containerUserOver__91b97) .wrapper_a08117 .name_a08117 {
-  color: var(--alt-color);
+  color: $alt-color;
   text-shadow: 0 0 3px;
   opacity: 2;
 }
@@ -232,11 +232,11 @@ button.button_adca65.enabled_adca65:hover {
 .vc-spotify-artist,
 .vc-spotify-album,
 .vc-spotify-ellipoverflow {
-  color: var(--alt-color);
+  color: $alt-color;
 }
 
 #vc-spotify-player {
-  border: solid var(--alt-color);
+  border: solid $alt-color;
   border-width: thin;
   margin-top: 10%;
   &:hover {
@@ -264,7 +264,7 @@ button.button_adca65.enabled_adca65:hover {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
   border: 2px solid $main-color;
 }
-.theme-dark .tooltipGrey_b6c360 {
+%themeDark .tooltipGrey_b6c360 {
   background-color: $main-color;
 }
 .streamPreview_ba4b17 {
@@ -322,7 +322,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 /* Make My Mention Different From Other Mentions without affecting #CHANNEL */
 .theme-dark .mentioned_d5deea .mention {
-  color: var(--alt-color) !important;
+  color: $alt-color !important;
 }
 .mentioned_d5deea:before,
 .ephemeral_d5deea:before,
@@ -337,7 +337,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 .theme-dark .mentioned_d5deea .mention {
   cursor: pointer;
-  box-shadow: 0 0 0 var(--alt-color);
+  box-shadow: 0 0 0 $alt-color;
   animation: pulse 1.6s infinite;
 }
 .cozy_f9f2ca .messageContent_f9f2ca {
@@ -526,7 +526,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   display: none;
 }
 .summaryEndIcon_cabeb6 {
-  color: var(--alt-color);
+  color: $alt-color;
   background: transparent;
   margin-right: 93.5%;
   width: 2.5rem;
@@ -536,7 +536,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   margin-bottom: auto;
 }
 .summaryStartIcon_cabeb6 {
-  color: var(--alt-color);
+  color: $alt-color;
   width: 2.5rem;
   height: 3rem;
   font-weight: 900;
@@ -681,7 +681,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
     -webkit-box-shadow: 0 0 2px 2px transparent;
   }
   70% {
-    -webkit-box-shadow: 0 0 2px 2px var(--alt-color);
+    -webkit-box-shadow: 0 0 2px 2px $alt-color;
   }
   100% {
     -webkit-box-shadow: 0 0 0 0 transparent;
@@ -693,8 +693,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
     box-shadow: 0 0 0 0 transparent;
   }
   70% {
-    -moz-box-shadow: 0 0 2px 2px var(--alt-color);
-    box-shadow: 0 0 2px 2px var(--alt-color);
+    -moz-box-shadow: 0 0 2px 2px $alt-color;
+    box-shadow: 0 0 2px 2px $alt-color;
   }
   100% {
     -moz-box-shadow: 0 0 0 0 transparent;
@@ -707,6 +707,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 @supports selector(a:has(+ a)) {
   .header_f9f2ca:has(.vc-pronoundb-compact) .timestampInline_f9f2ca:last-child,
   [class*='compact'] .header_39b23 .vc-pronoundb-compact:last-child {
-    color: var(--alt-color);
+    color: $alt-color;
   }
 }

@@ -29,6 +29,7 @@ $cv: (
       colors:
         (
           main: var(--main-color),
+          alt: var(--alt-color),
           hover: var(--hover-color),
           success: var(--success-color),
           danger: var(--danger-color),
@@ -163,3 +164,4 @@ $cv: (
 // SHORTHANDS
 $main-color: cv('colors.main');
 $hover-color: cv('colors.hover');
+$alt-color: cv('colors.alt');
