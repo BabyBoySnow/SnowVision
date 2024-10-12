@@ -681,6 +681,17 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: transparent;
 }
 
+/* Spotify on User profile */
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d {
+  background: $main-color;
+  color: #fff;
+  transition: background .3s ease-in-out;
+  &:hover {
+    background: $hover-color;
+    color: #fff 
+  }
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
