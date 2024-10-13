@@ -339,17 +339,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   border-radius: 8px 8px 0 0;
 }
 
-@keyframes border {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 //Match User bg to chat bg 
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
@@ -666,9 +655,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color:$main-color;
   opacity: .3;
 }
-
-
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
