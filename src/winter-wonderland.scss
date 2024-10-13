@@ -63,7 +63,7 @@
 .activity_c91bad {
   color: $alt-color;
 }
-/*remove borders from friends list */
+//remove borders from friends list 
 .peopleListItem_d51464 {
   border-top: transparent;
 }
@@ -85,11 +85,11 @@
   color: var(--url-color);
 }
 
-/* Make most buttons round */
+// Make most buttons round 
 .button_dd4f85 {
   border-radius: 50px;
 }
-/* Remove annoying border around second nitro option. */
+// Remove annoying border around second nitro option. 
 .tier2ColumnOuter_b1bbf4 {
   display: none;
 }
@@ -183,13 +183,13 @@ button.button_adca65.enabled_adca65:hover {
   background: var(--background-overlay);
   border: 2px solid $main-color;
 }
-/* Role Names in member sidebar */
+// Role Names in member sidebar 
 .members_cbd271 .membersGroup_cbd271 {
   color: $alt-color;
   opacity: 1;
   text-shadow: 0 0 2px;
 }
-/* The lines that go to either side of the role names on the members sidebar */
+// The lines that go to either side of the role names on the members sidebar 
 .members_cbd271 .membersGroup_cbd271:before,
 .members_cbd271 .membersGroup_cbd271:after {
   background: linear-gradient(to left, $main-color 50%, transparent);
@@ -218,7 +218,7 @@ button.button_adca65.enabled_adca65:hover {
   color: $alt-color;
 }
 
-/* Channel Catagory Names */
+// Channel Catagory Names 
 .sidebar_a4d4d9 :is(.containerDefault_a08117, .containerDragAfter_a08117, .containerDragBefore_a08117, .containerUserOver__91b97) .wrapper_a08117 .name_a08117 {
   color: $alt-color;
   text-shadow: 0 0 3px;
@@ -259,7 +259,7 @@ button.button_adca65.enabled_adca65:hover {
 .messageListItem_d5deea[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
   display: none;
 }
-/* // %userSettingsPremium */
+// userSettingsPremium 
 .perkCard_d611db {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
   border: 2px solid $main-color;
@@ -276,11 +276,11 @@ button.button_adca65.enabled_adca65:hover {
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b::before {
   display: none;
 }
-/* Settings*/
+// Settings
 .standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0 {
   color: #fff;
 }
-/* BD Real All */
+// BD Real All 
 .readAllButton {
   background-color: rgba(0, 0, 0, 0.4);
   color: $main-color;
@@ -291,7 +291,7 @@ button.button_adca65.enabled_adca65:hover {
   }
 }
 
-/* Vencord read all plugin*/
+// Vencord read all plugin
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 50px;
@@ -306,49 +306,16 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   }
 }
 
-/* Vencord Versioning Info*/
+// Vencord Versioning Info
 .line_c5a741 {
   color: #fff !important;
-}
-/*ping icon*/
-.listItem_c96c45 .numberBadge__40d6f,
-.listItem_c96c45 .base__5ed84 {
-  font-size: calc(var(--server-size) / 4);
-  width: calc(var(--server-size) / 3) !important;
-  height: calc(var(--server-size) / 3);
-}
-.listItem_c96c45 .baseShapeRound_df8943 {
-  border-radius: 100%;
-}
-/* Make My Mention Different From Other Mentions without affecting #CHANNEL */
-%themeDark .mentioned_d5deea .mention {
-  color: $alt-color !important;
-}
-.mentioned_d5deea:before,
-.ephemeral_d5deea:before,
-.automodMessage_d5deea:before,
-.replying_d5deea:before,
-.highlighted_fc800f:before {
-  width: 4px;
-}
-/* Better Mentions Pulse (after fix) */
-.mentioned_d5deea .mention {
-  background-color: transparent !important;
-}
-%themeDark .mentioned_d5deea .mention {
-  cursor: pointer;
-  box-shadow: 0 0 0 $alt-color;
-  animation: pulse 1.6s infinite;
-}
-.cozy_f9f2ca .messageContent_f9f2ca {
-  padding-top: 1px;
 }
 
 .vc-rdb-modal-footer .vc-rdb-input {
   background: rgba(0, 0, 0, 0.4);
 }
-/*Nyx Stuff */
-/*profile animations*/
+//Nyx Stuff 
+//profile animations
 .userProfileOuter_c69a7b {
   overflow: visible;
 }
@@ -367,9 +334,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   z-index: -99;
   filter: blur(5px);
 }
+
 .bannerSVGWrapper_b32cc2 {
   border-radius: 8px 8px 0 0;
 }
+
 @keyframes border {
   0% {
     background-position: 0% 50%;
@@ -381,7 +350,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
     background-position: 0% 50%;
   }
 }
-/*Match User bg to chat bg */
+//Match User bg to chat bg 
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
 }
@@ -452,12 +421,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine_cbe7a3 {
   display: none !important;
 }
-/* Mod View */
+// Mod View 
 .userProfileOuterThemed_c69a7b.userPopoutOuter_c69a7b,
 .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b {
   background: transparent !important;
 }
-/*Inside messageble channel*/
+//Inside messageble channel
 .channelTextArea_d0696b {
   background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
 }
@@ -466,26 +435,26 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
   transform: scale(1.5);
 }
-/* Okay so this is a weird one but it's like the popout for statuses */
+// Okay so this is a weird one but it's like the popout for statuses 
 .separator_d90b3d {
   display: none;
 }
-/* Vencord Plugin Descriptions? */
+// Vencord Plugin Descriptions? 
 .h5_c46f6a,
 .label_c46f6a,
 .legend_c46f6a {
   color: #fff;
 }
-/* Some kinda boxes. So far only seen on vencord plugins */
+// Some kinda boxes. So far only seen on vencord plugins 
 %themeDark .modal_ed23b8,
 %themeDark .root_f9a4c9 {
   background: rgba(0, 0, 0, 0.8);
 }
-/* home -> shop mosiac background on top */
+// home -> shop mosiac background on top 
 .root_a3b6be {
   display: none;
 }
-/* Summaries in chat BETA */
+// Summaries in chat BETA 
 .topicsPillContainer_cf58b5 {
   background: rgba(0, 0, 0, 0.6);
   &:hover {
@@ -542,7 +511,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   font-weight: 900;
   margin-left: 42px;
 }
-/* Home Icon Parent */
+// Home Icon Parent 
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
   background-color: transparent;
@@ -551,7 +520,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .integrationWrapper_e2a436 {
   background: var(--backdrop-image);
 }
-/* Add a status - full profile view */
+// Add a status - full profile view 
 %themeDark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
@@ -608,7 +577,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: #fff;
 }
 
-/* Bots...why are they different?????? */
+// Bots...why are they different?????? 
 .userProfileOuterUnthemed_c69a7b .statusBubbleOuter_d0a252::before {
   display: none;
 }
@@ -617,11 +586,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   display: none;
 }
 
-/* Gifted in chat */
+// Gifted in chat 
 .giftCardButton_d8f41e {
   background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
 }
-/* Enable clips now */
+// Enable clips now 
 .container_ff9ac4 {
   background: rgba(0, 0, 0, 0.6);
 }
@@ -629,11 +598,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   overflow: hidden;
 }
 
-/* activity in chat */
+// activity in chat 
 .container_a3d172 {
   background: rgba(0, 0, 0, 0.6);
 }
-/* Send voice message vencord plugin */
+// Send voice message vencord plugin 
 .vc-vmsg-preview {
   background: rgba(0, 0, 0, 0.4);
 }
@@ -652,7 +621,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color: $hover-color;
 }
 
-/* Voice chat count */
+// Voice chat count 
 .users_a5bc92,
 .total_a5bc92 {
   color: hsla(0, 0%, 100%, 0.75);
@@ -673,7 +642,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: #fff;
 }
 
-/* Poll Results */
+// Poll Results 
 .container_e365d2 {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -681,7 +650,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: transparent;
 }
 
-/* Spotify on User profile */
+// Spotify on User profile 
 .custom-profile-theme .themeColor_f9d37d.primary_f9d37d {
   background: $main-color;
   color: #fff;
@@ -692,37 +661,18 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   }
 }
 
-/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-box-shadow: 0 0 2px 2px transparent;
-  }
-  70% {
-    -webkit-box-shadow: 0 0 2px 2px $alt-color;
-  }
-  100% {
-    -webkit-box-shadow: 0 0 0 0 transparent;
-  }
-}
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 transparent;
-    box-shadow: 0 0 0 0 transparent;
-  }
-  70% {
-    -moz-box-shadow: 0 0 2px 2px $alt-color;
-    box-shadow: 0 0 2px 2px $alt-color;
-  }
-  100% {
-    -moz-box-shadow: 0 0 0 0 transparent;
-    box-shadow: 0 0 0 0 transparent;
-  }
+// Guild Folder Expanded background
+.expandedFolderBackground_bc7085 {
+  background-color:$main-color;
+  opacity: .3;
 }
 
-/* .header_ is the class of an element containing the username, timestamp and if the pronoun exists, */
-/* it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] */
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
+// it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] 
 @supports selector(a:has(+ a)) {
   .header_f9f2ca:has(.vc-pronoundb-compact) .timestampInline_f9f2ca:last-child,
   [class*='compact'] .header_39b23 .vc-pronoundb-compact:last-child {
