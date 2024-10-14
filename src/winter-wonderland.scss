@@ -1,3 +1,7 @@
+:root {
+  --main-color-transparent: hsla(265, 100%, 50%, 0.6);
+  --hover-color-transparent: rgba(227, 61, 148, 0.6);
+}
 .buttonWhite_b105e9 {
   color: white;
 }
@@ -289,7 +293,7 @@ button.button_adca65.enabled_adca65:hover {
 
 // Vencord read all plugin
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
-  background: linear-gradient(.25turn, $main-color, 50%, $hover-color);
+  background: linear-gradient(.25turn, var(--main-color-transparent), 50%, var(--hover-color-transparent));
   border-radius: 50px;
   color: #fff;
   box-sizing: border-box;
@@ -298,7 +302,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
     background: linear-gradient(.25turn, $hover-color, 50%, $main-color);
     border-radius: 50px;
     color: #fff;
-    transition: background .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
 }
 
