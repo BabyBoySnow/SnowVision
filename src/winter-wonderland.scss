@@ -3,7 +3,7 @@
 }
 .pill_c993da,
 .increasedActivityPill__2620e {
-  background: var(--background-shading);
+  background: $bg-shading;
   border: $main-color;
 }
 .isUnread_c2654d .content_c2654d {
@@ -257,17 +257,17 @@ button.button_adca65.enabled_adca65:hover {
 }
 // userSettingsPremium 
 .perkCard_d611db {
-  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
+  background-color: rgba(0, 0, 0, calc($bg-shading * 0.4));
   border: 2px solid $main-color;
 }
 %themeDark .tooltipGrey_b6c360 {
   background-color: $main-color;
 }
 .streamPreview_ba4b17 {
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+  background: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
 .selectedScreen_ba4b17 {
-  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.7));
+  background-color: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b::before {
   display: none;
@@ -337,7 +337,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 
 //Match User bg to chat bg 
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b {
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
+  background: rgba(0, 0, 0, calc($bg-shading * 0.5));
 }
 .layer_cd0de5:has(.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d))::before {
   position: absolute;
@@ -413,11 +413,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 //Inside messageble channel
 .channelTextArea_d0696b {
-  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.1));
+  background: rgba(0, 0, 0, calc($bg-shading * 0.1));
 }
 .wrapper__8436d:hover .childWrapper_a6ce15,
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
-  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0));
+  background-color: rgba(0, 0, 0, calc($bg-shading * 0));
   transform: scale(1.5);
 }
 // Okay so this is a weird one but it's like the popout for statuses 
@@ -573,7 +573,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 
 // Gifted in chat 
 .giftCardButton_d8f41e {
-  background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+  background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
 }
 // Enable clips now 
 .container_ff9ac4 {
