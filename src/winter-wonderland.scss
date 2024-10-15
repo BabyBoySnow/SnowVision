@@ -313,7 +313,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: conic-gradient(from 180deg, $main-color, $hover-color, $main-color);
   z-index: -1;
   border-radius: 50px;
-  animation: swirl 5s linear infinite
+  animation: swirl 5s ease-out infinite
 }
 
 // Vencord Versioning Info
