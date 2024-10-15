@@ -511,6 +511,19 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 %themeDark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
+.statusBubbleOuter_d0a252:before {
+  display: none;
+}
+.statusBubbleOuter_d0a252:after {
+  display: none;
+}
+.custom-profile-theme .background_d0a252 {
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
+}
+%themeDark
+.background_d0a252 {
+  --custom-statys-bubble-background-color: rgba(0, 0, 0, 0.4);
+}
 .statusText_e6ac4a {
   color: #fff;
 }
