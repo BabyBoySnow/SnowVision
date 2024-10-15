@@ -286,8 +286,7 @@ button.button_adca65.enabled_adca65:hover {
     transition: background-color .6s ease-in-out;
   }
 }
-
-// Vencord read all plugin
+// Vencord Read All
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
   position: relative;
   background: linear-gradient(.25turn, $main-color, $hover-color);
@@ -298,7 +297,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   overflow: hidden;
   z-index: 1;
   filter: brightness(0.6);
-  transition: filter 0.3s ease-in-out; 
+  transition: filter 0.3s linear; 
   &:hover {
     filter: brightness(1);
   }
@@ -314,8 +313,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: conic-gradient(from 90deg, $main-color, $hover-color, $main-color);
   z-index: -1;
   border-radius: 50px;
-  transition: background-size 0.5s ease-in-out;
-  animation: swirl 6s linear infinite;
+  animation: swirl 5s linear infinite
 }
 
 // Vencord Versioning Info
