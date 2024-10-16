@@ -18,7 +18,7 @@ def replace_shorthands_in_file(file_path):
         r"cv\('colors\.main'\)": "$main-color",           # Detect cv('colors.main')
         r"cv\('colors\.hover'\)": "$hover-color",         # Detect cv('colors.hover')
         r"cv\('bg\.app\.shading'\)": "$bg-shading",       # Detect cv('bg.app.shading')
-        r"calc\(\#\{cv\('bg\.app\.shading'\)\} \* (\d*\.?\d+)\)": r"calc($bg-shading * \1)"  # Detect calc(#{cv('bg.app.shading')} * 0.6)
+        r"#\{\$(main-color|hover-color|bg-shading|text-normal)\}": r"$\1"  # Detect #{$variable}
     }
 
     # Apply all replacements
