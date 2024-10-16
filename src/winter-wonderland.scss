@@ -536,7 +536,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .background_d22603 {
   --custom-statys-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
-.statusText_d22603 {
+.background_d22603 {
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
+  --custom-status-bubble-background: rgba(0, 0, 0, 0.4);
+}
+.statusText_e6ac4a {
   color: #fff;
 }
 %themeDark .statusBubbleOuter_d22603:after {
@@ -564,6 +568,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .statusBubbleOuter_d22603 {
   background: transparent;
 }
+
 .wrapper_f7e168 .button_f7e168:hover {
   background-color: $main-color;
 }
