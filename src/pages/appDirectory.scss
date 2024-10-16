@@ -13,7 +13,7 @@
 
 // HOME PAGE
 %directoryCategory {
-  background: rgba(0, 0, 0, calc($bg-shading * 0.4));
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
   &:hover {
     background: $hover-color;
   }
