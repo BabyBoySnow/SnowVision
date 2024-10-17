@@ -697,6 +697,30 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   opacity: .5;
 }
 
+// Soundboard
+.picker_cd703d.refresh_cd703d {
+  background-color: rgba(0, 0, 0, 0.8)
+}
+.soundButtonRefresh_f40049 {
+  background: $main-color;
+  box-shadow:  1px 0 0 $main-color, 0 1px 4px 0 $main-color;
+  &:hover {
+    background: $hover-color;
+    box-shadow: 0 1px 0 0 $hover-color,0 1px 4px 0 $hover-color;
+  }
+}
+
+.soundAddButtonRefresh_c06ee5 {
+  background-color: $main-color;
+}
+
+.soundNameRefresh_f40049 {
+  color: $text-normal;
+}
+
+.soundAddTextRefresh_c06ee5 {
+  color: $text-normal;
+}
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
 // it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] 
