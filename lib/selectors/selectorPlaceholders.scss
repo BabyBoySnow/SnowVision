@@ -4071,6 +4071,9 @@ pre {
 .checkmark_f9902b {
   @extend %serverInviteTick !optional;
 }
+.default_a467ac {
+  @extend %serverInviteCancel !optional;
+}
 .textContainer_d8e2d0 {
   @extend %textContainer !optional;
 }
@@ -4902,6 +4905,7 @@ pre {
 .intentsContainer_f6d180 {
   @extend %directoryAppIntentList !optional;
 }
+// No refresh
 .picker_cd703d {
   @extend %soundboard !optional;
 }
@@ -4910,6 +4914,22 @@ pre {
 }
 .categoryIcon_ceda83.selected_ceda83 {
   @extend %soundboardGuildSelected !optional;
+}
+// Refresh, temp until global
+.picker_cd703d.refresh_cd703d {
+  @extend %soundboardRefresh !optional;
+}
+.soundButtonRefresh_f40049 {
+  @extend %soundboardSoundRefresh !optional;
+}
+.soundNameRefresh_f40049 {
+  @extend %soundboardSoundNameRefresh !optional;
+}
+.soundAddButtonRefresh_c06ee5 {
+  @extend %soundboardAddRefresh !optional;
+}
+.soundAddTextRefresh_c06ee5 {
+  @extend %soundboardAddTextRefresh !optional;
 }
 .keybindHint_c66e5e {
   @extend %soundboardHint !optional;

@@ -407,3 +407,11 @@
     background-color: hsla(0, 0%, 0%, 0.4);
   }
 }
+
+// Invites Page
+%serverInvitesCancel {
+  background-color: rgba(0, 0, 0, 0.4);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
