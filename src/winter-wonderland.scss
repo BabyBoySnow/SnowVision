@@ -132,7 +132,7 @@
 
 .typeWindows_a934d8>.wordmark_a934d8:after {
   color: $alt-color;
-  content: 'v1.3.3';
+  content: 'v1.3.4';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
 }
@@ -292,10 +292,6 @@ button.button_adca65.enabled_adca65:hover {
   &:hover {
     background-color: $hover-color;
   }
-}
-
-.groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
-  display: none;
 }
 
 .messageListItem_d5deea[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
@@ -839,8 +835,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .soundAddTextRefresh_c06ee5 {
   color: $text-normal;
 }
-
-
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
 // it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] 

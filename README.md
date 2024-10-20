@@ -79,17 +79,29 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Removed the annoying help message from HepBoat in the ClearVision Support server.
 - Removed the border around Nitro for "most popular."
 - Added radical status.
-- Moved the new message pill to the middle.
+- Change activety text's to use the alt-color.
+- Moved the new message pill to the middle, remove the dividers, made it alt color, and made it square.
+- Changed the server member's list to use alt color for roles and the lines on the side to be main color.
+- Changed server channel catagory names to use alt color. 
+- 
 - Removed some borders and added more shading.
-- Removed glow from the wordmark. Changed to "Winter Wonderland v1.3.2".
+- Removed glow from the wordmark. Changed to "Winter Wonderland v1.3.4".
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non-Nitro users look cool.
 - Applied snippet to fit long plugin names inside the box.
+- Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to match user background to chat background.
+- Theme button white's to main color. 
+- Make text box use background-shading.
 - Enhanced pings to stand out more.
 - Changed the border on the Spotify controls plugin for Vencord.
 - Rounded a few buttons.
 - Darkened Vencord plugin boxes.
 - Changed Vencord plugin info text color to white (`#fff`).
 - Changed the status on the profile pop outs. Further adjustment needed.
+- Change the guild folders to be slightly transparent version of main color.
+- Slightly darken the voice count.
+- Support for vencord plugin to send voice messages.
+- Background of the home icon made to be transparent so that if the image doesn't fill it all it doesn't look weird.
+- Removed the home shop mosiac.
 - Various other changes and improvements.
 
 ---
@@ -97,9 +109,12 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 ## Addons
 
 Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
-To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes a change to the behavior of
-the vencord read all plugin.
+To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes:
+   - a change to the behavior of the vencord read all plugin. 
+   - a change to code blocks which requires the custom font [Fira Code](https://github.com/tonsky/FiraCode/releases)
+
 
 ## Scripts
-Any scripts I make to aid will be included. Currently includes the file I use to automatically detect if there is any versions of variables that can be converted into 
+Any scripts I make to aid will be included. Currently includes:
+- the file I use to automatically detect if there is any versions of variables that can be converted into 
 shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)
