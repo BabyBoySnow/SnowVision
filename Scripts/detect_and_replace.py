@@ -35,22 +35,33 @@ def replace_shorthands_in_file(file_path):
 
 # Define the directory to scan for SCSS files
 def replace_in_directory(directory):
-    # List of files to ignore
+    # List of specific files to ignore
     ignored_files = [
         os.path.normpath('src/defaultSettings.scss'),
         os.path.normpath('src/variables.scss'),
-        os.path.normpath('Addons/vencord_read_all_mod.css'),
+    ]
+
+    # List of directories to ignore
+    ignored_dirs = [
+        os.path.normpath('Addons'),
         os.path.normpath('SnowVision/Scripts')
     ]
 
     for root, dirs, files in os.walk(directory):
+        # Skip ignored directories
+        if any(os.path.normpath(root).startswith(ignored_dir) for ignored_dir in ignored_dirs):
+            print(f"Skipping directory {root}")
+            continue
+
         for file in files:
             if file.endswith(".scss") or file.endswith(".css"):
                 file_path = os.path.normpath(os.path.join(root, file))
+
                 # Skip ignored files
                 if file_path in ignored_files:
-                    print(f"Skipping {file_path}")
+                    print(f"Skipping file {file_path}")
                     continue
+
                 replace_shorthands_in_file(file_path)
 
 # Specify the 'src' directory for scanning
