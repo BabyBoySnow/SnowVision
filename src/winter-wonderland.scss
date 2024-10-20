@@ -624,8 +624,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .custom-profile-theme .background_d22603 {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
-%themeDark
-.background_d22603 {
+
+%themeDark .background_d22603 {
   --custom-statys-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -658,6 +658,15 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .custom-profile-theme .background_d22603 {
   --custom-status-bubble-background-coloor: transparent;
 }
+
+%themeDark .background_d0a252 {
+  --custom-status-bubble-overlay-color: 0 0 0.6;
+}
+
+%themeDark .background_d0a252 {
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 %themeDark .background_d22603 {
   background: transparent;
@@ -699,14 +708,6 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .custom-profile-theme .container_b64375 {
   background: transparent;
   border-color: transparent;
-}
-
-%themeDark .background_d0a252 {
-  --custom-status-bubble-overlay-color: 0 0 0.6;
-}
-
-%themeDark .background_d0a252 {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
 }
 
 // Gift in chat
