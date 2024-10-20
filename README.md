@@ -91,3 +91,15 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Changed Vencord plugin info text color to white (`#fff`).
 - Changed the status on the profile pop outs. Further adjustment needed.
 - Various other changes and improvements.
+
+---
+
+## Addons
+
+Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
+To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes a change to the behavior of
+the vencord read all plugin.
+
+## Scripts
+Any scripts I make to aid will be included. Currently includes the file I use to automatically detect if there is any versions of variables that can be converted into 
+shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)

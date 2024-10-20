@@ -1,7 +1,7 @@
 /* Vencord Read All */
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
     position: relative;
-    background: linear-gradient(.25turn, var(--main-color), var(-hover-color));
+    background: linear-gradient(.25turn, var(--main-color), var(--hover-color));
     border-radius: 50px;
     color: #fff;
     box-sizing: border-box;
