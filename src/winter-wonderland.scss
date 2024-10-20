@@ -1,30 +1,37 @@
 .buttonWhite_b105e9 {
   color: white;
 }
+
 .pill_c993da,
 .increasedActivityPill__2620e {
   background: $bg-shading;
   border: $main-color;
 }
+
 .isUnread_c2654d .content_c2654d {
   color: $main-color;
   margin-bottom: 2rem;
   margin-right: 3rem;
 }
+
 .divider_d5deea:has(.content_c2654d) {
   background: transparent;
 }
+
 .divider_d5deea.isUnread_c2654d:has(.content_c2654d) {
   background: transparent;
 }
+
 .group-spacing-16 .divider_d5deea.hasContent_d5deea {
   border: none;
   background: none;
 }
+
 .divider_c2654d {
   border: none;
   background: none;
 }
+
 .group-spacing-16 .divider_d5deea {
   border: none;
   margin: 10px;
@@ -36,15 +43,18 @@
   font-weight: 500;
   color: $alt-color;
 }
+
 .interpret-F93iqP {
   font-weight: 500;
   font-size: 14px;
   color: $alt-color;
 }
+
 .members_cbd271 .member_a31c43 .activityText_a31c43 {
   color: $alt-color;
   transition: all .3s ease-in-out;
 }
+
 .members_cbd271 .member_a31c43 .activityText_a31c43 strong {
   color: $alt-color;
   font-weight: 700;
@@ -56,21 +66,27 @@
   font-weight: 700;
   transition: all .3s ease-in-out;
 }
+
 .activity_c91bad {
   color: $alt-color;
 }
+
 //remove borders from friends list 
 .peopleListItem_d51464 {
   border-top: transparent;
 }
+
 .channelTextArea_d0696b:focus-within {
   box-shadow: 0 0 2px 2px $alt-color;
 }
+
 .channelTextArea_d0696b {
   box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
 }
+
 .voiceChannelsButton_a08117 {
   border: 2px solid $main-color;
+
   &:hover {
     border: 2px solid $hover-color;
     background: transparent;
@@ -85,15 +101,18 @@
 .button_dd4f85 {
   border-radius: 50px;
 }
+
 // Remove annoying border around second nitro option. 
 .tier2ColumnOuter_b1bbf4 {
   display: none;
 }
+
 .tier0ColumnOuter_b1bbf4,
 .tier2ColumnOuter_b1bbf4 {
   display: none;
 }
-.typeWindows_a934d8 > .wordmark_a934d8:before {
+
+.typeWindows_a934d8>.wordmark_a934d8:before {
   color: $alt-color;
   content: 'Winter Wonderland';
   font-size: 14px;
@@ -101,23 +120,28 @@
   filter: unset;
   font-family: 'Lovely Home';
 }
-.typeWindows_a934d8 > .wordmark_a934d8 > svg > g > path {
+
+.typeWindows_a934d8>.wordmark_a934d8>svg>g>path {
   fill: $alt-color;
 }
-.typeWindows_a934d8 > .wordmark_a934d8 > svg {
+
+.typeWindows_a934d8>.wordmark_a934d8>svg {
   color: $alt-color;
   filter: unset;
 }
-.typeWindows_a934d8 > .wordmark_a934d8:after {
+
+.typeWindows_a934d8>.wordmark_a934d8:after {
   color: $alt-color;
   content: 'v1.3.3';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
 }
-.toolbar_fc4f04 .iconWrapper_fc4f04 > svg:not(.icon_fc4f04) {
+
+.toolbar_fc4f04 .iconWrapper_fc4f04>svg:not(.icon_fc4f04) {
   color: #fff;
   filter: unset;
   transition: unset;
+
   &:hover {
     color: #fff;
     filter: drop-shadow(0 0 15px transparent);
@@ -129,16 +153,19 @@ button.button_adca65.enabled_adca65:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
+
 .button_adca65 .enabled_adca65 .button_dd4f85 .lookBlank_dd4f85 .colorBrand_dd4f85 .grow_dd4f85 .button_adca65:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
+
 .increasedActivityMainCard-2ry6hI.isOpen_d331f1,
 .increasedActivityMainCard-2ry6hI.isOpen__036bf,
 .mainCard_a6d69a.isOpen_d331f1,
 .mainCard_a6d69a.isOpen__036bf {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 .unreadPill_c2654d {
   background-color: $alt-color;
   height: 25px;
@@ -150,55 +177,68 @@ button.button_adca65.enabled_adca65:hover {
   padding-left: 6px;
   color: ivory;
 }
+
 .unreadPillCap_c2654d {
   display: none;
 }
+
 .unreadPillCapStroke_c2654d {
   fill: $alt-color;
   color: $alt-color;
 }
+
 .group-spacing-16 .divider_d5deea.beforeGroup_d5deea {
   border-radius: unset;
   margin-top: 45px;
   margin-bottom: 50px;
 }
+
 .group-spacing-16 .divider_d5deea.hasContent_d5deea .unreadPill_c2654d {
   display: none;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .divider_d5deea.isUnread_c2654d {
   background: transparent;
   margin: 1rem;
 }
+
 .newMessagesBar_cf58b5:before {
   opacity: 0.3;
   background: $main-color;
 }
+
 .containerWrapper_e18107 {
   background: var(--background-overlay);
   border: 2px solid $main-color;
 }
+
 // Role Names in member sidebar 
 .members_cbd271 .membersGroup_cbd271 {
   color: $alt-color;
   opacity: 1;
   text-shadow: 0 0 2px;
 }
+
 // The lines that go to either side of the role names on the members sidebar 
 .members_cbd271 .membersGroup_cbd271:before,
 .members_cbd271 .membersGroup_cbd271:after {
   background: linear-gradient(to left, $main-color 50%, transparent);
 }
+
 .username_f3939d {
   color: $alt-color;
 }
+
 .text_f7ebfd {
   color: $alt-color;
 }
+
 .activity_f7ebfd {
   color: $alt-color;
 }
+
 .activity_f7ebfd strong {
   color: $alt-color;
 }
@@ -207,9 +247,11 @@ button.button_adca65.enabled_adca65:hover {
   color: #fff;
   font-weight: bolder;
 }
+
 .icon_ad923e {
   color: $alt-color;
 }
+
 .content_c2654d {
   color: $alt-color;
 }
@@ -220,6 +262,7 @@ button.button_adca65.enabled_adca65:hover {
   text-shadow: 0 0 3px;
   opacity: 2;
 }
+
 [class^='theme-'] #vc-spotify-player {
   background: rgba(0, 0, 0, 0.4);
 }
@@ -235,6 +278,7 @@ button.button_adca65.enabled_adca65:hover {
   border: solid $alt-color;
   border-width: thin;
   margin-top: 10%;
+
   &:hover {
     border: solid $hover-color;
     border-width: thin;
@@ -244,6 +288,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .vc-notification-root {
   background-color: var(--background-overlay);
+
   &:hover {
     background-color: $hover-color;
   }
@@ -252,40 +297,50 @@ button.button_adca65.enabled_adca65:hover {
 .groupStart_d5deea:has(.blockedSystemMessage_c09d0f) {
   display: none;
 }
+
 .messageListItem_d5deea[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
   display: none;
 }
+
 // userSettingsPremium 
 .perkCard_d611db {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.4));
   border: 2px solid $main-color;
 }
+
 %themeDark .tooltipGrey_b6c360 {
   background-color: $main-color;
 }
+
 .streamPreview_ba4b17 {
   background: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
+
 .selectedScreen_ba4b17 {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
+
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b::before {
   display: none;
 }
+
 // Settings
 .standardSidebarView_c25c6d .sidebar_c25c6d .side_a0 .item_a0 {
   color: #fff;
 }
+
 // BD Real All 
 .readAllButton {
   background-color: rgba(0, 0, 0, 0.4);
   color: $main-color;
+
   &:hover {
     background-color: $hover-color;
     color: $main-color;
     transition: background-color .6s ease-in-out;
   }
 }
+
 // Vencord Read All
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
   position: relative;
@@ -293,11 +348,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   border-radius: 50px;
   color: #fff;
   box-sizing: border-box;
-  padding: 4px 8px; 
+  padding: 4px 8px;
   overflow: hidden;
   z-index: 1;
   filter: brightness(0.6);
-  transition: filter 0.3s linear; 
+  transition: filter 0.3s linear;
+
   &:hover {
     filter: brightness(1);
   }
@@ -324,11 +380,13 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .vc-rdb-modal-footer .vc-rdb-input {
   background: rgba(0, 0, 0, 0.4);
 }
+
 //Nyx Stuff 
 //profile animations
 .userProfileOuter_c69a7b {
   overflow: visible;
 }
+
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d)::after {
   content: '';
   position: absolute;
@@ -353,6 +411,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b {
   background: rgba(0, 0, 0, calc($bg-shading * 0.5));
 }
+
 .layer_cd0de5:has(.userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d))::before {
   position: absolute;
   content: '';
@@ -366,6 +425,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   height: auto;
   z-index: -1;
 }
+
 .layer_cd0de5::after {
   position: absolute;
   content: '';
@@ -378,28 +438,35 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   height: auto;
   z-index: -1;
 }
+
 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b:not(.profileCustomizationPreview_ab876d) .userPopoutInner_c69a7b::before {
   display: none;
 }
+
 .eyebrow_dc00ef {
   overflow: hidden !important;
 }
+
 .input_f8bc55.focused_f8bc55,
 .input_f8bc55:focus {
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
+
 .input_f8bc55:focus,
 .input_f8bc55.focused_f8bc55 {
   box-shadow: none;
 }
+
 .input_f8bc55 {
   background-color: transparent;
   box-shadow: none;
 }
+
 .input_f8bc55.flexCenter_ec1a20 {
   box-shadow: 0 0 2px 2px $main-color;
+
   &:hover {
     box-shadow: 0 0 2px 2px $hover-color;
   }
@@ -409,6 +476,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: #fff !important;
   background: $main-color !important;
   border: transparent;
+
   &:hover {
     color: #fff !important;
     background: transparent !important;
@@ -420,42 +488,51 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .shineContainer_a985a2.buttonShine_fb742e.guildBoostCtaBoostShine_cbe7a3 {
   display: none !important;
 }
+
 // Mod View 
 .userProfileOuterThemed_c69a7b.userPopoutOuter_c69a7b,
 .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b {
   background: transparent !important;
 }
+
 //Inside messageble channel
 .channelTextArea_d0696b {
   background: rgba(0, 0, 0, calc($bg-shading * 0.1));
 }
+
 .wrapper__8436d:hover .childWrapper_a6ce15,
 .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0));
   transform: scale(1.5);
 }
+
 // Okay so this is a weird one but it's like the popout for statuses 
 .separator_d90b3d {
   display: none;
 }
+
 // Vencord Plugin Descriptions? 
 .h5_c46f6a,
 .label_c46f6a,
 .legend_c46f6a {
   color: #fff;
 }
+
 // Some kinda boxes. So far only seen on vencord plugins 
 %themeDark .modal_ed23b8,
 %themeDark .root_f9a4c9 {
   background: rgba(0, 0, 0, 0.8);
 }
+
 // home -> shop mosiac background on top 
 .root_a3b6be {
   display: none;
 }
+
 // Summaries in chat BETA 
 .topicsPillContainer_cf58b5 {
   background: rgba(0, 0, 0, 0.6);
+
   &:hover {
     background: rgba(0, 0, 0, 0.8);
   }
@@ -465,9 +542,11 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background-color: $main-color;
   opacity: 0.5;
 }
+
 .topicsPillCaret_cf58b5 {
   background: $main-color;
   color: #fff;
+
   &:hover {
     background: $hover-color;
     color: #fff;
@@ -477,22 +556,28 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .topicsPillTextSelected_cf58b5 {
   background: rgba(0, 0, 0, 0.8);
 }
+
 .topicsDropdownHeading_cf58b5 {
   background: rgba(0, 0, 0, 0.8);
 }
+
 .topicsScroller_cf58b5 {
   background: rgba(0, 0, 0, 0.8);
 }
+
 .container_b1a27b:hover {
   background: rgba(0, 0, 0, 0.8);
 }
+
 .thumbIcon_b1a27b {
   color: #fff;
   background: $main-color;
 }
+
 .summaryFeedbackWrapper_cabeb6 {
   display: none;
 }
+
 .summaryEndIcon_cabeb6 {
   color: $alt-color;
   background: transparent;
@@ -503,6 +588,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .summaryStartIcon_cabeb6 {
   color: $alt-color;
   width: 2.5rem;
@@ -510,25 +596,31 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   font-weight: 900;
   margin-left: 42px;
 }
+
 // Home Icon Parent 
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
   background-color: transparent;
   color: #fff;
 }
+
 .integrationWrapper_e2a436 {
   background: var(--backdrop-image);
 }
+
 // Add a status - full profile view 
 %themeDark .statusBubbleOuter_e6ac4a:before {
   display: none;
 }
+
 .statusBubbleOuter_d22603:before {
   display: none;
 }
+
 .statusBubbleOuter_d22603:after {
   display: none;
 }
+
 .custom-profile-theme .background_d22603 {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
@@ -536,35 +628,45 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .background_d22603 {
   --custom-statys-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
+
 .background_d22603 {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
   --custom-status-bubble-background: rgba(0, 0, 0, 0.4);
 }
+
 .statusText_e6ac4a {
   color: #fff;
 }
+
 %themeDark .statusBubbleOuter_d22603:after {
   display: none;
 }
+
 .statusBubble_d22603 {
   background: rgba(0, 0, 0, 0.8);
   border: 1px solid $main-color;
 }
+
 %themeDark .statusBubbleOuter_d22603 {
   border: transparent;
 }
+
 .custom-profile-theme%themeDark .statusBubbleOuter_d22603 {
   border: transparent;
 }
+
 .custom-profile-theme .background_d22603 {
   --custom-status-bubble-background-coloor: transparent;
 }
+
 %themeDark .background_d22603 {
   background: transparent;
 }
+
 .statusBubbleShape_d22603 {
   border-radius: 16px;
 }
+
 .statusBubbleOuter_d22603 {
   background: transparent;
 }
@@ -572,12 +674,15 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .custom-profile-theme%themeDark .statusBubbleOuter_d0a252:before {
   display: none;
 }
+
 .custom-profile-theme%themeDark .statusBubbleOuter_d0a252:after {
   display: none;
 }
+
 .statusBubble_d0a252 {
   background: transparent;
 }
+
 .custom-profile-theme%themeDark .statusBubbleOuter_d0a252 {
   border: 1px solid $main-color;
 }
@@ -585,23 +690,36 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .wrapper_f7e168 .button_f7e168:hover {
   background-color: $main-color;
 }
+
 .container_b64375 {
   background: transparent;
   border: transparent;
 }
+
 .custom-profile-theme .container_b64375 {
   background: transparent;
   border-color: transparent;
 }
 
+%themeDark .background_d0a252 {
+  --custom-status-bubble-overlay-color: 0 0 0.6;
+}
+
+%themeDark .background_d0a252 {
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
+}
+
+// Gift in chat
 %themeDark .giftCardButton_d8f41e {
   border-color: $main-color;
   color: #fff;
+
   &:hover {
     border-color: $hover-color;
     color: #fff;
   }
 }
+
 %themeDark .giftCardButton_d8f41e:hover {
   border-color: $hover-color;
   color: #fff;
@@ -620,10 +738,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .giftCardButton_d8f41e {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
 }
+
 // Enable clips now 
 .container_ff9ac4 {
   background: rgba(0, 0, 0, 0.6);
 }
+
 .headerText_a0 {
   overflow: hidden;
 }
@@ -632,6 +752,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .container_a3d172 {
   background: rgba(0, 0, 0, 0.6);
 }
+
 // Send voice message vencord plugin 
 .vc-vmsg-preview {
   background: rgba(0, 0, 0, 0.4);
@@ -657,8 +778,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.modeSelected_d8bfb3 .numberBadge_df8943, .modeSelected_d8bfb3 .textBadge_df8943, .interactiveSelected_c91bad .numberBadge_df8943, 
-.interactiveSelected_c91bad .textBadge_df8943, .selected_a0 .numberBadge_df8943, .selected_a0 .textBadge_df8943 {
+.modeSelected_d8bfb3 .numberBadge_df8943,
+.modeSelected_d8bfb3 .textBadge_df8943,
+.interactiveSelected_c91bad .numberBadge_df8943,
+.interactiveSelected_c91bad .textBadge_df8943,
+.selected_a0 .numberBadge_df8943,
+.selected_a0 .textBadge_df8943 {
   background-color: $hover-color !important;
   color: #fff !important
 }
@@ -667,7 +792,8 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: transparent;
 }
 
-.lookFilled_dd4f85.colorBrandInverted_dd4f85, .lookFilled_dd4f85.colorWhite_dd4f85 {
+.lookFilled_dd4f85.colorBrandInverted_dd4f85,
+.lookFilled_dd4f85.colorWhite_dd4f85 {
   background: $main-color;
   color: #fff;
 }
@@ -676,6 +802,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .container_e365d2 {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .imageContainer_e365d2 {
   background: transparent;
 }
@@ -685,15 +812,16 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   background: $main-color;
   color: #fff;
   transition: background .3s ease-in-out;
+
   &:hover {
     background: $hover-color;
-    color: #fff 
+    color: #fff
   }
 }
 
 // Guild Folder Expanded background
 .expandedFolderBackground_bc7085 {
-  background-color:$main-color;
+  background-color: $main-color;
   opacity: .5;
 }
 
@@ -701,12 +829,14 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 .picker_cd703d.refresh_cd703d {
   background-color: cv('bg.general.popout');
 }
+
 .soundButtonRefresh_f40049 {
   background: $main-color;
-  box-shadow:  1px 0 0 $main-color, 0 1px 4px 0 $main-color;
+  box-shadow: 1px 0 0 $main-color, 0 1px 4px 0 $main-color;
+
   &:hover {
     background: $hover-color;
-    box-shadow: 0 1px 0 0 $hover-color,0 1px 4px 0 $hover-color;
+    box-shadow: 0 1px 0 0 $hover-color, 0 1px 4px 0 $hover-color;
   }
 }
 
@@ -722,9 +852,12 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   color: $text-normal;
 }
 
+
+
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
 // it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp] 
 @supports selector(a:has(+ a)) {
+
   .header_f9f2ca:has(.vc-pronoundb-compact) .timestampInline_f9f2ca:last-child,
   [class*='compact'] .header_39b23 .vc-pronoundb-compact:last-child {
     color: $alt-color;
