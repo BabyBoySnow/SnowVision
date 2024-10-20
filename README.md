@@ -83,7 +83,6 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Moved the new message pill to the middle, remove the dividers, made it alt color, and made it square.
 - Changed the server member's list to use alt color for roles and the lines on the side to be main color.
 - Changed server channel catagory names to use alt color. 
-- 
 - Removed some borders and added more shading.
 - Removed glow from the wordmark. Changed to "Winter Wonderland v1.3.4".
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non-Nitro users look cool.
