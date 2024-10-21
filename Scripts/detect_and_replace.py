@@ -31,7 +31,7 @@ def replace_shorthands_in_file(file_path):
             file.write(content)
         print(f"Replaced shorthand variables in {file_path}")
     else:
-        return
+        print(f"No changed needed for {file_path}")
 
 # Define the directory to scan for SCSS files
 def replace_in_directory(directory):
