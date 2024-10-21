@@ -757,9 +757,15 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 }
 
 // Voice chat count 
-.users_a5bc92,
+.users_a5bc92 {
+  color: var(--text-normal);
+  background: rgba(0, 0, 0, .5);
+}
+
 .total_a5bc92 {
   color: $text-normal;
+  background: hsla(0, 0%, 100%, .2);
+  box-shadow: inset 1px 0 hsla(0, 0%, 100%, .4);
 }
 
 .modeSelected_d8bfb3 .numberBadge_df8943,
