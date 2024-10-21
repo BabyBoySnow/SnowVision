@@ -1,6 +1,8 @@
 name: Build
 on:
   - push
+  - workflow_dispatch
+
 jobs:
   project:
     name: Build
