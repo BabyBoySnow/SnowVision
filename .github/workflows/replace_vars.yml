@@ -1,9 +1,13 @@
 name: Replace Shorthands
 
 on:
-  - push
-  - pull_request
-  - workflow_dispatch
+  push:
+    branches:
+      - '**'  # Trigger on all branches
+    tags-ignore:
+      - '*'   # Ignore all tags
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   replace_shorthands:
