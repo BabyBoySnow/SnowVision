@@ -1,4 +1,14 @@
-/* Vencord Read All */
+/**
+
+ * @name Vencord read all mod
+ * @author therealjustsnow
+ * @version 1
+ * @description An addon to the Winter Wonderland theme
+ * @source https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/vencord_read_all_mod.css
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85 {
     position: relative;
     background: linear-gradient(.25turn, var(--main-color), var(--hover-color));
