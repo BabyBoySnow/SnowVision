@@ -815,8 +815,14 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
   opacity: .5;
 }
 
+// Shiki Code Blocks for vencord
 .shiki-root {
-  background-color: rgba(0, 0, 0, calc($bg-shading * 0.2)) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+// Server Settings > members
+.roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1 {
+  background: $hover-color;
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
