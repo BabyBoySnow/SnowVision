@@ -2782,7 +2782,7 @@ pre {
 .questName_c2d7e2 {
   @extend %discoverQuestItemName !optional;
 }
-.debugPanelStandalone_feab95 {
+.container_feab95 {
   @extend %connectionDebugPopout !optional;
 }
 .popoutText_c73c22 {
@@ -3297,6 +3297,12 @@ pre {
 }
 .roleRow_a930f1 {
   @extend %guildSettingsRoleRow !optional;
+}
+.movedTable_dd2627 {
+  @extend %guildSettingsMembersMoved !optional;
+}
+.bannerContainer_cc2901 {
+  @extend %guildSettingsShowMembersInChannelList !optional;
 }
 .roleRowDisableHover_a930f1 {
   @extend %guildSettingsRoleRowDisabled !optional;
