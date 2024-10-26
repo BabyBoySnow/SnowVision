@@ -50,7 +50,8 @@ Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this u
 
 ### For Replugged (Coming Soon)
 
-Support for Replugged is currently in development. Stay tuned for updates!
+Support for Replugged is not possible due to this being a fork and writing changes on top of the original code. 
+if you're using replugged but would like to use this fork I'd recommened switching to [Vencord](https://vencord.dev/)
 
 ## Building from source
 
@@ -84,9 +85,8 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Changed the server member's list to use alt color for roles and the lines on the side to be main color.
 - Changed server channel catagory names to use alt color. 
 - Removed some borders and added more shading.
-- Removed glow from the wordmark. Changed to "Winter Wonderland v1.3.4".
+- Removed glow from the wordmark. Changed to "Winter Wonderland v1.4.4".
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non-Nitro users look cool.
-- Applied snippet to fit long plugin names inside the box.
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to match user background to chat background.
 - Theme button white's to main color. 
 - Make text box use background-shading.
@@ -95,7 +95,7 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Rounded a few buttons.
 - Darkened Vencord plugin boxes.
 - Changed Vencord plugin info text color to white (`#fff`).
-- Changed the status on the profile pop outs. Further adjustment needed.
+- Changed the status on the profile pop outs.
 - Change the guild folders to be slightly transparent version of main color.
 - Slightly darken the voice count.
 - Support for vencord plugin to send voice messages.
