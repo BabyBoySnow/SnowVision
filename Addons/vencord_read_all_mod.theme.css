@@ -24,6 +24,7 @@ button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85
 
 button.vc-ranb-button.button_dd4f85.lookFilled_dd4f85.sizeMin_dd4f85.grow_dd4f85:hover {
     filter: brightness(1);
+    background: linear-gradient(.25turn, var(--main-color), var(--hover-color));
 }
 
 
