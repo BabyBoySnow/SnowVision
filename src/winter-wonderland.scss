@@ -597,6 +597,8 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   display: none;
 }
 
+
+
 %statusBubbleOuter:before {
   display: none;
 }
@@ -637,6 +639,11 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %customProfile %themeDark %statusBubbleOuter {
   border: transparent;
+}
+
+%customProfile%themeDark %statusBubbleOuter:after,
+%customProfile%themeDark %statusBubbleOuter:before {
+  display:none
 }
 
 %customProfile  %background {
