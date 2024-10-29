@@ -643,9 +643,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %customProfile%themeDark %userProfileStatusBubbleOuter:before {
   display: none;
-  &:after {
-    display: none;
-  }
+}
+
+%customProfile%themeDark %userProfileStatusBubbleOuter:after {
+  display: none;
 }
 
 %customProfile  %background {
