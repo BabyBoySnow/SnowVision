@@ -17,25 +17,20 @@
 
 /* SETTINGS */
 :root {
-  /*
-    * Spacing
-    */
+  /* SPACING */
   --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
   --rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
   --rs-large-spacing: 0px; /* Gap between avatar and status for User profiles | MUST end in px */
-  /*
-      * Widths
-      */
+
+  /* WIDTH */
   --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-  /*
-      * Shape
-      */
+
+  /* AVATAR SHAPE */
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-  /*
-      * Colours
-      */
+
+  /* COLORS */
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
   --rs-dnd-color: #982929; /* Colour for dnd status */
@@ -44,11 +39,9 @@
   --rs-invisible-color: #808080; /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-self-speaking-color: hsl(180, 95%, 76%); /* Colour for speaking ring in the bottom left while in a voice chat/call */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone  */
-  /*
-      * Others
-      */
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 
+  /* OTHER */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   --server-size: 48px;
 
   /* ACCENT COLORS */
