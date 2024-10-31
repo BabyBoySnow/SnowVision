@@ -83,8 +83,8 @@
   --background-size: cover; /* app background size [default:cover] */
   --background-repeat: no-repeat; /* app background repeat [default:no-repeat] */
   --background-attachment: fixed; /* app background attachment [default:fixed] */
-  --background-brightness: 80%; /* app background brightness (< 100% for darken,> 100% for lighten) [default:80%] */
-  --background-contrast: 80%; /* app background contrast [default:100%] */
+  --background-brightness: 90%; /* app background brightness (< 100% for darken,> 100% for lighten) [default:90%] */
+  --background-contrast: 90%; /* app background contrast [default:90%] */
   --background-saturation: 100%; /* app background saturation [default:100%] */
   --background-invert: 0%; /* app background invert (0 - 100%)  [default:0%] */
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default:0%] */
@@ -98,7 +98,7 @@
 
   /* CHANNEL COLORS */
   --channel-unread: var(--alt-color); /* Unread Server channel color. [default:var(--alt-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 0.6); /*Read Server channel color  [default:rgba(255,255,255,0.6)]*/
+  --channel-color: rgba(255, 255, 255, 1); /*Read Server channel color  [default:rgba(255,255,255,1)]*/
   --channel-text-selected: #fff; /* Selected channel text color,[default:#fff] */
   --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default:rgba(255,255,255,0.1)]*/
 
