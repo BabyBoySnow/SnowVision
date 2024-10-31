@@ -110,10 +110,12 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
 To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes:
    - a change to the behavior of the vencord read all plugin. 
-   - a change to code blocks which requires the custom font [Fira Code](https://github.com/tonsky/FiraCode/releases)
+   - a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
+   - a change to the message box to have a breathing effect.
 
 
 ## Scripts
 Any scripts I make to aid will be included. Currently includes:
 - the file I use to automatically detect if there is any versions of variables that can be converted into 
 shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)
+- a file to update raw css with the [placeholders.](https://github.com/BabyBoySnow/SnowVision/blob/master/lib/selectors/selectorPlaceholders.scss)
