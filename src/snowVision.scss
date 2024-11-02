@@ -842,13 +842,23 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   color: $main-color;
 }
 
-/* server context menu -> boost this server */
+// server context menu -> boost this server 
 %guildBoostMural {
-  background: var(--background-overlay)
+  background: transparent;
 }
 
 %boostThisServerButton {
-  color: #ffffff
+  color: #ffffff;
+}
+
+
+// Button shine 
+%buttonShineInner {
+  background-color: $alt-color;
+}
+
+%buttonShine {
+  background-color: $alt-color;
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists, 
