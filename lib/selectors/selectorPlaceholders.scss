@@ -5835,5 +5835,11 @@ pre {
   @extend %groupSpacing16 !optional;
 }
 .increasedActivityMainCard-2ry6hI {
-  @extend %ActivityMainCard !optional;
+  @extend %activityMainCard !optional;
+}
+.header_a50853 {
+  @extend %guildBoostMural !optional;
+}
+.guildBoostCtaBoostContent_cbe7a3 {
+  @extend %boostThisServerButton !optional;
 }
