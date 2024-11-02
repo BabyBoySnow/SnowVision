@@ -458,14 +458,14 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %buttonFilled%buttonColorWhite {
   color: #fff !important;
-  background: $main-color !important;
-  border: transparent;
+  background: transparent !important;
+  border: 1px solid $main-color !important;
 
   &:hover {
     color: #fff !important;
     background: transparent !important;
     border: 2px solid $hover-color !important;
-    transition: .5s ease-in-out !important;
+    transition: border .5s ease-in-out !important;
   }
 }
 
@@ -795,8 +795,9 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %buttonFilled%buttonColorBrandInverted,
 %buttonFilled%buttonColorWhite {
-  background: $main-color;
+  background: transparent;
   color: #fff;
+  border: 1px solid $main-color !important;
 }
 
 // Poll Results 
