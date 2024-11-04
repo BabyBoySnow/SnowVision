@@ -3,9 +3,9 @@ name: Replace Shorthands
 on:
   push:
     branches:
-      - '**'  # Trigger on all branches
+      - '**' # Trigger on all branches
     tags-ignore:
-      - '*'   # Ignore all tags
+      - '*' # Ignore all tags
   pull_request:
   workflow_dispatch:
 

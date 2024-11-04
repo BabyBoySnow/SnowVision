@@ -11,9 +11,7 @@
 %message {
   // HEADER
   %avatarLarge {
-    transition:
-      all 0.3s ease-in-out,
-      transform 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out, transform 0.1s ease-in-out;
     &:active {
       transform: scale(0.9);
     }

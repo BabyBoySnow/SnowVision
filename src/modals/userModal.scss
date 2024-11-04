@@ -64,9 +64,7 @@
         background: linear-gradient(to top, transparent, hsla(0, 0%, 100%, 0.05) 50%);
         border-radius: 3px 3px 0 0;
         opacity: 0;
-        transition:
-          all 0.15s ease-in-out,
-          bottom 0.2s ease-in-out;
+        transition: all 0.15s ease-in-out, bottom 0.2s ease-in-out;
         z-index: -1;
       }
       &:after {

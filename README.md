@@ -27,7 +27,8 @@
 </div>
 
 ## Credit
-Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this up and running! 
+
+Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this up and running!
 
 ## Installation
 
@@ -50,7 +51,7 @@ Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this u
 
 ### For Replugged (Coming Soon)
 
-Support for Replugged is not possible due to this being a fork and writing changes on top of the original code. 
+Support for Replugged is not possible due to this being a fork and writing changes on top of the original code.
 if you're using replugged but would like to use this fork I'd recommened switching to [Vencord](https://vencord.dev/)
 
 ## Building from source
@@ -83,12 +84,12 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Change activety text's to use the alt-color.
 - Moved the new message pill to the middle, remove the dividers, made it alt color, and made it square.
 - Changed the server member's list to use alt color for roles and the lines on the side to be main color.
-- Changed server channel catagory names to use alt color. 
+- Changed server channel catagory names to use alt color.
 - Removed some borders and added more shading.
 - Removed glow from the wordmark. Changed to "Winter Wonderland v1.4.4".
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to make non-Nitro users look cool.
 - Used snippet from [NyxIsBad](https://github.com/NyxIsBad) to match user background to chat background.
-- Theme button white's to main color. 
+- Theme button white's to main color.
 - Make text box use background-shading.
 - Enhanced pings to stand out more.
 - Changed the border on the Spotify controls plugin for Vencord.
@@ -109,13 +110,15 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 
 Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
 To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes:
-   - a change to the behavior of the vencord read all plugin. 
-   - a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
-   - a change to the message box to have a breathing effect.
 
+- a change to the behavior of the vencord read all plugin.
+- a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
+- a change to the message box to have a breathing effect.
 
 ## Scripts
+
 Any scripts I make to aid will be included. Currently includes:
-- the file I use to automatically detect if there is any versions of variables that can be converted into 
-shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)
+
+- the file I use to automatically detect if there is any versions of variables that can be converted into
+  shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)
 - a file to update raw css with the [placeholders.](https://github.com/BabyBoySnow/SnowVision/blob/master/lib/selectors/selectorPlaceholders.scss)
