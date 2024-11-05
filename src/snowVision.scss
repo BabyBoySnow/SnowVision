@@ -844,7 +844,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %boostThisServerButton {
-  color: #ffffff;
+  color: #fff;
 }
 
 // Button shine
@@ -857,6 +857,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 %motion %buttonShine {
   animation-duration: 4s;
+}
+
+%replySpine {
+  border-color: $alt-color;
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
