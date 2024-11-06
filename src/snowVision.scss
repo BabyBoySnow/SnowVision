@@ -859,8 +859,19 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   animation-duration: 4s;
 }
 
+
+// Reply
 %replySpine {
   border-color: $alt-color;
+}
+
+// user settings, server boost
+%boostNewHome {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+%freeBoost {
+  border-radius: 8px 8px 0 0;
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
