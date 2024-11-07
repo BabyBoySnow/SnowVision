@@ -1,3 +1,5 @@
+// TODO:  Clean up duty, 
+
 %nitroShopGiftNitro {
   color: white;
 }
@@ -133,7 +135,7 @@
 
 %titlebarWin > %titlebarWordmark:after {
   color: $alt-color;
-  content: 'v1.5.4';
+  content: 'v1.5.5';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
 }
@@ -160,8 +162,8 @@ button%panelButton%panelButtonEnabled:hover {
   background-color: hsla(0, 0%, 30%, 0.5);
 }
 
-%ActivityMainCard%forumListOpen,
-%ActivityMainCard%forumIncreasedOpenCard,
+%forumListOpen,
+%forumIncreasedOpenCard,
 %mainCard%forumListOpen,
 %mainCard%forumIncreasedOpenCard {
   background-color: rgba(0, 0, 0, 0.4);
@@ -317,7 +319,7 @@ button%panelButton%panelButtonEnabled:hover {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
 
-%userPopoutOuter%userProfileOuterUnthemed:not(%userPopoutCustomizationPreview) %userPopoutInner::before {
+%userPopoutInner::before {
   display: none;
 }
 
@@ -364,65 +366,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background: rgba(0, 0, 0, 0.4);
 }
 
-//Nyx Stuff
-//profile animations
-%userProfileOuter {
-  overflow: visible;
-}
-
-%userPopoutOuter%userProfileOuterUnthemed:not(%userPopoutCustomizationPreview)::after {
-  content: '';
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  bottom: -5px;
-  left: -5px;
-  background: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
-  background-size: 300%;
-  width: calc(100% + 10px);
-  height: calc(100% + 10px);
-  animation: border 6s linear infinite;
-  z-index: -99;
-  filter: blur(5px);
-}
-
-%bannerSVGWrapper {
-  border-radius: 8px 8px 0 0;
-}
-
-//Match User bg to chat bg
-%userPopoutOuter%userProfileOuterUnthemed:not(%userPopoutCustomizationPreview) %userPopoutInner {
-  background: rgba(0, 0, 0, calc($bg-shading * 0.5));
-}
-
-%webhookBackground:has(%userPopoutOuter%userProfileOuterUnthemed:not(%userPopoutCustomizationPreview))::before {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: var(--user-popout-image) 0 0/100% 100% var(--user-popout-repeat) fixed;
-  filter: grayscale(var(--user-popout-grayscale)) sepia(var(--user-popout-sepia)) invert(var(--user-popout-invert)) brightness(var(--user-popout-brightness)) contrast(var(--user-popout-contrast)) saturate(var(--user-popout-saturation)) blur(var(--user-popout-blur));
-  width: auto;
-  height: auto;
-  z-index: -1;
-}
-
-%webhookBackground::after {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: var(--background-overlay);
-  width: auto;
-  height: auto;
-  z-index: -1;
-}
-
-%userPopoutOuter%userProfileOuterUnthemed:not(%userPopoutCustomizationPreview) %userPopoutInner::before {
+%userPopoutInner::before {
   display: none;
 }
 
@@ -473,7 +417,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 // Mod View
-%serverGuideMessage%userPopoutOuter,
+%serverGuideMessage,
 %serverGuideMessage%userProfileOuter {
   background: transparent !important;
 }
@@ -717,11 +661,19 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 // Bots...why are they different??????
-%userProfileOuterUnthemed %userProfileStatusBubbleOuter::before {
+ %userProfileStatusBubbleOuter::before {
   display: none;
 }
 
-%userProfileOuterUnthemed %userProfileStatusBubbleOuter::after {
+ %userProfileStatusBubbleOuter::after {
+  display: none;
+}
+
+// TODO: Clean these up. 
+%userProfileStatusBubbleOuter:before {
+  display:none
+}
+%userProfileStatusBubbleOuter:after {
   display: none;
 }
 
