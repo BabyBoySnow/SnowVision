@@ -1,4 +1,4 @@
-// TODO:  Clean up duty, 
+// TODO:  Clean up duty,
 
 %nitroShopGiftNitro {
   color: white;
@@ -624,6 +624,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %userProfileStatusBubble {
   background: transparent;
+  border: 1px solid $main-color;
 }
 
 %customProfile %themeDark %userProfileStatusBubbleOuter {
@@ -661,17 +662,17 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 // Bots...why are they different??????
- %userProfileStatusBubbleOuter::before {
+%userProfileStatusBubbleOuter::before {
   display: none;
 }
 
- %userProfileStatusBubbleOuter::after {
+%userProfileStatusBubbleOuter::after {
   display: none;
 }
 
-// TODO: Clean these up. 
+// TODO: Clean these up.
 %userProfileStatusBubbleOuter:before {
-  display:none
+  display: none;
 }
 %userProfileStatusBubbleOuter:after {
   display: none;
@@ -810,7 +811,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %motion %buttonShine {
   animation-duration: 4s;
 }
-
 
 // Reply
 %replySpine {
