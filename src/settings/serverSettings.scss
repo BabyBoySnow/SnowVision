@@ -101,6 +101,9 @@
   %guildSettingsEmojiCard:before,
   %guildSettingsEmojiRemove {
     background-color: hsla(0, 0%, 0%, 0.4);
+    &:hover {
+      background-color: $hover-color;
+    }
   }
 }
 %guildSettingsEmojiRow {
