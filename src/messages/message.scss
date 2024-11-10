@@ -52,7 +52,7 @@
 // LINKS
 %markup a,
 %anchor {
-  color: var(--url-color);
+  color: var(--url-color) !important;
 }
 %messageSystemContent {
   %anchorAction {
