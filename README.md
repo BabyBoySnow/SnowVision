@@ -34,7 +34,7 @@ Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this u
 
 ### Winter Wonderland
 
-1. Download the [Winter Wonderland CSS file](https://github.com/BabyBoySnow/SnowVision/blob/master/Winter%20Wonderland.css).
+1. Download the [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css).
 2. Move it to your theme folder.
 3. This theme uses the Amazon Kindle font ["Bookerly"](https://www.cufonfonts.com/font/bookerly) and a custom font ["Lovely Home"](https://www.dafont.com/lovely-home.font).
 
@@ -51,8 +51,11 @@ Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this u
 
 ### For Replugged (Coming Soon)
 
-Support for Replugged is not possible due to this being a fork and writing changes on top of the original code.
-if you're using replugged but would like to use this fork I'd recommened switching to [Vencord](https://vencord.dev/)
+1. Download the theme from [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css)
+2. (Optional) Customize it to your hearts content.
+3. Convert it using https://replugged-org.github.io/theme-converter/
+4. Go into settings, find "themes" and install it in there somewhere.
+Alternatively throw everything into custom CSS.
 
 ## Building from source
 
