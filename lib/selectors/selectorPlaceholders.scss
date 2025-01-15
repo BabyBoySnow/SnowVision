@@ -1533,7 +1533,7 @@
 .textContainer_d8f41e {
   @extend %nitroGiftTextContainer !optional;
 }
-.innerWrapper_c511e4 {
+.innerWrapperV1_c511e4 {
   @extend %nitroFooterInnerWrapper !optional;
 }
 .allPerksScroller_ed2e7b {
@@ -1858,25 +1858,25 @@
 .textLink_f61cb8 {
   @extend %activityInviteTextLink !optional;
 }
-.attachment_b52bef {
+.fileWrapper_f46c86 {
   @extend %attachment !optional;
 }
 .embedWrapper_b558d0 {
   @extend %attachmentEmbedWrapper !optional;
 }
-.icon_b52bef {
+.icon_f46c86 {
   @extend %attachmentIcon !optional;
 }
-.attachmentInner_b52bef {
+.fileInner_f46c86 {
   @extend %attachmentInner !optional;
 }
-.filenameLinkWrapper_b52bef {
+.filenameLinkWrapper_f46c86 {
   @extend %fileNameLinkWrapper !optional;
 }
-.fileNameLink_b52bef {
+.fileNameLink_f46c86 {
   @extend %fileNameLink !optional;
 }
-.metadata_b52bef {
+.metadata_f46c86 {
   @extend %fileMetadata !optional;
 }
 .downloadButton__3fb6d {
@@ -1897,11 +1897,11 @@
 .progressBar_c6473a {
   @extend %fileProgressBar !optional;
 }
-.cancelButton_b52bef {
+.cancelButton_f46c86 {
   @extend %attachmentCancelButton !optional;
 }
 .downloadButton__3fb6d,
-.cancelButton_b52bef {
+.cancelButton_f46c86 {
   @extend %attachmentButton !optional;
 }
 .inline {
@@ -5633,7 +5633,7 @@ pre {
 .buttonShine_fb742e {
   @extend %buttonShine !optional;
 }
-.background_d22603 {
+.background_a82ccc {
   @extend %background !optional;
 }
 .selected_ae80f7 {
@@ -5711,7 +5711,7 @@ pre {
 .selectedScreen_ba4b17 {
   @extend %selectedScreen !optional;
 }
-.background_d0a252 {
+.background_af9888 {
   @extend %background !optional;
 }
 .topicsScroller_cf58b5 {
@@ -5720,7 +5720,7 @@ pre {
 .wrapper__8436d {
   @extend %wrapper !optional;
 }
-.statusText_d22603 {
+.statusText_a82ccc {
   @extend %statusText !optional;
 }
 .beforeGroup_d5deea {
@@ -5750,7 +5750,7 @@ pre {
 .summaryEndIcon_cabeb6 {
   @extend %summaryEndIcon !optional;
 }
-.statusBubbleShape_d22603 {
+.statusBubbleShape_a82ccc {
   @extend %statusBubbleShape !optional;
 }
 .giftCardButton_d8f41e {
@@ -5759,10 +5759,10 @@ pre {
 .container_d523a2 {
   @extend %container !optional;
 }
-.statusBubbleOuter_d22603 {
+.statusBubbleOuter_a82ccc {
   @extend %statusBubbleOuter !optional;
 }
-.statusBubble_d22603 {
+.statusBubble_a82ccc {
   @extend %statusBubble !optional;
 }
 .topicsPillTextSelected_cf58b5 {
