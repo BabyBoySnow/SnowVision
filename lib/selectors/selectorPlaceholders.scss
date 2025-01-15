@@ -5813,3 +5813,6 @@ pre {
 .panel_c69a7b { 
 @extend %panel !optional;
  }
+ .blockedIgnoredSettingsNotice_e40e0c {
+  @extend %lookingForBlocked !optional;
+}

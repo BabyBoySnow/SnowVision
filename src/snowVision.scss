@@ -826,6 +826,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   border-radius: 8px 8px 0 0;
 }
 
+%lookingForBlocked {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 // Temp Fix for user popout in dm's
 :root %panel {
   background: rgba(0, 0, 0, 0.6);
