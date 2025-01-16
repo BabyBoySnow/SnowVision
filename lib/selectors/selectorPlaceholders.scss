@@ -5819,3 +5819,6 @@ pre {
 .blockedIgnoredSettingsNotice_e40e0c {
   @extend %lookingForBlocked !optional;
 }
+.lastPlayed_fd966d {
+  @extend %gamesLastPlayedTime !optional;
+}
