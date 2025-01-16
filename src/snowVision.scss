@@ -833,9 +833,9 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %gamesLastPlayedTime  {
   color: $text-normal;
 }
-// Temp Fix for user popout in dm's
-:root %panel {
-  background: rgba(0, 0, 0, 0.6);
+
+%voiceMessagePlaying %voiceMessagePlayButtonContainer {
+  background: $hover-color;
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
