@@ -5822,3 +5822,13 @@ pre {
 .lastPlayed_fd966d {
   @extend %gamesLastPlayedTime !optional;
 }
+.recorderContainer_fb7bb2 {
+  @extend %keybindRecordingContainer !optional;
+}
+
+.recording_fb7bb2 {
+  @extend %keybindRecordingActive !optional;
+}
+.addKeybindButton_fb7bb2 {
+  @extend %keybindAdd !optional;
+}
