@@ -2561,16 +2561,19 @@ pre {
 .footer_c5a065 {
   @extend %authModalFooter !optional;
 }
-.outer_c69a7b {
+.outer_c69a7b,
+.outer_af9888 {
   @extend %userProfileOuter !optional;
 }
 .custom-profile-theme {
   @extend %userProfileCustomTheme !optional;
 }
-.inner_c69a7b {
+.inner_c69a7b,
+.inner_af9888:after {
   @extend %userProfileInner !optional;
 }
-.biteSize_c69a7b {
+.biteSize_c69a7b,
+.biteSize_af9888 {
   @extend %userProfileSmall !optional;
 }
 .fullSize_c69a7b {
