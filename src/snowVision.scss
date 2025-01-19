@@ -539,18 +539,20 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 // Add a status - full profile view
-%themeDark %statusBubbleOuter:before {
-  display: none;
+%themeDark %statusBubbleOuter {
+  &:before {
+    display: none;
+  }
 }
 
-%statusBubbleOuter:before {
-  display: none;
+%statusBubbleOuter {
+  &:before {
+    display: none;
+  }
+  &:after {
+    display: none;
+  }
 }
-
-%statusBubbleOuter:after {
-  display: none;
-}
-
 %customProfile %background {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
@@ -579,6 +581,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %themeDark %statusBubbleOuter {
   border: transparent;
+}
+
+%themeDark %userProfileOuter {
+  border: 1px solid $main-color;
 }
 
 %customProfile %themeDark %statusBubbleOuter {
@@ -632,6 +638,9 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %customProfile %themeDark %userProfileStatusBubbleOuter {
   border: 1px solid $main-color;
+}
+%userProfileInner {
+  background: rgba(0, 0, 0, 0.6)
 }
 
 %messageButtonWrapper %messageButton:hover {
