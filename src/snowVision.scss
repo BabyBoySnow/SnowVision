@@ -545,6 +545,11 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   }
 }
 
+%userProfileOuter {
+  &:before {display: none;}
+  &:after {display: none;}
+}
+
 %statusBubbleOuter {
   &:before {
     display: none;
@@ -587,19 +592,19 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   border: 1px solid $main-color;
 }
 
-%customProfile %themeDark %statusBubbleOuter {
+%userProfileCustomTheme%themeDark %statusBubbleOuter {
   border: transparent;
 }
 
-%customProfile%themeDark %userProfileStatusBubbleOuter:before {
+%userProfileCustomTheme%themeDark %userProfileStatusBubbleOuter:before {
   display: none;
 }
 
-%customProfile%themeDark %userProfileStatusBubbleOuter:after {
+%userProfileCustomTheme%themeDark %userProfileStatusBubbleOuter:after {
   display: none;
 }
 
-%customProfile %background {
+%userProfileCustomTheme %background {
   --custom-status-bubble-background-coloor: transparent;
 }
 
@@ -623,11 +628,11 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background: transparent;
 }
 
-%customProfile %themeDark %userProfileStatusBubbleOuter:before {
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:before {
   display: none;
 }
 
-%customProfile %themeDark %userProfileStatusBubbleOuter:after {
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:after {
   display: none;
 }
 
@@ -636,13 +641,15 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   border: 1px solid $main-color;
 }
 
-%customProfile %themeDark %userProfileStatusBubbleOuter {
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter {
   border: 1px solid $main-color;
 }
 %userProfileInner {
   background: rgba(0, 0, 0, 0.6)
 }
-
+%userProfileCustomTheme%themeDark %userProfileOuter {
+  border: 1px solid $main-color;
+}
 %messageButtonWrapper %messageButton:hover {
   background-color: $main-color;
 }
@@ -652,7 +659,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   border: transparent;
 }
 
-%customProfile %container {
+%userProfileCustomTheme %container {
   background: transparent;
   border-color: transparent;
 }
