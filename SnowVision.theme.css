@@ -50,7 +50,8 @@
   --hover-color: rgba(227, 61, 148, 1); /* hover accent color (hex,rgb or hsl) [default: rgba(227, 61, 148, 1)] */
   --success-color: #43b581; /* success accent color (hex,rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex,rgb or hsl) [default: #982929] */
-  --url-color: var(--alt-color); /*The color of url links [default: var(--main-color)]*/
+  --url-color: var(--alt-color); /*The color of url links [default: var(--alt-color)]*/
+  --focus-color: var(--main-color) /* focus accent color [default: var(--focus-primary)] */
 
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex,rgb or hsl) [default: #43b581] */
