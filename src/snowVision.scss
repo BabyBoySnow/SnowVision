@@ -589,7 +589,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %themeDark %statusBubbleOuter {
-  border: transparent;
+  border: 1px solid $main-color;
 }
 
 %themeDark %userProfileOuter {
@@ -597,7 +597,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %userProfileCustomTheme%themeDark %statusBubbleOuter {
-  border: transparent;
+  border: 1px solid $main-color;
 }
 
 %userProfileCustomTheme%themeDark %userProfileStatusBubbleOuter:before {
@@ -660,12 +660,12 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %container {
   background: transparent;
-  border: transparent;
+  border: 1px solid $main-color;
 }
 
 %userProfileCustomTheme %container {
   background: transparent;
-  border-color: transparent;
+  border-color: 1px solid $main-color;
 }
 
 // Gift in chat
