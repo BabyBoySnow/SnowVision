@@ -546,12 +546,8 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %userProfileOuter {
-  &:before {
-    display: none;
-  }
-  &:after {
-    display: none;
-  }
+  &:before {display: none;}
+  &:after {display: none;}
 }
 
 %statusBubbleOuter {
@@ -585,7 +581,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %statusBubble {
   background: rgba(0, 0, 0, 0.8);
-  border: 1px thin $main-color;
+  border: 1px solid $main-color;
 }
 
 %themeDark %statusBubbleOuter {
@@ -593,7 +589,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %themeDark %userProfileOuter {
-  border: 1px thin $main-color;
+  border: 1px solid $main-color;
 }
 
 %userProfileCustomTheme%themeDark %statusBubbleOuter {
@@ -642,17 +638,17 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %userProfileStatusBubble {
   background: transparent;
-  border: 1px thin $main-color;
+  border: 1px solid $main-color;
 }
 
 %userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter {
-  border: 1px thin $main-color;
+  border: 1px solid $main-color;
 }
 %userProfileInner {
   background: rgba(0, 0, 0, 0.6)
 }
 %userProfileCustomTheme%themeDark %userProfileOuter {
-  border: 1px thin $main-color;
+  border: 1px solid $main-color;
 }
 %messageButtonWrapper %messageButton:hover {
   background-color: $main-color;
