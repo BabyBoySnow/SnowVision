@@ -546,8 +546,12 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %userProfileOuter {
-  &:before {display: none;}
-  &:after {display: none;}
+  &:before {
+    display: none;
+  }
+  &:after {
+    display: none;
+  }
 }
 
 %statusBubbleOuter {

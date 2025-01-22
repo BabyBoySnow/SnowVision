@@ -41,16 +41,16 @@
   // STATUS
   %themeDark & %userProfileStatusBubbleOuter {
     background: hsla(0, 0%, 0%, 0.6);
-    border-color: transparent;
+    border-color: 1px solid $main-color;
     &::before {
       background: hsla(0, 0%, 0%, 0.6);
-      border-color: transparent;
+      border-color: 1px solid $main-color;
       height: 10px;
       border-radius: 10px 10px 0 0;
     }
     &::after {
       background: hsla(0, 0%, 0%, 0.6);
-      border-color: transparent;
+      border-color: 1px solid $main-color;
     }
   }
   %userProfileStatusBubble {
