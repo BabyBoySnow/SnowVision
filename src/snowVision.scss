@@ -495,10 +495,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background: rgba(0, 0, 0, 0.8);
 }
 
-%container:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
-
 %thumbIcon {
   color: #fff;
   background: $main-color;
@@ -660,12 +656,12 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %container {
   background: transparent;
-  border: 1px solid $main-color;
+  border: transparent;
 }
 
-%userProfileCustomTheme %container {
+%userProfileCustomTheme %userProfileBadgeList {
   background: transparent;
-  border-color: 1px solid $main-color;
+  border-color: transparent;
 }
 
 // Gift in chat
@@ -706,18 +702,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
 }
 
-// Enable clips now
-%container {
-  background: rgba(0, 0, 0, 0.6);
-}
+
 
 %settingsHeaderText {
   overflow: hidden;
-}
-
-// activity in chat
-%container {
-  background: rgba(0, 0, 0, 0.6);
 }
 
 // Send voice message vencord plugin
@@ -761,10 +749,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   color: #fff !important;
 }
 
-%container {
-  background: transparent;
-}
-
 %buttonFilled%buttonColorBrandInverted,
 %buttonFilled%buttonColorWhite {
   background: transparent;
@@ -772,10 +756,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   border: 1px solid $main-color !important;
 }
 
-// Poll Results
-%container {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
 %imageContainer {
   background: transparent;
@@ -863,6 +843,11 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 
 %keybindRecordingContainer%keybindRecordingActive %keybindAdd {
   color: $text-normal;
+}
+
+// poll results
+%pollEndContainer {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
