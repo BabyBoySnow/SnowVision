@@ -2,10 +2,14 @@
 %messageReqSpam, //spam
 %messageReqActive%messageReqItem, 
 %messageReqItem:hover {
-  background: $hover-color;
+  background: hsla(0, 0%, 100%, 0.1);
   animation: cv-fade-to-8 0.3s ease-in-out;
 }
 /*was it spam*/
 %messageReqSpamCheck {
   background: rgba(0, 0, 0, calc($bg-shading * 0.3));
+}
+
+%messageReqContent {
+  top: -2px;
 }

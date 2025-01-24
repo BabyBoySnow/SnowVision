@@ -5170,6 +5170,9 @@ pre {
 .messageRequestItem_a5de62 {
   @extend %messageReqItem !optional;
 }
+.hovered_e07331 {
+  @extend %messageReqContent !optional;
+}
 .active_a5de62 {
   @extend %messageReqActive !optional;
 }
