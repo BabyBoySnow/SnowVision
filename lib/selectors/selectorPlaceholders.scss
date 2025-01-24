@@ -5864,3 +5864,18 @@ pre {
 .addKeybindButton_fb7bb2 {
   @extend %keybindAdd !optional;
 }
+.nonVisualMediaItem_cda674 {
+  @extend %nonVisualMediaItem !optional;
+}
+.container_d8e2d0 {
+  @extend %textContainerParent !optional;
+}
+.downloadButton_d8e2d0 {
+  @extend %textContainerDownloadButton !optional;
+}
+.toggleExpandSection_d8e2d0 {
+  @extend %textContainerToggleExpandSection !optional;
+}
+.codeIcon_d8e2d0 {
+  @extend %textContainerCodeIcon !optional;
+}
