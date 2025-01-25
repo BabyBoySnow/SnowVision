@@ -72,7 +72,7 @@
   /* APP BACKGROUND */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 0%] */
   --background-overlay: rgba(0, 0, 0, 0.2); /* app background overlay color/gradient [default: rgba(0,0,0,0.2)] */
-  --background-image: url(https://i.imgur.com/8YD6bUK.png); /* app background image (link must be HTTPS) [default: url(https://i.imgur.com/8YD6bUK.png)]*/
+  --background-image: url(https://i.imgur.com/kCndyb2.jpeg); /* app background image (link must be HTTPS) [default: url(https://i.imgur.com/kCndyb2.jpeg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -86,7 +86,7 @@
   --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://i.imgur.com/PmIFJmU.png); /* home button icon (link must be HTTPS) [default: url(https://i.imgur.com/PmIFJmU.png)]*/
+  --home-icon: url(https://i.imgur.com/8YD6bUK.png); /* home button icon (link must be HTTPS) [default: url(https://i.imgur.com/8YD6bUK.png)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 50px; /* home button icon size [default: 50px] */
 
