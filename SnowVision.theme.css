@@ -46,12 +46,12 @@
 
   /* ACCENT COLORS */
   --main-color: hsla(265, 100%, 50%, 1); /* main accent color (hex,rgb or hsl) [default: hsla(265, 100%, 50%, 1)] */
-  --alt-color: rgba(135, 252, 252, 1); /* complimentary color, where main or hover just aren't appropiate. (hex, rgb, or hsl) [default: rgba(135, 252, 252, 1)] */
   --hover-color: rgba(227, 61, 148, 1); /* hover accent color (hex,rgb or hsl) [default: rgba(227, 61, 148, 1)] */
+  --alt-color: rgba(135, 252, 252, 1); /* complimentary color, where main or hover just aren't appropiate. (hex, rgb, or hsl) [default: rgba(135, 252, 252, 1)] */
   --success-color: #43b581; /* success accent color (hex,rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex,rgb or hsl) [default: #982929] */
   --url-color: var(--alt-color); /*The color of url links [default: var(--alt-color)]*/
-  --focus-color: var(--main-color) /* focus accent color [default: var(--focus-primary)] */
+  --focus-color: var(--main-color) /* focus accent color [default: var(--main-color)] */
 
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex,rgb or hsl) [default: #43b581] */
@@ -91,10 +91,11 @@
   --home-size: 50px; /* home button icon size [default: 50px] */
 
   /* CHANNEL COLORS */
+  --channel-color: rgba(255, 255, 255, 1); /*Read Server channel color  [default: rgba(255,255,255,1)]*/
+  --channel-hovered: rgba(255, 255, 255, 2); /* hovered channel text color [default: rgba(255, 255, 255, 2)] */
   --channel-unread: var(--alt-color); /* Unread Server channel color. [default: var(--alt-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(255, 255, 255, 1); /*Read Server channel color  [default: rgba(255,255,255,0.6)]*/
-  --channel-text-selected: #fff; /* Selected channel text color,[default: #fff] */
-  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1)]*/
+  --channel-selected: #fff; /* Selected channel text color,[default: #fff] */
+  --channel-muted: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1)]*/
 
   /* MODAL BACKDROP */
   --backdrop-overlay: rgba(0, 0, 0, 0); /* modal backdrop overlay color/gradient [default: rgba(0,0,0,0)] */
