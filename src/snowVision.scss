@@ -127,6 +127,10 @@
   box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
 }
 
+%channelTextAreaScrollable:focus-within {
+  box-shadow: 0 0 2px 2px $alt-color;
+}
+
 %voiceChannelsButton {
   border: 2px solid $main-color;
 
