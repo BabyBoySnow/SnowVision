@@ -152,3 +152,8 @@
 %chatToolbarIcon {
   color: hsla(0, 0%, 100%, 0.7);
 }
+
+// Create thread
+%createThread {
+  color: var(--url-color) !important;
+}
