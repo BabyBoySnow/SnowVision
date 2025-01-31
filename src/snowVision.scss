@@ -1,7 +1,7 @@
-// Version Control 1.0.2
+// Version Control 1.1.0
 // if changes are made this number should go up
 // Please change this if you've spent time wasted here
-// Total time wasted editing this stuff: ~10:38:51 /sar
+// Total time wasted editing this stuff: ~10:39 /sar
 
 %nitroShopGiftNitro {
   color: white;
@@ -42,6 +42,43 @@
   margin: 10px;
   margin-bottom: 20px;
   background: none;
+}
+%unreadPill {
+  background-color: $alt-color;
+  height: 25px;
+  width: 55px;
+  position: absolute;
+  right: 50%;
+  border-radius: unset;
+  display: flex;
+  padding-left: 6px;
+  color: ivory;
+}
+
+%unreadPillCap {
+  display: none;
+}
+
+%unreadPillCapStroke {
+  fill: $alt-color;
+  color: $alt-color;
+}
+
+%groupSpacing16 %divider%beforeGroup {
+  border-radius: unset;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+%groupSpacing16 %divider%hasContent %unreadPill {
+  display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+%divider%dividerUnread {
+  background: transparent;
+  margin: 1rem;
 }
 
 .song-tIdBpF {
@@ -170,44 +207,6 @@ button%panelButton%panelButtonEnabled:hover {
 %mainCard%forumListOpen,
 %mainCard%forumIncreasedOpenCard {
   background-color: rgba(0, 0, 0, 0.4);
-}
-
-%unreadPill {
-  background-color: $alt-color;
-  height: 25px;
-  width: 55px;
-  position: absolute;
-  right: 50%;
-  border-radius: unset;
-  display: flex;
-  padding-left: 6px;
-  color: ivory;
-}
-
-%unreadPillCap {
-  display: none;
-}
-
-%unreadPillCapStroke {
-  fill: $alt-color;
-  color: $alt-color;
-}
-
-%groupSpacing16 %divider%beforeGroup {
-  border-radius: unset;
-  margin-top: 45px;
-  margin-bottom: 50px;
-}
-
-%groupSpacing16 %divider%hasContent %unreadPill {
-  display: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-%divider%dividerUnread {
-  background: transparent;
-  margin: 1rem;
 }
 
 %newMessagesBar:before {
