@@ -93,7 +93,17 @@
       background-color: hsla(0, 0%, 100%, 0.07);
     }
   }
+
+  // MESSAGE
+  html:not(%visualRefreshChatInput) & %userProfileMessage { 
+    background: rgba( 0, 0, 0, 0.6);
+    border-radius: 8px;
+    &:focus {
+      box-shadow: 0 0 2px 2px $main-color;
+    }
+  }
 }
+
 
 // CUSTOM PROFILE
 %userProfileCustomTheme {
@@ -104,6 +114,12 @@
   }
   %userProfileNote {
     %input:focus {
+      box-shadow: 0 0 2px 2px var(--profile-gradient-primary-color);
+    }
+  }
+  html:not(%visualRefreshChatInput) & %userProfileMessage {
+    border-radius: 8px;
+    &:focus-within {
       box-shadow: 0 0 2px 2px var(--profile-gradient-primary-color);
     }
   }
