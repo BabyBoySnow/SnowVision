@@ -9,3 +9,6 @@ test/
 *.bak
 lib/selectors/*.diff
 detect_and_replace.py
+
+# Presets
+official_presets/
