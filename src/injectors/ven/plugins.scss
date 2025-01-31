@@ -142,3 +142,14 @@
   font-weight: 900;
   margin-left: 42px;
 }
+
+// Read All
+.vc-ranb-button {
+  color: $text-normal;
+  background-color: $main-color;
+  padding: 5px;
+  transition: background-color 1s ease-in-out;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
