@@ -171,9 +171,10 @@ $version: '6.9.0';
 @import 'src/injectors/bd/popouts';
 @import 'src/injectors/bd/sidebar';
 @import 'src/injectors/bd/plugins';
-
-// FIXES
-@import 'src/fixespt2';
+// outdated atm
+/* FIXES
+@import 'src/fixespt2'; */
 
 // CUSTOM SCSS
 @import 'src/snowVision.scss';
+
