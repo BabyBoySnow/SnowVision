@@ -109,8 +109,8 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Edit the keybind recording in settings for voice and video push to talk to make it easier to see while recording.
 - Remove the background of the discord shop so that you can see the custom background.
 - Make it easier to see the last played time for games.
-- Weird pop up about "looking for blocked users?" has been made transparent. 
-- Make forums list title slightly less intrusive. No-one likes a flashbang. 
+- Weird pop up about "looking for blocked users?" has been made transparent.
+- Make forums list title slightly less intrusive. No-one likes a flashbang.
 - Also change the forums user and message content to be easier to see.
 - Add hover effect to emoji remove in server settings.
 - In user settings -> boost, adjust popup about boost having a new home to be slightly transparent, also pad the "boost not used" thing.

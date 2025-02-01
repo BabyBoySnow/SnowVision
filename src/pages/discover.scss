@@ -10,7 +10,6 @@
   border-bottom-color: $main-color !important;
 }
 
-
 // SIDEBAR
 %discoverCategory {
   background-color: transparent;
@@ -88,7 +87,6 @@
   background-color: hsla(0, 0%, 0%, 0.4);
 }
 
-
 // SEARCH RESULTS
 %discoverSearchHeader {
   background: rgba(0, 0, 0, calc($bg-shading * 0.6));
@@ -141,7 +139,7 @@
     }
   }
   %textSmallNormal {
-    color: hsla(0,0%,100%,.7) !important;
+    color: hsla(0, 0%, 100%, 0.7) !important;
   }
 }
 

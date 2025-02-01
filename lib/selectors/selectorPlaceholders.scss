@@ -7847,9 +7847,9 @@ pre {
 .codeIcon__4d95d {
   @extend %textContainerCodeIcon !optional;
 }
-.text__8ac07 { 
-@extend %dmStatusText !optional;
- }
- .createThreadButton__841c8 {
+.text__8ac07 {
+  @extend %dmStatusText !optional;
+}
+.createThreadButton__841c8 {
   @extend %createThread !optional;
- }
+}

@@ -1,8 +1,7 @@
 // CLEARVISION VARIABLES
 $cv: (
   // CONSTANTS
-  constants:
-    (
+  constants: (
       colors: (
         discord-blurple: #5865f2,
         twitch-purple: #9146ff,
@@ -23,11 +22,9 @@ $cv: (
       ),
     ),
   // SETTINGS
-  settings:
-    (
+  settings: (
       // COLORS
-      colors:
-        (
+      colors: (
           main: var(--main-color),
           alt: var(--alt-color),
           hover: var(--hover-color),
@@ -41,8 +38,7 @@ $cv: (
           focus: var(--focus-color),
         ),
       // FONT
-      font:
-        (
+      font: (
           main: var(--main-font),
           code: var(--code-font),
         ),
@@ -53,11 +49,9 @@ $cv: (
       channels-width: var(--channels-width),
       members-width: var(--members-width),
       // BACKGROUNDS
-      bg:
-        (
+      bg: (
           // APP BACKGROUND
-          app:
-            (
+          app: (
               shading: var(--background-shading),
               overlay: var(--background-overlay),
               img: var(--background-image),
@@ -74,8 +68,7 @@ $cv: (
               blur: var(--background-blur),
             ),
           // BACKDROP BACKGROUND
-          backdrop:
-            (
+          backdrop: (
               overlay: var(--backdrop-overlay),
               img: var(--backdrop-image),
               pos: var(--backdrop-position),
@@ -91,8 +84,7 @@ $cv: (
               blur: var(--backdrop-blur),
             ),
           // USER POPOUT BACKGROUND
-          popout:
-            (
+          popout: (
               img: var(--user-popout-image),
               pos: var(--user-popout-position),
               size: var(--user-popout-size),
@@ -108,8 +100,7 @@ $cv: (
               overlay: var(--user-popout-overlay),
             ),
           // USER MODAL BACKGROUND
-          modal:
-            (
+          modal: (
               img: var(--user-modal-image),
               pos: var(--user-modal-position),
               size: var(--user-modal-size),
@@ -124,23 +115,20 @@ $cv: (
               blur: var(--user-modal-blur),
             ),
           // HOME BUTTON BACKGROUND
-          home:
-            (
+          home: (
               icon: var(--home-icon),
               pos: var(--home-position),
               size: var(--home-size),
             ),
           // GENERAL
-          general:
-            (
+          general: (
               popout: var(--popout-color),
-              modal: var(--modal-color)
+              modal: var(--modal-color),
             )
         )
     ),
   // DISCORD
-  discord:
-    (
+  discord: (
       status: (
         online: (
           hex: #3ba55d,

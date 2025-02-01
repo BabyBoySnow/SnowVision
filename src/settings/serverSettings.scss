@@ -155,19 +155,19 @@
 }
 %guildSettingsSafetyRadio,
 %guildSettingsSafetyRadioClickable {
-	background-color: transparent;
+  background-color: transparent;
 }
 %guildSettingsSafetyRadioBG {
-	background-color: hsla(0, 0%, 0%, .4);
+  background-color: hsla(0, 0%, 0%, 0.4);
   &:hover:not(%guildSettingsSafetyRadioDisabled):not(%guildSettingsSafetyRadioNoAction) {
-    background-color: hsla(0, 0%, 0%, .4);
+    background-color: hsla(0, 0%, 0%, 0.4);
   }
   &%guildSettingsSafetyRadioTransparent {
     border-left: 3px solid var(--background-accent);
   }
   &%guildSettingsSafetyRadioSelected {
     &%guildSettingsSafetyRadioGreen {
-        background-color: var(--status-positive);
+      background-color: var(--status-positive);
       &:hover {
         background-color: var(--status-positive);
       }

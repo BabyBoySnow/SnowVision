@@ -11,7 +11,9 @@
 %message {
   // HEADER
   %avatarLarge {
-    transition: all 0.3s ease-in-out, transform 0.1s ease-in-out;
+    transition:
+      all 0.3s ease-in-out,
+      transform 0.1s ease-in-out;
     &:active {
       transform: scale(0.9);
     }
@@ -81,7 +83,7 @@
   %messageRepliedTextPreview {
     opacity: 0.7;
     max-height: unset;
-      color: #fff;
+    color: #fff;
     &%messageRepliedSpineHovered {
       opacity: 1;
     }
