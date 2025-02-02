@@ -538,34 +538,24 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 // Add a status - full profile view
-%themeDark %statusBubbleOuter {
-  &:before {
-    display: none;
-  }
+// Grouping all :before rules that require display: none
+%themeDark %statusBubbleOuter:before,
+%userProfileOuter:before,
+%statusBubbleOuter:before,
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:before {
+  display: none;
 }
 
-%userProfileOuter {
-  &:before {
-    display: none;
-  }
-  &:after {
-    display: none;
-  }
+// Grouping all :after rules that require display: none
+%userProfileOuter:after,
+%statusBubbleOuter:after,
+%themeDark %statusBubbleOuter:after,
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:after {
+  display: none;
 }
 
-%statusBubbleOuter {
-  &:before {
-    display: none;
-  }
-  &:after {
-    display: none;
-  }
-}
+// Background variable declarations
 %customProfile %background {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
-}
-
-%themeDark %background {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -574,53 +564,35 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   --custom-status-bubble-background: rgba(0, 0, 0, 0.4);
 }
 
-%statusText {
-  color: #fff;
-}
-
-%themeDark %statusBubbleOuter:after {
-  display: none;
-}
-
-%statusBubble {
-  background: rgba(0, 0, 0, 0.8);
-  border: 1px solid $main-color;
-}
-
-%themeDark %statusBubbleOuter {
-  border: 1px solid $main-color;
-}
-
-%themeDark %userProfileOuter {
-  border: 1px solid $main-color;
-}
-
-%userProfileCustomTheme%themeDark %statusBubbleOuter {
-  border: 1px solid $main-color;
-}
-
-%userProfileCustomTheme%themeDark %userProfileStatusBubbleOuter:before {
-  display: none;
-}
-
-%userProfileCustomTheme%themeDark %userProfileStatusBubbleOuter:after {
-  display: none;
+%themeDark %background {
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
+  --custom-status-bubble-overlay-color: 0 0 0.6;
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
+  background: transparent;
 }
 
 %userProfileCustomTheme %background {
   --custom-status-bubble-background-coloor: transparent;
 }
 
-%themeDark %background {
-  --custom-status-bubble-overlay-color: 0 0 0.6;
+// Grouping all border rules that use 1px solid $main-color
+%statusBubble,
+%themeDark %statusBubbleOuter,
+%themeDark %userProfileOuter,
+%userProfileCustomTheme %themeDark %statusBubbleOuter,
+%userProfileStatusBubble,
+%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter,
+%userProfileCustomTheme %themeDark %userProfileOuter {
+  border: 1px solid $main-color;
 }
 
-%themeDark %background {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
+// Specific rules that aren't merged with others
+%statusBubble {
+  background: rgba(0, 0, 0, 0.8);
 }
 
-%themeDark %background {
-  background: transparent;
+%statusText {
+  color: #fff;
 }
 
 %statusBubbleShape {
@@ -631,41 +603,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background: transparent;
 }
 
-%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:before {
-  display: none;
-}
-
-%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:after {
-  display: none;
-}
-
-%userProfileStatusBubble {
-  background: transparent;
-  border: 1px solid $main-color;
-}
-
-%userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter {
-  border: 1px solid $main-color;
-}
 %userProfileInner {
   background: rgba(0, 0, 0, 0.6);
 }
-%userProfileCustomTheme%themeDark %userProfileOuter {
-  border: 1px solid $main-color;
-}
-%messageButtonWrapper %messageButton:hover {
-  background-color: $main-color;
-}
 
-%container {
-  background: transparent;
-  border: transparent;
-}
-
-%userProfileCustomTheme %userProfileBadgeList {
-  background: transparent;
-  border-color: transparent;
-}
 
 %themeDark %userProfileStatusBubbleOuter {
   background: rgba(0, 0, 0, 0.6);
