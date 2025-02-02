@@ -57,7 +57,7 @@
 
 // REPLY
 %messageReplied {
-  color: var(--text-normal)
+  color: $text-normal
 }
 %messageRepliedSpine {
   border-color: $main-color;
