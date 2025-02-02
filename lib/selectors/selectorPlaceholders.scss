@@ -2330,7 +2330,7 @@
 }
 
 .memberInner__5d473 {
-  @extend %memberLayout !optional;
+  @extend %memberInner !optional;
 }
 
 .avatar__91a9d {
@@ -2352,7 +2352,9 @@
 .username__5d473 {
   @extend %memberUsername !optional;
 }
-
+.username__703b9 {
+  @extend %memberUsernameInner !optional;
+}
 .ownerIcon__5d473 {
   @extend %memberOwnerIcon !optional;
 }
