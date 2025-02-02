@@ -2,7 +2,9 @@
 
 // HEADER
 %messageAvatar {
-  transition: all 0.3s ease-in-out, transform 0.1s ease-in-out;
+  transition:
+    all 0.3s ease-in-out,
+    transform 0.1s ease-in-out;
   &%messageAvatarClickable:active {
     transform: scale(0.9);
   }
@@ -57,7 +59,7 @@
 
 // REPLY
 %messageReplied {
-  color: $text-normal
+  color: $text-normal;
 }
 %messageRepliedSpine {
   border-color: $main-color;
@@ -174,7 +176,7 @@
   }
 }
 %messageAutomodFooterIcon path {
-  fill: $main-color
+  fill: $main-color;
 }
 
 // free nitro trial...idk where to put this - Snow
