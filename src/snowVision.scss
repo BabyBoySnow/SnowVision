@@ -566,7 +566,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 %themeDark %background {
-  --custom-statys-bubble-background-color: rgba(0, 0, 0, 0.4);
+  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
 
 %background {
@@ -665,6 +665,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileCustomTheme %userProfileBadgeList {
   background: transparent;
   border-color: transparent;
+}
+
+%themeDark %userProfileStatusBubbleOuter {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 // Gift in chat
