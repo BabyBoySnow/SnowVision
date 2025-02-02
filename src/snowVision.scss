@@ -1,42 +1,30 @@
-// Version Control 1.1.0
-// if changes are made this number should go up
-// Please change this if you've spent time wasted here
-// Total time wasted editing this stuff: ~10:39 /sar
-
 %nitroShopGiftNitro {
   color: white;
 }
-
 %forumTag,
 %forumIncreasedTag {
   background: $bg-shading;
   border: $main-color;
 }
-
 %dividerUnread %dividerDate {
   color: $main-color;
   margin-bottom: 2rem;
   margin-right: 3rem;
 }
-
 %divider:has(%dividerDate) {
   background: transparent;
 }
-
 %divider%dividerUnread:has(%dividerDate) {
   background: transparent;
 }
-
 %groupSpacing16 %divider%hasContent {
   border: none;
   background: none;
 }
-
 %divider {
   border: none;
   background: none;
 }
-
 %groupSpacing16 %divider {
   border: none;
   margin: 10px;
@@ -54,111 +42,89 @@
   padding-left: 6px;
   color: ivory;
 }
-
 %unreadPillCap {
   display: none;
 }
-
 %unreadPillCapStroke {
   fill: $alt-color;
   color: $alt-color;
 }
-
 %groupSpacing16 %divider%beforeGroup {
   border-radius: unset;
   margin-top: 45px;
   margin-bottom: 50px;
 }
-
 %groupSpacing16 %divider%hasContent %unreadPill {
   display: none;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 %divider%dividerUnread {
   background: transparent;
   margin: 1rem;
 }
-
 .song-tIdBpF {
   font-weight: 500;
   color: $alt-color;
 }
-
 .interpret-F93iqP {
   font-weight: 500;
   font-size: 14px;
   color: $alt-color;
 }
-
 %members %member %memberActivityText {
   color: $alt-color;
   transition: all 0.3s ease-in-out;
 }
-
 %members %member %memberActivityText strong {
   color: $alt-color;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-
 %privateChannels %privateChannel %privateChannelInteractive %privateChannelActivityText strong {
   color: $alt-color;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
 }
-
 %privateChannelActivity {
   color: $alt-color;
 }
-
 //remove borders from friends list
 %friendsItem {
   border-top: transparent;
 }
-
 // Message bar
 %channelTextArea:focus-within {
   box-shadow: 0 0 2px 2px $alt-color;
 }
-
 %channelTextArea {
   box-shadow: 0 0 2px 2px hsla(0, 0%, 51%, 0.5);
 }
-
 %channelTextAreaScrollable:focus-within {
   box-shadow: 0 0 2px 2px $alt-color;
 }
-
 %voiceChannelsButton {
   border: 2px solid $main-color;
-
   &:hover {
     border: 2px solid $hover-color;
     background: transparent;
   }
 }
-
 .imageDetails-1t6Zms {
   color: var(--url-color);
 }
-
 // Make most buttons round
 %button {
   border-radius: 50px;
 }
-
 // Remove annoying border around second nitro option.
 %tier2ColumnOuter {
   display: none;
 }
-
 %tier0ColumnOuter,
 %tier2ColumnOuter {
   display: none;
 }
-
 %titlebarWin > %titlebarWordmark:before {
   color: $alt-color;
   content: 'SnowVision';
@@ -167,185 +133,149 @@
   filter: unset;
   font-family: 'Lovely Home';
 }
-
 %titlebarWin > %titlebarWordmark > svg > g > path {
   fill: $alt-color;
 }
-
 %titlebarWin > %titlebarWordmark > svg {
   color: $alt-color;
   filter: unset;
 }
-
 %titlebarWin > %titlebarWordmark:after {
   color: $alt-color;
   content: 'v1.5.5';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
 }
-
 %toolbar %headerBarIconWrapper > svg:not(%headerBarIcon) {
   color: #fff;
   filter: unset;
   transition: unset;
-
   &:hover {
     color: #fff;
     filter: drop-shadow(0 0 15px transparent);
     color: unset;
   }
 }
-
 button%panelButton%panelButtonEnabled:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
-
 %panelButton %panelButtonEnabled %button %buttonBlank %inviteButtonExpired %grow %panelButton:hover {
   color: #fff;
   background-color: hsla(0, 0%, 30%, 0.5);
 }
-
 %forumListOpen,
 %forumIncreasedOpenCard,
 %mainCard%forumListOpen,
 %mainCard%forumIncreasedOpenCard {
   background-color: rgba(0, 0, 0, 0.4);
 }
-
 %newMessagesBar:before {
   opacity: 0.3;
   background: $main-color;
 }
-
 %containerWrapper {
   background: var(--background-overlay);
   border: 2px solid $main-color;
 }
-
 // Role Names in member sidebar
 %members %membersGroup {
   color: $alt-color;
   opacity: 1;
   text-shadow: 0 0 2px;
 }
-
 // The lines that go to either side of the role names on the members sidebar
 %members %membersGroup:before,
 %members %membersGroup:after {
   background: linear-gradient(to left, $main-color 50%, transparent);
 }
-
 %username {
   color: $alt-color;
 }
-
 %text {
   color: $alt-color;
 }
-
 %friendActivity {
   color: $alt-color;
 }
-
 %friendActivity strong {
   color: $alt-color;
 }
-
 %message %messageTimestamp {
   color: #fff;
   font-weight: bolder;
 }
-
 %memberActivityIcon {
   color: $alt-color;
 }
-
 %dividerDate {
   color: $alt-color;
 }
-
 // Channel Catagory Names
 %channelsSidebar :is(%categoryContainerDefault, %categoryContainerDragAfter, %categoryContainerDrag, %categoryContainer) %categoryWrapper %categoryName {
   color: $alt-color;
   text-shadow: 0 0 3px;
   opacity: 2;
 }
-
 [class^='theme-'] #vc-spotify-player {
   background: rgba(0, 0, 0, 0.4);
 }
-
 #vc-spotify-song-title,
 .vc-spotify-artist,
 .vc-spotify-album,
 .vc-spotify-ellipoverflow {
   color: $alt-color;
 }
-
 #vc-spotify-player {
   border: solid $alt-color;
   border-width: thin;
   margin-top: 10%;
-
   &:hover {
     border: solid $hover-color;
     border-width: thin;
     margin-top: 10%;
   }
 }
-
 .vc-notification-root {
   background-color: var(--background-overlay);
-
   &:hover {
     background-color: $hover-color;
   }
 }
-
 %messageListItem[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
   display: none;
 }
-
 // userSettingsPremium
 %userSettingsNitroPerkCard {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.4));
   border: 2px solid $main-color;
 }
-
 %themeDark %tooltipGrey {
   background-color: $main-color;
 }
-
 %streamPreview {
   background: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
-
 %selectedScreen {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.7));
 }
-
 %userPopoutInner::before {
   display: none;
 }
-
 // Settings
 %standardSidebarView %settingsSidebar %tabBarSide %tabBarItem {
   color: #fff;
 }
-
 // BD Real All
 .readAllButton {
   background-color: rgba(0, 0, 0, 0.4);
   color: $main-color;
-
   &:hover {
     background-color: $hover-color;
     color: $main-color;
     transition: background-color 0.6s ease-in-out;
   }
 }
-
 // Vencord Read All
 button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   position: relative;
@@ -357,59 +287,47 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   overflow: hidden;
   z-index: 1;
   transition: all 0.6s linear;
-
   &:hover {
     background: $hover-color;
   }
 }
-
 // Vencord Versioning Info
 %line {
   color: #fff !important;
 }
-
 .vc-rdb-modal-footer .vc-rdb-input {
   background: rgba(0, 0, 0, 0.4);
 }
-
 %userPopoutInner::before {
   display: none;
 }
-
 %eyebrow {
   overflow: hidden !important;
 }
-
 %input%inputFocused,
 %input:focus {
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
-
 %input:focus,
 %input%inputFocused {
   box-shadow: none;
 }
-
 %input {
   background-color: transparent;
   box-shadow: none;
 }
-
 %input%flexCenter {
   box-shadow: 0 0 2px 2px $main-color;
-
   &:hover {
     box-shadow: 0 0 2px 2px $hover-color;
   }
 }
-
 %buttonFilled%buttonColorWhite {
   color: #fff !important;
   background: transparent !important;
   border: 1px solid $main-color !important;
-
   &:hover {
     color: #fff !important;
     background: transparent !important;
@@ -417,96 +335,77 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
     transition: border 0.5s ease-in-out !important;
   }
 }
-
 %shineContainer%buttonShine%guildBoostCtaBoostShine {
   display: none !important;
 }
-
 // Mod View
 %serverGuideMessage,
 %serverGuideMessage%userProfileOuter {
   background: transparent !important;
 }
-
 //Inside messageble channel
 %channelTextArea {
   background: rgba(0, 0, 0, calc($bg-shading * 0.1));
 }
-
 %wrapper:hover %childWrapper,
 %wrapper%selected %childWrapper {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0));
   transform: scale(1.5);
 }
-
 // Okay so this is a weird one but it's like the popout for statuses
 %menuPopoutSeparator {
   display: none;
 }
-
 // Vencord Plugin Descriptions?
 %inviteTitle,
 %label,
 %legend {
   color: #fff;
 }
-
 // Some kinda boxes. So far only seen on vencord plugins
 %themeDark %modal,
 %themeDark %modalRoot {
   background: rgba(0, 0, 0, 0.8);
 }
-
 // home -> shop mosiac background on top
 %root {
   display: none;
 }
-
 // Summaries in chat BETA
 %topicsPillContainer {
   background: rgba(0, 0, 0, 0.6);
-
   &:hover {
     background: rgba(0, 0, 0, 0.8);
   }
 }
-
 %newTopicsBarContainer {
   background-color: $main-color;
   opacity: 0.5;
 }
-
 %topicsPillCaret {
   background: $main-color;
   color: #fff;
-
   &:hover {
     background: $hover-color;
     color: #fff;
   }
 }
-
 %topicsPillTextSelected {
   background: rgba(0, 0, 0, 0.8);
 }
-
 %topicsDropdownHeading {
   background: rgba(0, 0, 0, 0.8);
 }
-
 %topicsScroller {
   background: rgba(0, 0, 0, 0.8);
 }
-
 %thumbIcon {
   color: #fff;
   background: $main-color;
 }
-
 %summaryFeedbackWrapper {
   display: none;
 }
-
 %summaryEndIcon {
   color: $alt-color;
   background: transparent;
@@ -517,7 +416,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   margin-top: auto;
   margin-bottom: auto;
 }
-
 %summaryStartIcon {
   color: $alt-color;
   width: 2.5rem;
@@ -525,18 +423,15 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   font-weight: 900;
   margin-left: 42px;
 }
-
 // Home Icon Parent
 %guildNav:hover %guildChildWrapper,
 %guildNav%guildNavSelected %guildChildWrapper {
   background-color: transparent;
   color: #fff;
 }
-
 %subEnabledServers {
   background: var(--backdrop-image);
 }
-
 // Add a status - full profile view
 // Grouping all :before rules that require display: none
 %themeDark %statusBubbleOuter:before,
@@ -545,7 +440,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:before {
   display: none;
 }
-
 // Grouping all :after rules that require display: none
 %userProfileOuter:after,
 %statusBubbleOuter:after,
@@ -553,28 +447,23 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:after {
   display: none;
 }
-
 // Background variable declarations
 %customProfile %background {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
 }
-
 %background {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
   --custom-status-bubble-background: rgba(0, 0, 0, 0.4);
 }
-
 %themeDark %background {
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
   --custom-status-bubble-overlay-color: 0 0 0.6;
   --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
   background: transparent;
 }
-
 %userProfileCustomTheme %background {
   --custom-status-bubble-background-coloor: transparent;
 }
-
 // Grouping all border rules that use 1px solid $main-color
 %statusBubble,
 %themeDark %statusBubbleOuter,
@@ -585,58 +474,45 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileCustomTheme %themeDark %userProfileOuter {
   border: 1px solid $main-color;
 }
-
 // Specific rules that aren't merged with others
 %statusBubble {
   background: rgba(0, 0, 0, 0.8);
 }
-
 %statusText {
   color: #fff;
 }
-
 %statusBubbleShape {
   border-radius: 16px;
 }
-
 %statusBubbleOuter {
   background: transparent;
 }
-
 %userProfileInner {
   background: rgba(0, 0, 0, 0.6);
 }
-
-
 %themeDark %userProfileStatusBubbleOuter {
   background: rgba(0, 0, 0, 0.6);
 }
-
 // Gift in chat
 %themeDark %giftCardButton {
   border-color: $main-color;
   color: #fff;
-
   &:hover {
     border-color: $hover-color;
     color: #fff;
   }
 }
-
 %themeDark %giftCardButton:hover {
   border-color: $hover-color;
   color: #fff;
 }
-
 // Bots...why are they different??????
 %userProfileStatusBubbleOuter::before {
   display: none;
 }
-
 %userProfileStatusBubbleOuter::after {
   display: none;
 }
-
 // Status in user settings
 %userProfileStatusBubbleOuter:before {
   display: none;
@@ -644,47 +520,38 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileStatusBubbleOuter:after {
   display: none;
 }
-
 // Gifted in chat
 %giftCardButton {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
 }
-
 %settingsHeaderText {
   overflow: hidden;
 }
-
 // Send voice message vencord plugin
 .vc-vmsg-preview {
   background: rgba(0, 0, 0, 0.4);
 }
-
 %panelActionButton%panelActionButtonColor%panelActionButtonActive:hover {
   background: $hover-color;
   color: #fff;
 }
-
 %panelActionButtonLottieIcon svg {
   fill: #fff;
   transform: unset;
 }
-
 %panelActionButton%panelActionButtonColor%panelActionButtonActive {
   background-color: $hover-color;
 }
-
 // Voice chat count
 %channelUserLimitUsers {
   color: $text-normal;
   background: rgba(0, 0, 0, 0.5);
 }
-
 %channelUserLimitTotal {
   color: $text-normal;
   background: hsla(0, 0%, 100%, 0.2);
   box-shadow: inset 1px 0 hsla(0, 0%, 100%, 0.4);
 }
-
 %channelWrapperSelected %numberBadge,
 %channelWrapperSelected %textBadge,
 %privateChannelInteractiveSelected %numberBadge,
@@ -694,120 +561,96 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background-color: $hover-color !important;
   color: #fff !important;
 }
-
 %buttonFilled%buttonColorBrandInverted,
 %buttonFilled%buttonColorWhite {
   background: transparent;
   color: #fff;
   border: 1px solid $main-color !important;
 }
-
 %imageContainer {
   background: transparent;
 }
-
 // Spotify on User profile
 %customProfile %themeColor%primary {
   background: $main-color;
   color: #fff;
   transition: background 0.3s ease-in-out;
-
   &:hover {
     background: $hover-color;
     color: #fff;
   }
 }
-
 // Guild Folder Expanded background
 %guildExpandedFolderBackground {
   background-color: $main-color;
   opacity: 0.5;
 }
-
 // Shiki Code Blocks for vencord
 .vc-shiki-root {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
-
 // Server Settings > members
 %guildSettingsRoleRow:hover:not(%guildSettingsRoleRowDisabled) %circleButton {
   background: $hover-color;
 }
-
 // Game sharing screen icon
 %badge {
   color: $main-color;
 }
-
 // server context menu -> boost this server
 %guildBoostMural {
   background: transparent;
 }
-
 %boostThisServerButton {
   color: #fff;
 }
-
 // Button shine
 %buttonShineInner {
   background-color: $alt-color;
 }
-
 %buttonShine {
   background-color: $alt-color;
 }
 %motion %buttonShine {
   animation-duration: 4s;
 }
-
 // Reply
 %replySpine {
   border-color: $alt-color;
 }
-
 // user settings, server boost
 %boostNewHome {
   background-color: rgba(0, 0, 0, 0.4);
 }
-
 %freeBoost {
   border-radius: 8px 8px 0 0;
 }
-
 %lookingForBlocked {
   background: rgba(0, 0, 0, 0.6);
 }
-
 %gamesLastPlayedTime {
   color: $text-normal;
 }
-
 %voiceMessagePlaying %voiceMessagePlayButtonContainer {
   background: $hover-color;
 }
-
 %keybindRecordingContainer%keybindRecordingActive %keybindAdd {
   color: $text-normal;
 }
-
 // poll results
 %pollEndContainer {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 %privateChannelInteractive%privateChannelInteractiveSelected %privateChannelIcon,
 %privateChannelInteractive%privateChannelInteractiveSelected %privateChannelName {
   color: #fff;
 }
-
 %dmStatusText {
   color: $alt-color !important;
 }
-
 %privateChannelSubText {
   color: #fff;
 }
-
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
 // it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp]
 @supports selector(a:has(+ a)) {
