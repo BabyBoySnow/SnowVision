@@ -21,31 +21,26 @@
 
 /*Spotify controls*/
 %themeDark #vc-spotify-player {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.4);
 }
 
+#vc-spotify-song-title,
+.vc-spotify-artist,
+.vc-spotify-album,
+.vc-spotify-ellipoverflow {
+  color: $alt-color;
+}
 #vc-spotify-player {
-  border-top: 1px solid var(--background-modifier-accent);
+  border: solid $alt-color;
+  border-width: thin;
+  margin-top: 10%;
+  &:hover {
+    border: solid $hover-color;
+    border-width: thin;
+    margin-top: 10%;
+  }
 }
 
-#vc-spotify-player:hover [class^='barFill__'] {
-  background-color: $hover-color;
-  border-color: $hover-color;
-  color: $hover-color;
-}
-
-#vc-spotify-progress-bar:hover > [class^='slider'] [class^='grabber'] {
-  background-color: $hover-color;
-  border-color: $hover-color;
-  color: $hover-color;
-}
-
-#vc-spotify-progress-bar > [class^='slider'] [class^='grabber'] {
-  background-color: $main-color;
-  border-color: $main-color;
-  color: $main-color;
-  margin-top: 5px;
-}
 
 // SHOW HIDDEN CHANNELS
 // SHOW HIDDEN CHANNELS
@@ -153,3 +148,4 @@
     background-color: $hover-color;
   }
 }
+

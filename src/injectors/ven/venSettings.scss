@@ -12,11 +12,12 @@
 
 //update popup
 .vc-notification-root {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--background-overlay);
   &:hover {
     background-color: $hover-color;
   }
 }
+
 // plugin authors
 .vc-author-modal-name {
   background: cv('bg.general.card');
