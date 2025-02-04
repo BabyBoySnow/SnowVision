@@ -424,20 +424,6 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileCustomTheme %themeDark %userProfileStatusBubbleOuter:after {
   display: none;
 }
-// Background variable declarations
-%customProfile %background {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
-}
-%background {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
-  --custom-status-bubble-background: rgba(0, 0, 0, 0.4);
-}
-%themeDark %background {
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.4);
-  --custom-status-bubble-overlay-color: 0 0 0.6;
-  --custom-status-bubble-background-color: rgba(0, 0, 0, 0.6);
-  background: transparent;
-}
 %userProfileCustomTheme %background {
   --custom-status-bubble-background-coloor: transparent;
 }
@@ -464,24 +450,9 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %statusBubbleOuter {
   background: transparent;
 }
-%userProfileInner {
-  background: rgba(0, 0, 0, 0.6);
-}
+
 %themeDark %userProfileStatusBubbleOuter {
   background: rgba(0, 0, 0, 0.6);
-}
-// Gift in chat
-%themeDark %giftCardButton {
-  border-color: $main-color;
-  color: #fff;
-  &:hover {
-    border-color: $hover-color;
-    color: #fff;
-  }
-}
-%themeDark %giftCardButton:hover {
-  border-color: $hover-color;
-  color: #fff;
 }
 // Bots...why are they different??????
 %userProfileStatusBubbleOuter::before {
@@ -497,7 +468,19 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 %userProfileStatusBubbleOuter:after {
   display: none;
 }
-// Gifted in chat
+// Gift in chat
+%themeDark %giftCardButton {
+  border-color: $main-color;
+  color: #fff;
+  &:hover {
+    border-color: $hover-color;
+    color: #fff;
+  }
+}
+%themeDark %giftCardButton:hover {
+  border-color: $hover-color;
+  color: #fff;
+}
 %giftCardButton {
   background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
 }
