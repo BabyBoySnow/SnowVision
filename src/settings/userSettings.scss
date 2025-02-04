@@ -174,7 +174,7 @@
   background-color: $main-color;
 }
 %userSettingsBillingMethodText {
-  color: var(--text-normal);
+  color: $text-normal;
 }
 %userSettingsBillingPaymentPane {
   background-color: cv('bg.general.card');
