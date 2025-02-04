@@ -562,10 +562,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background-color: $main-color;
   opacity: 0.5;
 }
-// Shiki Code Blocks for vencord
-.vc-shiki-root {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-}
+
 // Server Settings > members
 %guildSettingsRoleRow:hover:not(%guildSettingsRoleRowDisabled) %circleButton {
   background: $hover-color;
