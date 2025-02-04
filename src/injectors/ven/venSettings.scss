@@ -38,3 +38,40 @@
   color: $text-normal;
   border: transparent;
 }
+
+// playground tools (eg text playground, nameplate, etc)
+.section_cc79ae {
+  background-color: cv('bg.general.card');
+}
+
+.section__6fdb8 {
+  background-color: cv('bg.general.card');
+}
+
+.primary_a995b9 {
+  color: $main-color;
+  transition: color 1s ease-in-out;
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.button__2723e {
+  color: $main-color;
+  transition: color 1s ease-in-out;
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.fullscreen_f8dc05 {
+  background-color: cv('bg.backdrop.overlay');
+}
+
+.preview_f9e1d5 {
+  background: cv('bg.general.card');
+}
+
+.inputs_f9e1d5 {
+  background:rgba(0, 0, 0, 0.6)
+}
