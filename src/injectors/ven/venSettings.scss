@@ -40,38 +40,46 @@
 }
 
 // playground tools (eg text playground, nameplate, etc)
+
+// Revenue Storybook
 .section_cc79ae {
   background-color: cv('bg.general.card');
 }
 
+// Design Systems
 .section__6fdb8 {
   background-color: cv('bg.general.card');
 }
 
+// Testing hyperlink button
 .primary_a995b9 {
-  color: $main-color;
-  transition: color 1s ease-in-out;
+  color: var(--url-color);
+  transition: color .5s ease-in-out;
   &:hover {
     color: $hover-color;
   }
 }
 
+// testing button with delete
 .button__2723e {
   color: $main-color;
-  transition: color 1s ease-in-out;
+  transition: color .5s ease-in-out;
   &:hover {
     color: $hover-color;
   }
 }
 
+// text playground
 .fullscreen_f8dc05 {
   background-color: cv('bg.backdrop.overlay');
 }
 
+// Name Plates tool
 .preview_f9e1d5 {
   background: cv('bg.general.card');
 }
 
+// border color input
 .inputs_f9e1d5 {
   background:rgba(0, 0, 0, 0.6)
 }
