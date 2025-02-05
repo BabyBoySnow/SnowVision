@@ -113,7 +113,7 @@
     color: hsla(0, 0%, 100%, 0.7);
     &:hover,
     &%messageButtonSelected {
-      background-color: hsla(0, 0%, 100%, 0.1);
+      background-color: $hover-color;
       color: #fff;
     }
   }
