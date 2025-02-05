@@ -66,8 +66,8 @@
     background-color: cv('bg.general.card');
   }
   %userProfileBadgeList {
-    background-color: cv('bg.general.card');
-    border: transparent
+    background-color: transparent;
+    border: transparent !important; // important needed for custom profiles. 
   }
 
   // CONNECTED ACCOUNTS
