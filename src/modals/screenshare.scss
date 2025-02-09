@@ -50,6 +50,10 @@
 }
 
 // CLIPS
+%takeClipsDirectlyReminder {
+  background: cv('bg.general.popout');
+}
+
 %clipsShareTo {
   background: cv('bg.general.card');
   &:hover {
