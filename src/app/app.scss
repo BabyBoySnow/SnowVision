@@ -67,9 +67,10 @@ textarea,
 // SELECTION
 ::selection {
   background: $main-color;
+  color: var(--text-normal);
 }
 
 // TAB FOCUS
 %focusRing {
-  box-shadow: 0 0 0 4px cv('colors.focus');
+	box-shadow: 0 0 0 4px cv('colors.focus');
 }
