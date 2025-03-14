@@ -1,19 +1,48 @@
 /* SCROLLBAR */
 // Chrome version fix
 %scrollbarAuto,
-%scrollbarChatAuto,
-%scrollbarThin,
-%scrollbarSettingsThin {
+%scrollbarThin {
   scrollbar-width: unset !important;
   scrollbar-color: unset !important;
 }
 // NORMAL SCROLLBAR
-%scrollbarAuto::-webkit-scrollbar {
-  width: 14px;
+:is(%scrollbarAuto) {
+  &::-webkit-scrollbar {
+    width: 14px;
+  }
+  &::-webkit-scrollbar-thumb,
+  &::-webkit-scrollbar-track {
+    border: 3px solid transparent;
+    border-radius: 7px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $main-color;
+    &:active {
+      background-color: $hover-color;
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
 }
 // THIN SCROLLBAR
-%scrollbarThin::-webkit-scrollbar {
-  width: 10px;
+:is(%scrollbarThin) {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: $main-color;
+    &:active {
+      background-color: $hover-color;
+    }
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 7px;
+  }
 }
 
 // NO SCROLLBAR
@@ -21,58 +50,8 @@
   width: 0px;
 }
 
-// CONTENT
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece {
-  border: 3px solid transparent !important;
-  border-radius: 7px !important;
-  background-clip: padding-box !important;
-}
-::-webkit-scrollbar-thumb {
-  background-color: $main-color !important;
-  &:active {
-    background-color: $hover-color !important;
-  }
-}
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece {
-  background-color: transparent !important;
-}
-%channels,
-%membersWrap,
-%channelsPrivate {
-  %scroller {
-    &::-webkit-scrollbar-thumb,
-    &::-webkit-scrollbar-track-piece {
-      visibility: hidden;
-    }
-    &:hover {
-      &::-webkit-scrollbar-thumb,
-      &::-webkit-scrollbar-track-piece {
-        visibility: visible;
-      }
-    }
-  }
-}
-%channels,
-%chat,
-%membersWrap,
-%channelsPrivate,
-%friendsTable {
-  %scroller {
-    &::-webkit-scrollbar-track-piece {
-      background-color: rgba(0, 0, 0, calc($bg-shading * 0.3)) !important;
-    }
-  }
-}
 textarea {
   &::-webkit-scrollbar {
     display: none;
-  }
-}
-%shopModal {
-  &::-webkit-scrollbar {
-    width: 0;
   }
 }

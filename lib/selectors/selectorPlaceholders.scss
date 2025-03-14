@@ -586,7 +586,6 @@
 .panel__5dec7 {
   @extend %panel !optional;
 }
-
 .title_b6c092 {
   @extend %panelTitle !optional;
 }
@@ -622,11 +621,9 @@
 .lottieIcon__5eb9b {
   @extend %panelActionButtonLottieIcon !optional;
 }
-
 .container__37e49 {
   @extend %accountPanel !optional;
 }
-
 .avatarWrapper__37e49 {
   @extend %accountPanelAvatarWrapper !optional;
 }
@@ -907,15 +904,17 @@
 .video__94748 {
   @extend %callVideo !optional;
 }
-
-.controlButton__1405b {
-  @extend %callControlButton !optional;
+.buttonSection__1405b.experimentButtonSection__1405b {
+  @extend %callExperimentButtonSection !optional;
+}
+.experimentButton_f1ceac {
+  @extend %callExperimentButton !optional;
 }
 
 .centerButton_f1ceac {
-  @extend %callCenterButton !optional;
+  @extend %callCenterButton !optional; //only disconnect still use it
 }
-
+/* unsure if removed
 .centerIcon_f1ceac {
   @extend %callCenterIcon !optional;
 }
@@ -942,8 +941,7 @@
 
 .participantsButton__211d1 {
   @extend %callParticipantsButton !optional;
-}
-
+}*/
 .tile__90dc5 {
   @extend %callTile !optional;
 }
@@ -2355,7 +2353,6 @@
 .offline__5d473 {
   @extend %memberOffline !optional;
 }
-
 .memberInner__5d473 {
   @extend %memberInner !optional;
 }
@@ -2407,7 +2404,6 @@
 .activityText__5d473 {
   @extend %memberActivityText !optional;
 }
-
 .icon_c9d15c {
   @extend %memberActivityIcon !optional;
 }

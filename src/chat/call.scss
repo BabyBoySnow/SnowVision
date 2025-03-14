@@ -22,13 +22,13 @@
 }
 %callUserTile {
   background-color: transparent;
-}
+}/*
 %callParticipantsButton {
   background-color: cv('bg.general.card');
   &:hover {
     background-color: rgba(0, 0, 0, 0.6);
   }
-}
+}*/
 %callTileBorder {
   &%callTileSpeaking {
     box-shadow: inset 0 0 0 2px $main-color;
@@ -57,7 +57,7 @@
 }
 
 // ACTION BUTTON
-%button%callCenterButton {
+%callCenterButton:not(%callExperimentButton) {
   border-radius: 50%;
 }
 %callButtonColorable {
@@ -92,6 +92,12 @@
     background-color: var(--danger-color);
   }
 }
+
+// new experiment BUTTONS
+%callExperimentButtonSection {
+  background-color: cv('bg.general.card');
+}
+
 
 // TEXT CHAT
 %callChatWrapper {
