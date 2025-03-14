@@ -1,57 +1,76 @@
 /* SCROLLBAR */
 // Chrome version fix
 %scrollbarAuto,
-%scrollbarThin {
+%scrollbarChatAuto,
+%scrollbarThin,
+%scrollbarSettingsThin {
   scrollbar-width: unset !important;
   scrollbar-color: unset !important;
 }
-// NORMAL SCROLLBAR
-:is(%scrollbarAuto) {
-  &::-webkit-scrollbar {
-    width: 14px;
-  }
-  &::-webkit-scrollbar-thumb,
-  &::-webkit-scrollbar-track {
-    border: 3px solid transparent;
-    border-radius: 7px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: $main-color;
-    &:active {
-      background-color: $hover-color;
-    }
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
+
+// Scrollbar Sizes
+%scrollbarAuto::-webkit-scrollbar { 
+  width: 14px !important; 
 }
-// THIN SCROLLBAR
-:is(%scrollbarThin) {
-  &::-webkit-scrollbar {
-    width: 8px;
-  }
-  &::-webkit-scrollbar-thumb {
-    border: 2px solid transparent;
-    border-radius: 7px;
-    background-color: $main-color;
-    &:active {
-      background-color: $hover-color;
-    }
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-    border: 2px solid transparent;
-    border-radius: 7px;
+%scrollbarThin::-webkit-scrollbar { 
+  width: 10px !important; 
+}
+%scrollbarNone::-webkit-scrollbar { 
+  width: 0px; 
+}
+
+// Scrollbar Styling
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  border: 3px solid transparent !important;
+  border-radius: 7px !important;
+  background-clip: padding-box !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $main-color !important;
+  &:active {
+    background-color: $hover-color !important;
   }
 }
 
-// NO SCROLLBAR
-%scrollbarNone::-webkit-scrollbar {
-  width: 0px;
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background-color: transparent !important;
 }
 
-textarea {
-  &::-webkit-scrollbar {
-    display: none;
+// Scrollbar Visibility on Hover
+%channels,
+%membersWrap,
+%channelsPrivate {
+  %scroller {
+    &::-webkit-scrollbar-thumb,
+    &::-webkit-scrollbar-track-piece {
+      visibility: hidden;
+    }
+    &:hover &::-webkit-scrollbar-thumb,
+    &:hover &::-webkit-scrollbar-track-piece {
+      visibility: visible;
+    }
   }
+}
+
+// Background shading for certain scroll areas
+%channels,
+%chat,
+%membersWrap,
+%channelsPrivate,
+%friendsTable {
+  %scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, calc($bg-shading * 0.3)) !important;
+  }
+}
+
+// Hide scrollbars for specific elements
+textarea::-webkit-scrollbar { 
+  display: none !important; 
+}
+%shopModal::-webkit-scrollbar { 
+  width: 0; 
 }
