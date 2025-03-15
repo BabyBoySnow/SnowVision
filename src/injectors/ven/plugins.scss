@@ -61,7 +61,7 @@
 }
 
 .vc-spotify-button:hover {
-  background-color: $hover-color;
+  background-color: mix($hover-color, transparent, 70%);
 }
 
 // SHOW HIDDEN CHANNELS
