@@ -126,44 +126,14 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
 %tier2ColumnOuter {
   display: none;
 }
-%titlebarWin > %titlebarWordmark {
-  position: relative;
-  padding-left: 25px; /* Space for image */
-}
-
-%titlebarWin > %titlebarWordmark::before {
-  content: "SnowVision";
+%titlebarWin > %titlebarWordmark:before {
+  color: $alt-color;
+  content: 'SnowVision';
   font-size: 14px;
+  text-shadow: unset;
+  filter: unset;
   font-family: 'Lovely Home';
-  color: $alt-color;
-  position: relative; /* Keeps text inline */
-  text-shadow: none;
-  filter: none;
 }
-
-%titlebarWin > %titlebarWordmark::after {
-  content: "v1.5.5";
-  color: $alt-color;
-  font-family: 'Bookerly Display Regular';
-  font-size: 12px;
-  margin-left: 5px;
-  text-shadow: none;
-  filter: none;
-}
-
-%titlebarWin > %titlebarWordmark::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
-  background-image: url('https://cdn.discordapp.com/emojis/1314634612152205374.webp?size=96');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 %titlebarWin > %titlebarWordmark > svg > g > path {
   fill: $alt-color;
 }
@@ -171,7 +141,16 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
   color: $alt-color;
   filter: unset;
 }
-
+%titlebarWin > %titlebarWordmark:after {
+  color: $alt-color;
+  content: 'v1.5.5';
+  font-family: 'Bookerly Display Regular';
+  margin-bottom: 5px;
+  background-image: url('https://cdn.discordapp.com/emojis/1314634612152205374.webp?size=96');
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  background-size: contain;
+}
 %toolbar %headerBarIconWrapper > svg:not(%headerBarIcon) {
   color: #fff;
   filter: unset;
