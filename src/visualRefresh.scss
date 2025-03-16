@@ -142,6 +142,15 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
   background: rgba(0, 0, 0, 0.6);
 }
 
-.visual-refresh .container__34c2c, .visual-refresh .header__34c2c {
+%visualRefresh %forumChatHead, %visualRefresh .header__34c2c {
   background:rgba(0, 0, 0, 0.6)
+}
+
+%visualRefresh .channelAttachmentArea_b77158 {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+%visualRefresh %channelTextAreaUpload {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid $alt-color;
 }
