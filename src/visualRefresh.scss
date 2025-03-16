@@ -41,3 +41,49 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
+
+// to-do properly do this
+%visualRefresh %guildsWrapper {
+  background-color: transparent;
+}
+
+%visualRefresh %channelsHeader {
+  background: transparent;
+}
+
+%visualRefresh .tabBody__133bf {
+  background: transparent;
+}
+
+%visualRefresh %panels {
+  background: transparent;
+  padding-left: 65px;
+}
+
+%visualRefresh %standardSidebarView {
+  background: transparent;
+}
+
+%visualRefresh %settingsSidebarScroller {
+  background: transparent;
+}
+
+:where(.visual-refresh) .popout__3f413.popoutPositionTop__3f413 {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+%visualRefresh %messageButtonWrapper {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+%visualRefresh %channelsHeaderClickable {
+  background: transparent;
+}
+
+%visualRefresh %channelTextAreAttachedBar {
+  background: transparent;
+}
+
+%visualRefresh %dividerDate {
+  background: transparent;
+}
