@@ -158,3 +158,11 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
 %visualRefresh %guildExpandedFolderBackground {
   background-color: $main-color;
 }
+
+%visualRefresh .picker__09f65, %visualRefresh .picker__09f65.refresh__09f65 {
+  background: var(--popout-color);
+}
+
+%visualRefresh .wrapper__4e6ce {
+  background: transparent;
+}
