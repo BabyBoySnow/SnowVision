@@ -146,10 +146,6 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
   content: 'v1.5.5';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
-  background-image: url('https://cdn.discordapp.com/emojis/1314634612152205374.webp?size=96');
-  background-repeat: no-repeat;
-  margin-left: 5px;
-  background-size: contain;
 }
 %toolbar %headerBarIconWrapper > svg:not(%headerBarIcon) {
   color: #fff;
