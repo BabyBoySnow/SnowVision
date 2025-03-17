@@ -1,19 +1,6 @@
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
-[prettier-link]: https://github.com/prettier/prettier
-[sass-badge]: https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=sass&logoColor=white
-[sass-link]: https://sass-lang.com/
-[release-badge]: https://img.shields.io/github/v/release/BabyBoySnow/SnowVision?include_prereleases&style=flat-square
-[release-link]: https://github.com/BabyBoySnow/SnowVision/releases
-[license-badge]: https://img.shields.io/github/license/BabyBoySnow/SnowVision?style=flat-square
-[license-link]: https://github.com/BabyBoySnow/SnowVision/blob/master/LICENSE
-[issues-badge]: https://img.shields.io/github/issues/BabyBoySnow/SnowVision?style=flat-square
-[issues-link]: https://github.com/BabyBoySnow/SnowVision/issues
-[prs-badge]: https://img.shields.io/github/issues-pr/BabyBoySnow/SnowVision?style=flat-square
-[prs-link]: https://github.com/BabyBoySnow/SnowVision/pulls
+# SnowVision (ClearVision v6 Fork)
 
 <div align="center">
-
-# SnowVision (ClearVision v6 fork)
 
 [![code style: prettier][prettier-badge]][prettier-link]
 [![Language: Sass][sass-badge]][sass-link]
@@ -30,37 +17,71 @@
 
 Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this up and running!
 
+The **SnowVision Logo** is available for free download [here](https://www.kindpng.com/imgv/hwbRbbo_emoji-snow-snowflake-holographic-snowflake-emoji-png-transparent/).
+
+---
+
 ## Installation
 
-### Winter Wonderland
+### **Winter Wonderland Theme**
 
 1. Download the [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css).
-2. Move it to your theme folder, for windows you can type `%appdata%` in the search, and find your client, it should have a theme folder.
-3. This theme uses the Amazon Kindle font ["Bookerly"](https://www.cufonfonts.com/font/bookerly) and a custom font ["Lovely Home"](https://www.dafont.com/lovely-home.font).
+2. Move it to your theme folder.  
+   - On **Windows**, press `Win + R`, type `%appdata%`, then navigate to your Discord client's `themes` folder.
+3. This theme features:  
+   - **["Bookerly"](https://www.cufonfonts.com/font/bookerly)** (Amazon Kindle font) for better readability.  
+   - **["Lovely Home"](https://www.dafont.com/lovely-home.font)** for branding, giving the "SnowVision" watermark a unique, stylish look.
 
-### SnowVision
+### **Customization**
+If you're using **BetterDiscord**, you can edit the theme directly in settings.  
+For **Vencord**, follow these steps:  
+1. Open **User Settings** → **Themes** → Click **"Open themes folder"**  
+2. Open `snowvision.theme.css` and edit the CSS variables.  
+   - Example: To change the background, modify `--background-image` with a new image URL.  
+   - **Note:** The URL must use **HTTPS** and end in an image format (e.g., `.png`, `.jpeg`).
 
-**Note:** This fork of ClearVision doesn't actively support plugins but tries to maintain compatibility with widely used ones.
+---
 
-#### For BetterDiscord and Vencord:
+## SnowVision Installation
 
+**Note:** This fork of ClearVision doesn’t actively support plugins but tries to maintain compatibility with widely used ones.
+
+### **For BetterDiscord and Vencord:**
 1. Download the theme file from [Releases](https://github.com/BabyBoySnow/SnowVision/releases).
-2. Move the file into your injector's themes folder:
+2. Move it into your injector's theme folder:
    - **BetterDiscord:** `%appdata%\betterdiscord\themes`
    - **Vencord:** `%appdata%\vencord\themes`
 
-### For Replugged
+### **For Replugged:**
+1. Download the [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css).
+2. (Optional) Customize it to your liking.
+3. Convert it using [Replugged’s theme converter](https://replugged-org.github.io/theme-converter/).
+4. Open **Settings** → **Themes** → Install the converted file.
 
-1. Download the theme from [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css)
-2. (Optional) Customize it to your hearts content.
-3. Convert it using https://replugged-org.github.io/theme-converter/
-4. Go into settings, find "themes" and install it in there somewhere.
+Alternatively, you can copy the CSS into **Custom CSS**.
 
-Alternatively throw everything into custom CSS.
+---
 
-## Building from source
+## Building from Source
 
-To build the theme from source, first install npm from the dependecies below, then you can run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder.
+To build the theme from source:
+
+1. Install **Node.js/npm** ([Download here](https://nodejs.org/)).
+2. Run the following commands:
+```sh
+npm install  # Install dependencies
+npm run build  # Compile the theme (output in /public)
+npm run test  # Compile test output in /test (for manual previewing)
+```
+3. To test changes before pushing:
+```sh
+npm run test # Outputs a 'main.css' file in /test
+```
+4. Move main.css to your theme folder and enable it in your client.
+
+
+To build the theme from source, first install npm from the dependencies below, then you can run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder. You may also run `npm run test` which will output a main.css file into the /test folder. You can then move
+that file into your themes folder, and select it to see how it looks before pushing any changes.
 
 ### Dependencies
 
@@ -73,19 +94,18 @@ To build the theme from source, first install npm from the dependecies below, th
 
 ## Contributing
 
-You can run `npm run test` to compile the theme.
-The `main.css` file will be in the `/test` directory, which can then be copied into BetterDiscord's Custom CSS, or placed in the themes folder and enabled in settings, make sure any other theme's are disabled for testing.
+1. Clone the repository.
+2. Run `npm run test` to generate `main.css` in the `/test` directory.
+3. Copy `main.css` into BetterDiscord’s Custom CSS or your theme folder.
+4. Disable other themes while testing for best results.
 
 ## Changelog
-
-### SnowVision (Differences from Original ClearVision)
-
 - Moved date dividers to the middle.
 - Added new options for `alt-color` to use in several places.
 - Removed the annoying help message from HepBoat in the ClearVision Support server.
 - Removed the border around Nitro for "most popular."
 - Added radical status.
-- Change activety text's to use the alt-color.
+- Change activety texts to use the alt-color.
 - Moved the new message pill to the middle, remove the dividers, made it alt color, and made it square.
 - Changed the server member's list to use alt color for roles and the lines on the side to be main color.
 - Changed server channel catagory names to use alt color.
@@ -105,7 +125,7 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 - Removed the home shop mosiac.
 - In settings, under nitro, changed the button shine to alt color and slowed it down a little.
 - Changed the message request section to use the same style as hovering over a regular message, makes it a little easier to see.
-- C hange the tags some for credit to myself.
+- Change the tags some for credit to myself.
 - Edit the keybind recording in settings for voice and video push to talk to make it easier to see while recording.
 - Remove the background of the discord shop so that you can see the custom background.
 - Make it easier to see the last played time for games.
@@ -127,15 +147,15 @@ The `main.css` file will be in the `/test` directory, which can then be copied i
 Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
 To use one you can just take the css file and load it seperately as a theme, or copy the contents into your custom css. Currently includes:
 
-- a change to the behavior of the vencord read all plugin.
-- a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
-- a change to the message box to have a breathing effect.
+- [vencord_read_all_mod.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/vencord_read_all_mod.theme.css) a change to the behavior of the vencord read all plugin.
+- [Fira_Code.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/Fira_Code.theme.css) a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
+- [Message_Box_Pulse.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/Message_Box_Pulse.theme.css) a change to the message box to have a breathing effect.
 
 ## Scripts
 
 Any scripts I make to aid will be included. Currently includes:
 
-- the file I use to automatically detect if there is any versions of variables that can be converted into
+- detect_and_replace.py - the file I use to automatically detect if there is any versions of variables that can be converted into
   shorthands. Shorthands are located [here.](https://github.com/BabyBoySnow/SnowVision/blob/master/src/variables.scss)
-- a file to update raw css with the [placeholders.](https://github.com/BabyBoySnow/SnowVision/blob/master/lib/selectors/selectorPlaceholders.scss)
-- a file that tries to remove any placeholders that don't exist.
+- replace_raw_css.py - a file to update raw css with the [placeholders.](https://github.com/BabyBoySnow/SnowVision/blob/master/lib/selectors/selectorPlaceholders.scss)
+- remove_invalid.py - a file that tries to remove any placeholders that don't exist.
