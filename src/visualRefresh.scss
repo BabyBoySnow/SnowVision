@@ -113,29 +113,38 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
     background: $hover-color;
   }
 }
+%leading {
+  background-image: url('https://cdn.discordapp.com/emojis/1314634612152205374.webp?size=96');
+  background-size: contain;
+  background-repeat: no-repeat;
+  gap: 1px;
+  margin-left: 5px;
+}
 
-.leading_c38106::before {
+%leading::before {
   content: "SnowVision";
+  order: 2;
+  font-family: 'Lovely Home';
   position: static;
   margin-right: 10px;
   margin-left: 20px;
+  padding-left: 5px;
   font-size: 16px;
   font-weight: 600;
-  color: $alt-color;
-  order: 2;
-  font-family: 'Lovely Home';
+  color: var(--alt-color);
 }
-.leading_c38106::after {
+
+%leading::after {
   content: "v2.0.0 pre";
+  order: 3;
   position: static;
-  margin-top: 3px;
-  margin-left: 5px;
-  margin-right: 10px;
   font-family: 'Bookerly Display Regular';
   font-size: 12px;
   font-weight: 600;
   color: #fff;
-  order: 3;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
 
 %visualRefresh .channelTextArea_f75fb0 {
