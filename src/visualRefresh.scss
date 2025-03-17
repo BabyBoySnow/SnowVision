@@ -170,3 +170,8 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
 %visualRefresh %channelsSidebar:after {
   background: transparent;
 }
+
+%visualRefresh %barBrand {
+  background-color: $main-color;
+  border: none;
+}
