@@ -36,7 +36,7 @@ The **SnowVision Logo** is available for free download [here](https://www.kindpn
 
 ## Installation
 
-### **Winter Wonderland Theme**
+### **SnowVision Theme**
 
 1. Download the [SnowVision CSS file](https://raw.githubusercontent.com/BabyBoySnow/SnowVision/refs/heads/master/SnowVision.theme.css).
 2. Move it to your theme folder.  
@@ -44,20 +44,6 @@ The **SnowVision Logo** is available for free download [here](https://www.kindpn
 3. This theme features:  
    - **["Bookerly"](https://www.cufonfonts.com/font/bookerly)** (Amazon Kindle font) for better readability.  
    - **["Lovely Home"](https://www.dafont.com/lovely-home.font)** for branding, giving the "SnowVision" watermark a unique, stylish look.
-
-### **Customization**
-If you're using **BetterDiscord**, you can edit the theme directly in settings.  
-For **Vencord**, follow these steps:  
-1. Open **User Settings** → **Themes** → Click **"Open themes folder"**  
-2. Open `snowvision.theme.css` and edit the CSS variables.  
-   - Example: To change the background, modify `--background-image` with a new image URL.  
-   - **Note:** The URL must use **HTTPS** and end in an image format (e.g., `.png`, `.jpeg`).
-
----
-
-## SnowVision Installation
-
-**Note:** This fork of ClearVision doesn’t actively support plugins but tries to maintain compatibility with widely used ones.
 
 ### **For BetterDiscord and Vencord:**
 1. Download the theme file from [Releases](https://github.com/BabyBoySnow/SnowVision/releases).
@@ -72,6 +58,16 @@ For **Vencord**, follow these steps:
 4. Open **Settings** → **Themes** → Install the converted file.
 
 Alternatively, you can copy the CSS into **Custom CSS**.
+
+**Note:** This fork of ClearVision doesn’t actively support plugins but tries to maintain compatibility with widely used ones.
+
+### **Customization**
+If you're using **BetterDiscord**, you can edit the theme directly in settings.  
+For **Vencord**, follow these steps:  
+1. Open **User Settings** → **Themes** → Click **"Open themes folder"**  
+2. Open `snowvision.theme.css` and edit the CSS variables.  
+   - Example: To change the background, modify `--background-image` with a new image URL.  
+   - **Note:** The URL must use **HTTPS** and end in an image format (e.g., `.png`, `.jpeg`).
 
 ---
 
@@ -105,6 +101,8 @@ that file into your themes folder, and select it to see how it looks before push
 - [rimraf](https://www.npmjs.com/package/rimraf) (for cleanup)
 - [Prettier](https://www.npmjs.com/package/prettier) (code formatting)
 
+---
+
 ## Contributing
 
 1. Clone the repository.
@@ -112,46 +110,54 @@ that file into your themes folder, and select it to see how it looks before push
 3. Copy `main.css` into BetterDiscord’s Custom CSS or your theme folder.
 4. Disable other themes while testing for best results.
 
-## Changelog
-- Moved date dividers to the middle.
-- Added new options for `alt-color` to use in several places.
-- Removed the annoying help message from HepBoat in the ClearVision Support server.
-- Removed the border around Nitro for "most popular."
-- Added radical status.
-- Change activety texts to use the alt-color.
-- Moved the new message pill to the middle, remove the dividers, made it alt color, and made it square.
-- Changed the server member's list to use alt color for roles and the lines on the side to be main color.
-- Changed server channel catagory names to use alt color.
-- Removed some borders and added more shading.
-- Removed glow from the wordmark. Changed to "SnowVision v1.5.5".
-- Theme button white's to main color.
-- Make text box use background-shading.
-- Changed the border on the Spotify controls plugin for Vencord.
-- Rounded a few buttons.
-- Darkened Vencord plugin boxes.
-- Changed Vencord plugin info text color to white (`#fff`).
-- Removed the bubbles for statuses, as well as try to make most of them transparent with the main color as a border.
-- Change the guild folders to be slightly transparent version of main color.
-- Slightly darken the voice count.
-- Support for vencord plugin to send voice messages.
-- Background of the home icon made to be transparent so that if the image doesn't fill it all it doesn't look weird.
-- Removed the home shop mosiac.
-- In settings, under nitro, changed the button shine to alt color and slowed it down a little.
-- Changed the message request section to use the same style as hovering over a regular message, makes it a little easier to see.
-- Change the tags some for credit to myself.
-- Edit the keybind recording in settings for voice and video push to talk to make it easier to see while recording.
-- Remove the background of the discord shop so that you can see the custom background.
-- Make it easier to see the last played time for games.
-- Weird pop up about "looking for blocked users?" has been made transparent.
-- Make forums list title slightly less intrusive. No-one likes a flashbang.
-- Also change the forums user and message content to be easier to see.
-- Add hover effect to emoji remove in server settings.
-- In user settings -> boost, adjust popup about boost having a new home to be slightly transparent, also pad the "boost not used" thing.
-- Color the message reply spine thing.
-- Apply background overlay to boost mural in server menu -> boost this server.
-- Change the button to use white.
-- Adjust the forums start chat to be easier to see.
-- A lot more stuff that I can't be bothered to type. For a complete history of changes, it's best to read the [commits](https://github.com/BabyBoySnow/SnowVision/commits/master/)
+---
+
+
+<details>
+  <summary>Changelog</summary>
+
+  - Moved date dividers to the middle.
+  - Added new options for `alt-color` to use in several places.
+  - Removed the annoying help message from HepBoat in the ClearVision Support server.
+  - Removed the border around Nitro for "most popular."
+  - Added radical status.
+  - Changed activity texts to use the alt-color.
+  - Moved the new message pill to the middle, removed the dividers, made it alt color, and made it square.
+  - Changed the server member's list to use alt color for roles and the lines on the side to be main color.
+  - Changed server channel category names to use alt color.
+  - Removed some borders and added more shading.
+  - Removed glow from the wordmark. Changed to "SnowVision v1.5.5".
+  - Theme button whites to main color.
+  - Made text box use background-shading.
+  - Changed the border on the Spotify controls plugin for Vencord.
+  - Rounded a few buttons.
+  - Darkened Vencord plugin boxes.
+  - Changed Vencord plugin info text color to white (`#fff`).
+  - Removed the bubbles for statuses, as well as tried to make most of them transparent with the main color as a border.
+  - Changed the guild folders to be slightly transparent versions of the main color.
+  - Slightly darkened the voice count.
+  - Added support for the Vencord plugin to send voice messages.
+  - Background of the home icon made to be transparent so that if the image doesn't fill it all, it doesn't look weird.
+  - Removed the home shop mosaic.
+  - In settings, under nitro, changed the button shine to alt color and slowed it down a little.
+  - Changed the message request section to use the same style as hovering over a regular message, makes it a little easier to see.
+  - Changed the tags some for credit to myself.
+  - Edited the keybind recording in settings for voice and video push-to-talk to make it easier to see while recording.
+  - Removed the background of the Discord shop so that you can see the custom background.
+  - Made it easier to see the last played time for games.
+  - Weird pop-up about "looking for blocked users?" has been made transparent.
+  - Made the forums list title slightly less intrusive. No one likes a flashbang.
+  - Also changed the forums user and message content to be easier to see.
+  - Added hover effect to emoji remove in server settings.
+  - In user settings -> boost, adjusted popup about boost having a new home to be slightly transparent, also padded the "boost not used" thing.
+  - Colored the message reply spine thing.
+  - Applied background overlay to the boost mural in server menu -> boost this server.
+  - Changed the button to use white.
+  - Adjusted the forums start chat to be easier to see.
+  - A lot more stuff that I can't be bothered to type. For a complete history of changes, it's best to read the [commits](https://github.com/BabyBoySnow/SnowVision/commits/master/).
+
+</details>
+
 
 ---
 
