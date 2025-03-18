@@ -189,3 +189,8 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
   background: var(--card-color);
   border: 1px solid $main-color;
 }
+
+%visualRefresh %emojiPickerInspector {
+  background-color: transparent;
+  border-top: var(--border-faint);
+}
