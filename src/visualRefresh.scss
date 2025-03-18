@@ -199,6 +199,10 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
     border-color: none;
     box-shadow: none;
   }
+
+  %chatLoadingWrapper {
+    background: transparent;
+  }
 }
 
 // NEW VOICE FILTER THINGY

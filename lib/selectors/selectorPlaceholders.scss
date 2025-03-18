@@ -1042,9 +1042,11 @@
 .wrapper_d852db {
   @extend %chatLoadingWrapper !optional;
 }
-
+.cozy_fc8177 {
+  @extend %chatLoadingCozy !optional;
+}
 .wrapper_fc8177 {
-  @extend %chatLoadingWrapperCozy !optional;
+  @extend %chatLoadingWrapper !optional;
 }
 
 .divider__5126c {

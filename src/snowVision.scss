@@ -256,6 +256,13 @@ button%panelButton%panelButtonEnabled:hover {
 %privateChannelsHeaderText {
   overflow: visible;
 }
+%chatLoadingCozy %chatLoadingWrapper {
+  background: rgba(0, 0, 0, calc($bg-shading * 0.4))
+}
+
+%chatLoadingWrapper {
+  background: transparent;
+}
 
 %messageListItem[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
   display: none;
