@@ -127,41 +127,60 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
   display: none;
 }
 
-%titlebarWin > %titlebarWordmark::before {
-  order: 2;
-  content: "SnowVision";
-  color: var(--alt-color);
-  background-image: url(https://i.imgur.com/ElceD67.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  font-size: 14px;
-  font-family: "Lovely Home", sans-serif;
-  position: static;
-  padding-left: 15px;
-  margin-right: 10px;
-  margin-left: 8px;
-  text-shadow: unset;
-  filter: unset;
+%titlebarWin {
+  height: 18px;
+  width: 100vw;
+  margin: 0;
+  padding: 2px 0;
+  background: rgba(0, 0, 0, calc($bg-shading * 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, calc($bg-shading * 0.6));
+
+  > %titlebarWordmark {
+    position: static;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: none;
+    user-select: none;
+    order: 1;
+
+    &:before {
+      content: "SnowVision";
+      color: var(--alt-color);
+      font-size: 14px;
+      font-family: "Lovely Home", sans-serif;
+      background-image: url(https://i.imgur.com/ElceD67.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left center;
+      padding-left: 18px;
+      margin-right: 10px;
+      margin-left: 1.5px;
+    }
+
+    &:after {
+      content: 'v1.5.5';
+      color: var(--alt-color);
+      font-family: 'Bookerly Display Regular', serif;
+      font-size: 10px;
+      margin-left: -5px;
+      margin-bottom: 3px;
+      order: 3;
+    }
+  }
+
+  > %titlebarWordmark > svg {
+    color: $alt-color;
+    filter: unset;
+
+    > g > path {
+      fill: $alt-color;
+    }
+  }
 }
 
-%titlebarWin > %titlebarWordmark > svg > g > path {
-  fill: $alt-color;
-}
-%titlebarWin > %titlebarWordmark > svg {
-  color: $alt-color;
-  filter: unset;
-}
-%titlebarWin > %titlebarWordmark::after {
-  color: $alt-color;
-  content: 'v1.5.5';
-  font-family: 'Bookerly Display Regular', serif;
-  margin-bottom: 5px;
-  margin-left: -5px;
-  margin-bottom: 5px;
-  margin-top: 3px;
-  order: 3;
-}
 %toolbar %headerBarIconWrapper > svg:not(%headerBarIcon) {
   color: #fff;
   filter: unset;
