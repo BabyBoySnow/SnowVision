@@ -43,11 +43,12 @@
     background: rgba(0, 0, 0, calc($bg-shading * 0.3));
   }
 
-%visualRefreshChatInput {
-  %channelTextArea {
-    background-color: rgba(0, 0, 0, 0.6);
+  // CHAT INPUT
+  %visualRefreshChatInput {
+    %channelTextArea {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
   }
-}
 
   // FORUM HEADER & ATTACHMENT AREA
   %forumChatHead, 
