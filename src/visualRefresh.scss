@@ -15,13 +15,21 @@
   // ACC PANEL
   %panels,
   %channelsHeader,
-  %channelsSidebar::after
+  %channelsSidebar::after,
   // SETTINGS
   %standardSidebarView,
   %settingsSidebarScroller,
   // FRIENDS LIST APPARENTLY
-  .tabBody__133bf {
-    background-color: transparent;
+  %friendsList,
+  // CHANNELS HEADER
+  %channelsHeaderClickable,
+  // CHANNELS ATTACH BAR
+  %channelTextAreAttachedBar,
+  // DATE DIVIDER
+  %dividerDate,
+  // HOME ICON BACKGROUND WHEN NO HOVER
+  %homeIconBackground {
+    background: transparent;
   }
 
   // CHAT BG
@@ -42,76 +50,13 @@
   }
 }
 
-%visualRefresh %guildsWrapper {
-  background-color: transparent;
-}
-
-%visualRefresh %channelsHeader {
-  background: transparent;
-}
-
-%visualRefresh .tabBody__133bf {
-  background: transparent;
-}
-
-%visualRefresh %panels {
-  background: transparent;
-  padding-left: 65px;
-}
-
-%visualRefresh %standardSidebarView {
-  background: transparent;
-}
-
-%visualRefresh %settingsSidebarScroller {
-  background: transparent;
-}
-
-.popout__3f413, .popout__3f413.popoutPositionTop__3f413 {
-  background: rgba(0, 0, 0, 0.8);
-} 
-
-%visualRefresh %messageButtonWrapper {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-%visualRefresh %channelsHeaderClickable {
-  background: transparent;
-}
-
-%visualRefresh %channelTextAreAttachedBar {
-  background: transparent;
-}
-
-%visualRefresh %dividerDate {
-  background: transparent;
-}
-
-%visualRefresh .childWrapperNoHoverBg__6e9f8 {
-  background: transparent;
-}
-
-.visual-refresh .embedFull__623de {
-  background: rgba(0, 0, 0, 0.6) !important; //discord used inline style
-}
-
-%visualRefresh %membersContainer {
-  border-left: none;
-}
-html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
-  position: static;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
-  color: $text-normal;
-  box-sizing: border-box;
-  padding: 4px 8px;
-  overflow: visible;
-  z-index: 1;
-  transition: all 0.6s linear;
-  &:hover {
-    background: $hover-color;
+  // FORUM HEADER & ATTACHMENT AREA
+  %forumChatHead, 
+  .header__34c2c,
+  .channelAttachmentArea_b77158 {
+    background: rgba(0, 0, 0, 0.6);
   }
-}
+
 %leading {
   background-image: url('https://i.imgur.com/ElceD67.png');
   background-size: contain;
@@ -120,76 +65,97 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
   margin-left: 5px;
 }
 
-%leading::before {
-  content: "SnowVision";
-  order: 2;
-  font-family: 'Lovely Home';
+  // UPLOAD AREA
+  %channelTextAreaUpload {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid $main-color;
+  }
+
+  // GUILD EXPANDED FOLDER BG
+  %guildExpandedFolderBackground {
+    background-color: $main-color;
+  }
+
+  // BRAND BAR IDK WTF THIS WAS 
+  %barBrand {
+    background-color: $main-color;
+    border: none;
+  }
+
+  // MEMBER ACTIVITY IN CHAT
+  %memberActivityContainer {
+    background: var(--card-color);
+    border: 1px solid $main-color;
+  }
+
+  // EMOJI PICKER
+  %emojiPicker {
+    background-color: transparent;
+    }
+
+  %emojiPickerInspector {
+    background-color: transparent;
+    border-top: var(--border-faint);
+    }
+
+  %emojiPickerGuildBar {
+    background: transparent;
+    }
+
+  %emojiPickerWrapper {
+    background-color: transparent;
+    }
+
+  %emojiPickerCategoryHeaderWrapper {
+    background-color: $main-color;
+  }
+// REMOVE WEIRD DOUBLE BORDER ON SEARCH IN EMOJI PICKER
+:where(.visual-refresh) .container_a45028:focus-within {
+  border-color: none;
+}
+
+// VENCORD READ ALL
+.vc-ranb-button {
+  border-radius: 50px !important; // !IMPORTANT BECAUSE VENCORD USED INLINE STYLING
+  &:hover {background-color: $hover-color;}
+}
+
+html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
   position: static;
-  margin-right: 10px;
-  margin-left: 20px;
-  padding-left: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--alt-color);
-}
-
-%leading::after {
-  content: "v2.0.0 pre";
-  order: 3;
-  position: static;
-  font-family: 'Bookerly Display Regular';
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
-  margin-left: -5px;
-  margin-bottom: 5px;
-  margin-top: 3px;
-}
-
-%visualRefresh .channelTextArea_f75fb0 {
-  background: rgba(0, 0, 0, 0.6);
-}
-
-%visualRefresh %forumChatHead, %visualRefresh .header__34c2c {
-  background:rgba(0, 0, 0, 0.6)
-}
-
-%visualRefresh .channelAttachmentArea_b77158 {
-  background: rgba(0, 0, 0, 0.6);
-}
-
-%visualRefresh %channelTextAreaUpload {
   background: rgba(0, 0, 0, 0.4);
-  border: 1px solid $alt-color;
+  border-radius: 50px;
+  color: var(--text-normal);
+  box-sizing: border-box;
+  padding: 4px 8px;
+  overflow: visible;
+  z-index: 1;
+  transition: all 0.6s linear;
+  border-color: none;
+  &:hover { background: $hover-color;}
 }
 
-%visualRefresh %guildExpandedFolderBackground {
-  background-color: $main-color;
-}
+  // POPOUT GOING UP
+  .popout__3f413, .popout__3f413.popoutPositionTop__3f413 {
+    background: var(--popout-color);
+  } 
 
-%visualRefresh .picker__09f65, %visualRefresh .picker__09f65.refresh__09f65 {
-  background: var(--popout-color);
-}
+  // MESSAGE BUTTON WRAPPER
+  %messageButtonWrapper {
+    background: rgba(0, 0, 0, 0.7);
+  }
 
-%visualRefresh .wrapper__4e6ce {
-  background: transparent;
-}
+  // EMBED MESSAGE BACKGROUND
+  %embedBackground {
+    background: rgba(0, 0, 0, 0.6) !important; // !IMPORTANT BECAUSE DISCORD USED INLINE STYLE
+  }
 
-%visualRefresh %channelsSidebar:after {
-  background: transparent;
-}
+  // GUILD MEMBERS LIST
+  %membersContainer {
+    border-left: none;
+  }
 
-%visualRefresh %barBrand {
-  background-color: $main-color;
-  border: none;
-}
-
-%visualRefresh %memberActivityContainer {
-  background: var(--card-color);
-  border: 1px solid $main-color;
-}
-
-%visualRefresh %emojiPickerInspector {
-  background-color: transparent;
-  border-top: var(--border-faint);
+  //  SOUNDBOARD (DUH)
+  %soundboard {
+    background: var(--popout-color);
+    }
 }
