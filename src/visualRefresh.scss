@@ -42,7 +42,6 @@
   %privateChannels {
     background: rgba(0, 0, 0, calc($bg-shading * 0.3));
   }
-}
 
 %visualRefreshChatInput {
   %channelTextArea {
@@ -63,6 +62,32 @@
   background-repeat: no-repeat;
   gap: 1px;
   margin-left: 5px;
+}
+
+%leading::before {
+  content: "SnowVision";
+  order: 2;
+  font-family: 'Lovely Home';
+  position: static;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--alt-color);
+}
+
+%leading::after {
+  content: "v2.0.0 pre";
+  order: 3;
+  position: static;
+  font-family: 'Bookerly Display Regular';
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
 
   // UPLOAD AREA
