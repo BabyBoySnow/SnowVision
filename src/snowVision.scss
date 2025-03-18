@@ -126,14 +126,25 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
 %tier2ColumnOuter {
   display: none;
 }
-%titlebarWin > %titlebarWordmark:before {
-  color: $alt-color;
-  content: 'SnowVision';
+
+%titlebarWin > %titlebarWordmark::before {
+  order: 2;
+  content: "SnowVision";
+  color: var(--alt-color);
+  background-image: url(https://i.imgur.com/ElceD67.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
   font-size: 14px;
+  font-family: "Lovely Home";
+  position: static;
+  padding-left: 15px;
+  margin-right: 10px;
+  margin-left: 8px;
   text-shadow: unset;
   filter: unset;
-  font-family: 'Lovely Home';
 }
+
 %titlebarWin > %titlebarWordmark > svg > g > path {
   fill: $alt-color;
 }
@@ -141,11 +152,15 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
   color: $alt-color;
   filter: unset;
 }
-%titlebarWin > %titlebarWordmark:after {
+%titlebarWin > %titlebarWordmark::after {
   color: $alt-color;
   content: 'v1.5.5';
   font-family: 'Bookerly Display Regular';
   margin-bottom: 5px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+  order: 3;
 }
 %toolbar %headerBarIconWrapper > svg:not(%headerBarIcon) {
   color: #fff;
@@ -407,6 +422,11 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background-color: transparent;
   color: #fff;
 }
+// Home Icon Background
+%guildChildWrapper {
+  background-color: transparent;
+}
+
 %subEnabledServers {
   background: var(--backdrop-image);
 }
