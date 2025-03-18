@@ -1146,6 +1146,10 @@
   @extend %channelTextArea !optional;
 }
 
+.channelTextArea_f75fb0 {
+  @extend %channelTextAreaNoPermissions !optional;
+}
+
 .scrollableContainer__74017 {
   @extend %channelTextAreaScrollable !optional;
 }
@@ -7421,10 +7425,6 @@ pre {
 
 .tile_ff4e03 {
   @extend %nitroTrial !optional;
-}
-
-.channelTextArea__74017 {
-  @extend %channelTextArea !optional;
 }
 
 .container_c44293 {

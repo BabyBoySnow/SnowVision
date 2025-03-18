@@ -290,13 +290,13 @@ button%panelButton%panelButtonEnabled:hover {
 }
 // Vencord Read All
 button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
-  position: relative;
+  position: static;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 50px;
   color: $text-normal;
   box-sizing: border-box;
   padding: 4px 8px;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
   transition: all 0.6s linear;
   &:hover {
