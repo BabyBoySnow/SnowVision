@@ -136,7 +136,7 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
   background-size: contain;
   background-position: left;
   font-size: 14px;
-  font-family: "Lovely Home";
+  font-family: "Lovely Home", sans-serif;
   position: static;
   padding-left: 15px;
   margin-right: 10px;
@@ -155,7 +155,7 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
 %titlebarWin > %titlebarWordmark::after {
   color: $alt-color;
   content: 'v1.5.5';
-  font-family: 'Bookerly Display Regular';
+  font-family: 'Bookerly Display Regular', serif;
   margin-bottom: 5px;
   margin-left: -5px;
   margin-bottom: 5px;
