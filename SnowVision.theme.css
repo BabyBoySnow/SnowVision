@@ -70,6 +70,7 @@
   --server-unread: var(--alt-color); /* The color of the icon for servers with unread messages. [default: var(--alt-color)]
 
   /* APP BACKGROUND */
+  --app-border-frame: none; /* the borders around app on the new UI. [default: none;] */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 0%] */
   --background-overlay: rgba(0, 0, 0, 0.2); /* app background overlay color/gradient [default: rgba(0,0,0,0.2)] */
   --background-image: url(https://i.imgur.com/kCndyb2.jpeg); /* app background image (link must be HTTPS) [default: url(https://i.imgur.com/kCndyb2.jpeg)]*/

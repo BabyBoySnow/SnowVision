@@ -253,6 +253,9 @@ button%panelButton%panelButtonEnabled:hover {
   opacity: 2;
 }
 
+%privateChannelsHeaderText {
+  overflow: visible;
+}
 
 %messageListItem[id*='chat-messages-212324635356692500']:has(img[src*='704368256017891348']) {
   display: none;

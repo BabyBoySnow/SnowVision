@@ -52,6 +52,7 @@ $cv: (
       bg: (
           // APP BACKGROUND
           app: (
+              border: var(--app-border-frame),
               shading: var(--background-shading),
               overlay: var(--background-overlay),
               img: var(--background-image),

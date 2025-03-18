@@ -188,10 +188,28 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
   %channelTextAreaNoPermissions {
     background: rgba(0, 0, 0, calc( $bg-shading * 0.8));
   }
+
+  %jumpToPresentBar {
+    background-color: rgba(0, 0, 0, calc($bg-shading * 0.6));
+    &:hover {background-color: rgba(0, 0, 0, calc($bg-shading * 0.8));}
+  }
+
+  %fileUploading {
+    background-color: rgba(0, 0, 0, calc( $bg-shading * 0.6));
+    border-color: none;
+    box-shadow: none;
+  }
 }
 
 // NEW VOICE FILTER THINGY
 // TODO: CHANGE THIS TO SELECTORS, PROBABLY NEEDS MORE ADJUSTMENT
 .visual-refresh .voiceFiltersFooter_e2f668, .visual-refresh .voiceFiltersPopout_e2f668 {
   background: var(--popout-color);
+}
+
+// APP BORDER 
+@supports (color: color-mix(in lch, red, blue)) and (top: var(--f)) {
+  .visual-refresh.theme-dark, .visual-refresh .theme-dark {
+      --app-border-frame: cv('bg.app.border');
+  }
 }
