@@ -32,7 +32,6 @@ Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this u
 
 The **SnowVision Logo** is available for free download [here](https://www.kindpng.com/imgv/hwbRbbo_emoji-snow-snowflake-holographic-snowflake-emoji-png-transparent/).
 
----
 
 ## Installation
 
@@ -69,8 +68,6 @@ For **Vencord**, follow these steps:
    - Example: To change the background, modify `--background-image` with a new image URL.  
    - **Note:** The URL must use **HTTPS** and end in an image format (e.g., `.png`, `.jpeg`).
 
----
-
 ## Building from Source
 
 To build the theme from source:
@@ -89,8 +86,8 @@ npm run test # Outputs a 'main.css' file in /test
 4. Move main.css to your theme folder and enable it in your client.
 
 
-To build the theme from source, first install npm from the dependencies below, then you can run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder. You may also run `npm run test` which will output a main.css file into the /test folder. You can then move
-that file into your themes folder, and select it to see how it looks before pushing any changes.
+To build the theme from source, first install npm from the dependencies below, then you can run `npm install` to install all missing dependencies and `npm run build` to compile the theme into the `/public` folder. You may also run `npm run test` which will output a main.css file into the `/test` folder. You can then move that file into your themes folder, and select it to see how it looks before pushing
+any changes.
 
 ### Dependencies
 
@@ -101,8 +98,6 @@ that file into your themes folder, and select it to see how it looks before push
 - [rimraf](https://www.npmjs.com/package/rimraf) (for cleanup)
 - [Prettier](https://www.npmjs.com/package/prettier) (code formatting)
 
----
-
 ## Contributing
 
 1. Clone the repository.
@@ -110,10 +105,7 @@ that file into your themes folder, and select it to see how it looks before push
 3. Copy `main.css` into BetterDiscord’s Custom CSS or your theme folder.
 4. Disable other themes while testing for best results.
 
----
-
-
-<details>
+## <details>
   <summary>Changelog</summary>
 
   - Moved date dividers to the middle.
@@ -159,8 +151,6 @@ that file into your themes folder, and select it to see how it looks before push
 </details>
 
 
----
-
 ## Addons
 
 Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/BabyBoySnow/SnowVision/tree/master/Addons) folder.
@@ -169,6 +159,8 @@ To use one you can just take the css file and load it seperately as a theme, or 
 - [vencord_read_all_mod.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/vencord_read_all_mod.theme.css) a change to the behavior of the vencord read all plugin.
 - [Fira_Code.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/Fira_Code.theme.css) a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
 - [Message_Box_Pulse.theme.css](https://github.com/BabyBoySnow/SnowVision/blob/master/Addons/Message_Box_Pulse.theme.css) a change to the message box to have a breathing effect.
+
+In addition to the above, this custom ClearVision fork should be compatable with any [ClearVision Addons](https://github.com/ClearVision/Addons)
 
 ## Scripts
 
