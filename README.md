@@ -104,8 +104,8 @@ any changes.
 2. Run `npm run test` to generate `main.css` in the `/test` directory.
 3. Copy `main.css` into BetterDiscord’s Custom CSS or your theme folder.
 4. Disable other themes while testing for best results.
-
-## <details>
+---
+ <details>
   <summary>Changelog</summary>
 
   - Moved date dividers to the middle.
