@@ -28,7 +28,9 @@
   // DATE DIVIDER
   %dividerDate,
   // HOME ICON BACKGROUND WHEN NO HOVER
-  %homeIconBackground {
+  %homeIconBackground,
+  // TOP OF EMOJI PICKER
+  %emojiPickerHeader {
     background: rgba(0, 0, 0, calc($bg-shading * 0.1));
   }
 
