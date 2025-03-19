@@ -12,28 +12,40 @@ on:
 jobs:
   replace_shorthands:
     runs-on: ubuntu-latest
+    # Prevent concurrent runs to avoid conflicts
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          # Fetch all history for proper git operations
+          fetch-depth: 0
+          # Use token for authentication
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10'
 
-      - name: Pull 
-        run: git pull
-
       - name: Run the shorthand replacement script
         run: python Scripts/detect_and_replace.py
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
+          
+          # Check if there are changes to commit
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
           git add .
-          git commit -m "Auto replace shorthands" || echo "No changes to commit"
+          git commit -m "Auto replace shorthands"
+          git push
 
-      - name: Push changes
-        run: git push
