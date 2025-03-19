@@ -1,4 +1,4 @@
-# SnowVision (ClearVision v6 Fork)
+# SnowVision immerse yourself in a smoother ClearVision experience.
 
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [prettier-link]: https://github.com/prettier/prettier
