@@ -866,7 +866,6 @@
 .newMessagesBar__0f481 {
   @extend %newMessagesBar !optional;
 }
-
 .jumpToPresentBar__0f481,
 .bottomBar__0f481 {
   @extend %jumpToPresentBar !optional;
@@ -1046,6 +1045,9 @@
   @extend %chatLoadingCozy !optional;
 }
 .wrapper_fc8177 {
+  @extend %chatLoadingWrapperCozy !optional;
+}
+.wrapper_fc8177 {
   @extend %chatLoadingWrapper !optional;
 }
 
@@ -1144,7 +1146,9 @@
 .form_f75fb0 {
   @extend %chatForm !optional;
 }
-
+.channelTextArea_f75fb0 {
+  @extend %channelTextAreaNoPermissions !optional;
+}
 .channelTextArea__74017 {
   @extend %channelTextArea !optional;
 }
