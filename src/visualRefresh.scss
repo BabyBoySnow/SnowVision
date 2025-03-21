@@ -160,9 +160,12 @@
   }
   // INBOX
   %messagesPopoutWrap,
-  %inboxHeader,
-  %forYouContainer {
+  %inboxHeader {
     background-color: $popout-color;
+  }
+
+  %forYouContainer {
+    background-color: transparent;
   }
 
   %unreadMessages {
