@@ -67,41 +67,6 @@
   .channelAttachmentArea_b77158 {
     background: rgba(0, 0, 0, calc( $bg-shading * 0.6));
   }
-
-%leading {
-  background-image: url('https://i.imgur.com/ElceD67.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  gap: 1px;
-  margin-left: 5px;
-}
-
-%leading::before {
-  content: "SnowVision";
-  order: 2;
-  font-family: 'Lovely Home';
-  position: static;
-  margin-right: 10px;
-  margin-left: 20px;
-  padding-left: 5px;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--alt-color);
-}
-
-%leading::after {
-  content: "v2.0.0 pre";
-  order: 3;
-  position: static;
-  font-family: 'Bookerly Display Regular';
-  font-size: 12px;
-  font-weight: 600;
-  color: #fff;
-  margin-left: -5px;
-  margin-bottom: 5px;
-  margin-top: 3px;
-}
-
   // UPLOAD AREA
   %channelTextAreaUpload {
     background: rgba(0, 0, 0, calc( $bg-shading * 0.4));
@@ -146,31 +111,6 @@
   %emojiPickerCategoryHeaderWrapper {
     background-color: $main-color;
   }
-// REMOVE WEIRD DOUBLE BORDER ON SEARCH IN EMOJI PICKER
-:where(.visual-refresh) .container_a45028:focus-within {
-  border-color: none;
-}
-
-// VENCORD READ ALL
-.vc-ranb-button {
-  border-radius: 50px !important; // !IMPORTANT BECAUSE VENCORD USED INLINE STYLING
-  &:hover {background-color: $hover-color;}
-}
-
-html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
-  position: static;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
-  color: $text-normal;
-  box-sizing: border-box;
-  padding: 4px 8px;
-  overflow: visible;
-  z-index: 1;
-  transition: all 0.6s linear;
-  border-color: none;
-  &:hover { background: $hover-color;}
-}
-
   // POPOUT GOING UP
   .popout__3f413, .popout__3f413.popoutPositionTop__3f413 {
     background: $popout-color;
@@ -254,10 +194,69 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
 }
 
 
+// REMOVE WEIRD DOUBLE BORDER ON SEARCH IN EMOJI PICKER
+:where(.visual-refresh) .container_a45028:focus-within {
+  border-color: none;
+}
+
+// VENCORD READ ALL
+.vc-ranb-button {
+  border-radius: 50px !important; // !IMPORTANT BECAUSE VENCORD USED INLINE STYLING
+  &:hover {background-color: $hover-color;}
+}
+
+html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+  position: static;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  color: $text-normal;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  overflow: visible;
+  z-index: 1;
+  transition: all 0.6s linear;
+  border-color: none;
+  &:hover { background: $hover-color;}
+}
+
 //another weird double border on a different emoji picker (add a reaction)
 :where(.visual-refresh) .container_a45028 {
   border: none;
   &:focus-within {
     border-color: none;
   }
+}
+
+%leading {
+  background-image: url('https://i.imgur.com/ElceD67.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  gap: 1px;
+  margin-left: 5px;
+}
+
+%leading::before {
+  content: "SnowVision";
+  order: 2;
+  font-family: 'Lovely Home';
+  position: static;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--alt-color);
+}
+
+%leading::after {
+  content: "v2.0.0 pre";
+  order: 3;
+  position: static;
+  font-family: 'Bookerly Display Regular';
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  margin-top: 3px;
 }
