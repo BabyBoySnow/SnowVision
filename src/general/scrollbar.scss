@@ -9,14 +9,14 @@
 }
 
 // Scrollbar Sizes
-%scrollbarAuto::-webkit-scrollbar { 
-  width: 14px !important; 
+%scrollbarAuto::-webkit-scrollbar {
+  width: 14px !important;
 }
-%scrollbarThin::-webkit-scrollbar { 
-  width: 10px !important; 
+%scrollbarThin::-webkit-scrollbar {
+  width: 10px !important;
 }
-%scrollbarNone::-webkit-scrollbar { 
-  width: 0px; 
+%scrollbarNone::-webkit-scrollbar {
+  width: 0px;
 }
 
 // Scrollbar Styling
@@ -68,9 +68,9 @@
 }
 
 // Hide scrollbars for specific elements
-textarea::-webkit-scrollbar { 
-  display: none !important; 
+textarea::-webkit-scrollbar {
+  display: none !important;
 }
-%shopModal::-webkit-scrollbar { 
-  width: 0; 
+%shopModal::-webkit-scrollbar {
+  width: 0;
 }

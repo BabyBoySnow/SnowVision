@@ -38,14 +38,13 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          
+
           # Check if there are changes to commit
           if git diff --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          
+
           git add .
           git commit -m "Auto replace shorthands"
           git push
-

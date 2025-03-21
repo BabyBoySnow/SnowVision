@@ -125,7 +125,7 @@ $cv: (
           general: (
               popout: var(--popout-color),
               modal: var(--modal-color),
-              card: var(--card-color)
+              card: var(--card-color),
             )
         )
     ),
@@ -162,4 +162,4 @@ $hover-color: cv('colors.hover');
 $alt-color: cv('colors.alt');
 $bg-shading: cv('bg.app.shading');
 $text-normal: cv('text.normal');
-$popout-color: cv('bg.general.popout')
+$popout-color: cv('bg.general.popout');

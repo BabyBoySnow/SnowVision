@@ -147,10 +147,10 @@ html:not(.visual-refresh-chat-input) %channelTextAreaScrollable:focus-within {
     order: 1;
 
     &::before {
-      content: "SnowVision";
+      content: 'SnowVision';
       color: var(--alt-color);
       font-size: 14px;
-      font-family: "Lovely Home", sans-serif;
+      font-family: 'Lovely Home', sans-serif;
       background-image: url(https://i.imgur.com/ElceD67.png);
       background-repeat: no-repeat;
       background-size: contain;
@@ -257,7 +257,7 @@ button%panelButton%panelButtonEnabled:hover {
   overflow: visible;
 }
 %chatLoadingCozy %chatLoadingWrapper {
-  background: rgba(0, 0, 0, calc($bg-shading * 0.4))
+  background: rgba(0, 0, 0, calc($bg-shading * 0.4));
 }
 
 %chatLoadingWrapper {
@@ -663,7 +663,7 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   background: rgba(0, 0, 0, 0.6);
 }
 
-%embed %embedTitleLink  {
+%embed %embedTitleLink {
   color: $alt-color !important;
   &:hover {
     color: var(--url-color) !important;
