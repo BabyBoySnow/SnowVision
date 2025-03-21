@@ -36,7 +36,10 @@
   // follow this channel, and maybe more.
   %channelInfo,
   %startingCall,
-  %chatLoadingWrapper  {
+  %chatLoadingWrapper,
+  // INBOX
+  %messagesPopoutChannelHeader,
+  %messagesPopoutHeader  {
     background: rgba(0, 0, 0, calc($bg-shading * 0.1));
   }
 
@@ -207,7 +210,6 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
     border-color: none;
     box-shadow: none;
   }
-  
   %forumChat {
     background-color: hsla(0, 0%, 95%, .1);
   }
@@ -215,6 +217,25 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
   // IMAGE ATTACHED TO CHAT MESSAGE
   %textContainerFooter {
     background-color: hsla(0, 0%, 100%, .1);
+  // INBOX
+  %messagesPopoutWrap,
+  %inboxHeader,
+  %forYouContainer {
+    background-color: $popout-color;
+  }
+
+  %unreadMessages {
+    background-color: transparent;
+    border: 1px solid $main-color;
+  }
+
+  %recentMentionsMessagesContainer {
+    background-color: rgba(0, 0, 0, calc($bg-shading * 0.1));
+    border: 1px solid $main-color;
+  }
+
+  %InboxHeaderContainer  {
+    background-color: $popout-color;
   }
 }
 
