@@ -198,6 +198,10 @@
     background: hsla(0, 0%, 100%, 0.2);
     box-shadow: inset 1px 0 hsla(0, 0%, 100%, 0.4);
   }
+
+  %messageThreadEmbed {
+    background-color: var(--card-color);
+  }
 }
 
 // NEW VOICE FILTER THINGY
