@@ -206,6 +206,229 @@
   %threadsMemeberContainer {
     background: rgba(0, 0, 0, calc($bg-shading * 0.6));
   }
+  /* DISCOVER */
+  %discover {
+    background-color: rgba(0, 0, 0, calc($bg-shading * 0.4));
+  }
+  %discoverHeaderBackdrop {
+    background-color: rgba($color: #0c1522, $alpha: 0.7);
+    backdrop-filter: blur(5px);
+  }
+  %discoverTabSelected {
+    border-bottom-color: $main-color !important;
+  }
+
+  // SIDEBAR
+  %discoverCategory {
+    background-color: transparent;
+  }
+  %discoverCategoryItem {
+    position: relative;
+    z-index: 1;
+    &:before {
+      content: '';
+      position: absolute;
+      @include stretch;
+      transition: all 0.15s ease-in-out;
+      z-index: -1;
+      pointer-events: none;
+      border-radius: 4px;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      @include pos(0, 100%, 0, 0);
+      opacity: 0.9;
+      transition: all 0.3s ease-in-out;
+      z-index: -1;
+      pointer-events: none;
+      border-radius: 4px;
+    }
+    &:hover {
+      &:before {
+        background: hsla(0, 0%, 100%, 0.1);
+      }
+    }
+    &%discoverCategoryItemSelected {
+      &:before {
+        background: hsla(0, 0%, 100%, 0.1);
+      }
+      &:after {
+        right: 0;
+        background: $main-color;
+        animation: cv-channel-select 0.3s ease-in-out;
+      }
+    }
+    &:is(%discoverCategoryItemSelected, :hover, :active) {
+      background-color: transparent;
+    }
+  }
+
+  // GUILD LIST
+  %themeDark {
+    :is(%discoverGuildCard, %discoverHubCard, %discoverGuildCardIcon) {
+      background-color: cv('bg.general.card');
+      transition: all 0.15s ease-in-out;
+      &:hover,
+      &:hover %discoverGuildCardIcon {
+        background-color: hsla(0, 0%, 0%, 0.6);
+      }
+    }
+  }
+  %discoverGuildCardLoading {
+    background-color: transparent;
+  }
+  %discoverGuildList {
+    %spinner {
+      background-color: hsla(0, 0%, 0%, 0.8);
+    }
+  }
+  %discoverGuildMembersOnline {
+    background-color: cv('colors.online');
+  }
+  %discoverGuildMembersOffline {
+    background-color: cv('colors.offline');
+  }
+  %discoverGuildLoading {
+    background-color: cv('bg.general.card');
+  }
+
+  // SEARCH RESULTS
+  %discoverSearchHeader {
+    background: rgba(0, 0, 0, calc($bg-shading * 0.6));
+    box-shadow: 0 0 10px rgba(0, 0, 0, calc($bg-shading * 0.6));
+  }
+  %discoverSearch {
+    background: rgba(0, 0, 0, calc($bg-shading * 0.5));
+  }
+  %discoverSearchBackButton {
+    background-color: $main-color;
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+  %discoverSearchEmpty {
+    background-color: transparent;
+  }
+  %discoverSearchCategory {
+    position: relative;
+    z-index: 1;
+    &:before {
+      content: '';
+      position: absolute;
+      @include stretch;
+      transition: all 0.15s ease-in-out;
+      z-index: -1;
+      pointer-events: none;
+      border-radius: 4px;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      @include pos(0, 100%, 0, 0);
+      opacity: 0.9;
+      transition: all 0.3s ease-in-out;
+      z-index: -1;
+      pointer-events: none;
+      border-radius: 4px;
+    }
+    &:hover {
+      &:before {
+        background: hsla(0, 0%, 100%, 0.1);
+      }
+    }
+    &%discoverSearchCategorySelected {
+      &:before {
+        background: hsla(0, 0%, 100%, 0.1);
+      }
+      &:after {
+        right: 0;
+        background: $main-color;
+        animation: cv-channel-select 0.3s ease-in-out;
+      }
+    }
+    %textSmallNormal {
+      color: hsla(0, 0%, 100%, 0.7) !important;
+    }
+  }
+
+  // QUESTS
+  %discoverQuestItem {
+    background-color: cv('bg.general.card');
+  }
+  %discoverQuestItemGradient {
+    background: linear-gradient(0deg, hsla(0, 0%, 0%, 0.9) 10%, hsla(0, 0%, 0%, 0.6) 25%, transparent 35%);
+  }
+  %discoverQuestItemDescription {
+    background-color: transparent;
+  }
+  %discoverQuestItemName {
+    color: $main-color !important;
+  }
+
+  // APPS
+  %themeDark %discoverAppListAvatar {
+    background-color: cv('bg.general.card');
+    border-color: transparent;
+  }
+  %discoverGuildCard %discoverAppListAvatar {
+    background-color: hsla(0, 0%, 0%, 0.6);
+    border-color: transparent;
+  }
+  %discoverAppAvatar {
+    background-color: cv('bg.general.card');
+    border-color: transparent;
+  }
+  %discoverAppCategory {
+    background-color: hsla(0, 0%, 100%, 0.1);
+    &:hover {
+      background-color: hsla(0, 0%, 100%, 0.15);
+    }
+  }
+  %discoverAppSupportServer,
+  %discoverAppCommands,
+  %discoverAppCommand,
+  %discoverAppPermissionList,
+  %discoverAppDataAccess {
+    background: cv('bg.general.card');
+    border: none;
+  }
+  %discoverAppMoreApps {
+    background: cv('bg.general.card');
+    border: none;
+    &:focus,
+    &:hover {
+      background-color: hsla(0, 0%, 0%, 0.6);
+    }
+  }
+  %discoverGuildCard {
+    background-color: cv('bg.general.card') !important;
+    &:focus,
+    &:hover {
+      background-color: hsla(0, 0%, 0%, 0.8) !important;
+    }
+  }
+
+    // QUICKSWITCHER
+  %quickswitcher {
+    background-color: cv('bg.general.modal');
+  }
+  %quickswitcherInput {
+    background-color: rgba(255, 255, 255, 0.07);
+  }
+  %quickswitcherScroller {
+    background-color: transparent;
+    margin-top: 10px;
+    &::-webkit-scrollbar-track {
+      background-color: transparent !important;
+    }
+  }
+  %quickswitcherResult[aria-selected='true'] {
+    background: var(--background-modifier-hover);
+  }
+  %quickswitcherPing {
+    background: $main-color;
+  }
 }
 
 // NEW VOICE FILTER THINGY

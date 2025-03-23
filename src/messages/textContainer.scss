@@ -135,7 +135,7 @@ $presetListIDs: ':is(';
   $selector: '';
   @if meta.type-of(map.get($presetContents, 'message')) == string {
     // individual message ID
-    $selector: '#message-accessories-' +#{map.get($presetContents, 'message')};
+    $selector: '#message-accessories-' + #{(map.get($presetContents, 'message'))};
   } @else {
     // :is() list
     $selector: ':is(';
