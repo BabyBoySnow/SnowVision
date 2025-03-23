@@ -202,6 +202,10 @@
   %messageThreadEmbed {
     background-color: var(--card-color);
   }
+
+  %threadsMemeberContainer {
+    background: rgba(0, 0, 0, calc($bg-shading * 0.6));
+  }
 }
 
 // NEW VOICE FILTER THINGY
