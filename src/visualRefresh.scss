@@ -429,6 +429,10 @@
   %quickswitcherPing {
     background: $main-color;
   }
+
+  %channelNotInList {
+    background-color: $popout-color;
+  }
 }
 
 // NEW VOICE FILTER THINGY
