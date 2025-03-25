@@ -175,3 +175,8 @@
     color: $main-color;
   }
 }
+
+// DISPLAY USER PROFILE PANEL (IN DM'S)
+%userProfileInner%memberPanel {
+  background-color: var(--card-color) !important;
+}
