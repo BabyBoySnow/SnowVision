@@ -38,8 +38,9 @@
   %chatLoadingWrapper,
   // INBOX
   %messagesPopoutChannelHeader,
-  %messagesPopoutHeader {
-    background: rgba(0, 0, 0, calc($bg-shading * 0.5));
+  %messagesPopoutHeader,
+  %callWrapper {
+    background: rgba(0, 0, 0, calc($bg-shading * 0.1));
   }
 
   // CHAT BG
