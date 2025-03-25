@@ -188,7 +188,10 @@
   background: cv('bg.general.card');
   backdrop-filter: none;
 }
-
+%nitroPaymentFailed {
+  background: cv('bg.general.card');
+  border-radius: 10px;
+}
 // SUBSCRIPTIONS
 %themeDark {
   :is(%userSettingsSubsNoItemsIcons) {
@@ -197,6 +200,7 @@
 }
 %userSettingsSubsPayDetailsBlock {
   background-color: cv('bg.general.card');
+  border: none; 
 }
 %userSettingsSubsAccountCredit {
   background-color: cv('bg.general.card');

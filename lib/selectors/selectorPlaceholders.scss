@@ -7824,3 +7824,6 @@ pre {
 .modalContent_de2fa0 {
   @extend %questVideoPopout !optional;
 }
+.paymentBanner_e335a7 {
+  @extend %nitroPaymentFailed !optional;
+}
