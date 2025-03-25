@@ -434,6 +434,11 @@
   %channelNotInList {
     background-color: $popout-color;
   }
+
+  %imageModalActionButtons {
+    background-color: cv('bg.general.modal');
+    border-color: 1px solid $main-color;
+  }
 }
 
 // NEW VOICE FILTER THINGY
