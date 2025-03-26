@@ -1074,7 +1074,9 @@
 .header_fed6d3 {
   @extend %gifPickerHeader !optional;
 }
-
+.header__8ef02 {
+  @extend %stickerPickerHeader !optional;
+}
 .searchBar_fed6d3 {
   @extend %gifPickerSearch !optional;
 }

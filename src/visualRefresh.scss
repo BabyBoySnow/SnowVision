@@ -28,8 +28,6 @@
   %dividerDate,
   // HOME ICON BACKGROUND WHEN NO HOVER
   %homeIconBackground,
-  // ADD A REACTION EMOJI PICKER HEADER
-  %emojiPickerHeader,
   // AGE RESTRICTED NSFW CHANNEL
   %ageRestricted,
   // follow this channel, and maybe more.
@@ -91,7 +89,11 @@
   }
 
   // EMOJI PICKER
-  %emojiPicker {
+  %emojiPicker,
+  // ADD A REACTION EMOJI PICKER HEADER
+  %emojiPickerHeader,
+  %gifPickerHeader,
+  %stickerPickerHeader {
     background-color: $popout-color;
   }
 
