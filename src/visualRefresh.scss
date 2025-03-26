@@ -94,7 +94,7 @@
   %emojiPickerHeader,
   %gifPickerHeader,
   %stickerPickerHeader {
-    background-color: $popout-color;
+    background-color: rgba(0, 0, 0, calc($bg-shading * 0.1));
   }
 
   %emojiPickerInspector {
