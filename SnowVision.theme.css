@@ -13,7 +13,7 @@
 
 /* IMPORT CSS */
 @import url(https://babyboysnow.github.io/SnowVision/main.css);
-@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+@import url(https://discordstyles.github.io/RadialStatus/RadialStatus.css);
 
 /* SETTINGS */
 :root {
@@ -37,12 +37,11 @@
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #593695; /* Colour for streaming status */
   --rs-invisible-color: #808080; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-self-speaking-color: hsl(180, 95%, 76%); /* Colour for speaking ring in the bottom left while in a voice chat/call */
+  --rs-self-speaking-colour: hsl(180, 95%, 76%); /* Colour for speaking ring in the bottom left while in a voice chat/call */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone  */
 
   /* OTHER */
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-  --server-size: 48px;
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 
   /* ACCENT COLORS */
   --main-color: hsla(265, 100%, 50%, 1); /* main accent color (hex,rgb or hsl) [default: hsla(265, 100%, 50%, 1)] */

@@ -88,31 +88,56 @@
     border: 1px solid $main-color;
   }
 
-  // EMOJI PICKER
-  %emojiPicker,
-  // ADD A REACTION EMOJI PICKER HEADER
+  // EMOJI PICKERS
+  %emojiPickerSearchBar {
+    margin-top: 6px;
+  }
+
   %emojiPickerHeader,
+  %emojiPickerWrapper,
+  %emojiPicker,
+  %emojiPickerInspector,
+  %emojiCategoryListWrapper,
   %gifPickerHeader,
-  %stickerPickerHeader {
-    background-color: rgba(0, 0, 0, calc($bg-shading * 0.1));
-  }
-
-  %emojiPickerInspector {
-    background-color: rgba(0, 0, 0, calc($bg-shading * 0.1));
-    border-top: var(--border-faint);
-  }
-
-  %emojiPickerGuildBar {
-    background: rgba(0, 0, 0, calc($bg-shading * 0.1));
-  }
-
-  %emojiPickerWrapper {
+  %stickerPickerHeader,
+  %gifPickerContainer,
+  %guildEmojisWrapper {
     background-color: $popout-color;
+  }
+
+  .container_a45028 {
+    margin-top: 6px;
   }
 
   %emojiPickerCategoryHeaderWrapper {
     background-color: $main-color;
   }
+  
+  .emojiPickerHasTabWrapper_c0e32c %emojiCategoryList {
+    margin-top: 6px;
+  }
+
+:where(.visual-refresh) %guildSettingsRoleSearch {
+    margin-top: 6px;
+  }
+
+.bodyWrapper_c0e32c {
+  background-color: $popout-color;
+}
+
+  %stickerShortcut {
+    display: none; // some useless sticker shortcut, badly placed.
+  }
+
+  %emojiPickerSuperReactionButton {
+    background: transparent;
+    color: $main-color;
+    transition: color .5s ease-in-out;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+
   // POPOUT GOING UP
   .popout__3f413,
   .popout__3f413.popoutPositionTop__3f413 {

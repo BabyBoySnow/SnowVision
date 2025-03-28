@@ -1080,7 +1080,12 @@
 .searchBar_fed6d3 {
   @extend %gifPickerSearch !optional;
 }
-
+.wrapper_c0e32c {
+  @extend %emojiPickersWrapper !optional;
+}
+.isBurstReactionPicker_c0e32c {
+  @extend %reactionPicker !optional;
+}
 .input_a45028 {
   @extend %gifPickerSearchInput !optional;
 }
@@ -3735,9 +3740,6 @@ pre {
 .secured_effb26 {
   @extend %connectionDebugSecured !optional;
 }
-.wrapper__4e6ce {
-  @extend %emojiPickerGuildBar !optional;
-}
 .emojiPicker_c0e32c {
   @extend %emojiPicker !optional;
 }
@@ -3745,7 +3747,12 @@ pre {
 .contentWrapper__08434 {
   @extend %emojiPickerWrapper !optional;
 }
-
+.wrapper_e94b8c {
+  @extend %guildEmojisWrapper !optional;
+}
+.standardStickerShortcut__3ad28 {
+  @extend %stickerShortcut !optional;
+}
 .drawerSizingWrapper__08434 {
   @extend %emojiPickerSizer !optional;
 }
