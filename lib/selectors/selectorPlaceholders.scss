@@ -4221,6 +4221,12 @@ pre {
   @extend %loadingScreen !optional;
 }
 
+.background_fb62e2 {
+  @extend %voiceChatBackground !optional;
+}
+.uploadArea_dbca3c {
+  @extend %voiceChannelUpload !optional;
+}
 .links_a2f514 {
   @extend %loadingLinks !optional;
 }
