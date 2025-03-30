@@ -249,7 +249,7 @@ button%panelButton%panelButtonEnabled:hover {
 // Channel Catagory Names
 %channelsSidebar :is(%categoryContainerDefault, %categoryContainerDragAfter, %categoryContainerDrag, %categoryContainer) %categoryWrapper %categoryName {
   color: $alt-color;
-  text-shadow: 0 0 3px;
+  text-shadow: none;
   opacity: 2;
 }
 
