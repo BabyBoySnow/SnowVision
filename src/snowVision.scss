@@ -253,6 +253,10 @@ button%panelButton%panelButtonEnabled:hover {
   opacity: 2;
 }
 
+%standardSidebarView, %standardSidebarView * {
+  color: $text-normal !important;
+}
+
 %privateChannelsHeaderText {
   overflow: visible;
 }
