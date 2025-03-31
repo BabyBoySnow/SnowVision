@@ -73,11 +73,21 @@
 
   %callChatWrapper {
     background: hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  %activityContainer {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid $main-color;
+    border-radius: 15px;
   }
   
   // loading screen
   %loadingScreen {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   // FORUM HEADER & ATTACHMENT AREA
