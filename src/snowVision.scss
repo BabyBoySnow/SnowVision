@@ -254,11 +254,12 @@ button%panelButton%panelButtonEnabled:hover {
 }
 
 // for the text in settings, important needed because some have inline style.
-%standardSidebarView, %standardSidebarView * {
+%standardSidebarView,
+%standardSidebarView * {
   color: $text-normal !important;
 }
 
-// Voice Channel, full view background. Important needed because discord used inline style. 
+// Voice Channel, full view background. Important needed because discord used inline style.
 %voiceChatBackground {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }

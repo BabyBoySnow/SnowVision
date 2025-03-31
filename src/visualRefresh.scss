@@ -66,7 +66,7 @@
     }
   }
 
-  // forum create a post 
+  // forum create a post
   %mainCard {
     background: rgba(0, 0, 0, calc($bg-shading * 0.5));
   }
@@ -82,7 +82,7 @@
     border: 1px solid $main-color;
     border-radius: 15px;
   }
-  
+
   // loading screen
   %loadingScreen {
     background: rgba(0, 0, 0, 0.1);
@@ -144,18 +144,18 @@
   %emojiPickerCategoryHeaderWrapper {
     background-color: $main-color;
   }
-  
+
   .emojiPickerHasTabWrapper_c0e32c %emojiCategoryList {
     margin-top: 6px;
   }
 
-:where(.visual-refresh) %guildSettingsRoleSearch {
+  :where(.visual-refresh) %guildSettingsRoleSearch {
     margin-top: 6px;
   }
 
-.bodyWrapper_c0e32c {
-  background-color: $popout-color;
-}
+  .bodyWrapper_c0e32c {
+    background-color: $popout-color;
+  }
 
   %stickerShortcut {
     display: none; // some useless sticker shortcut, badly placed.
@@ -164,13 +164,13 @@
   %emojiPickerSuperReactionButton {
     background: transparent;
     color: $main-color;
-    transition: color .5s ease-in-out;
+    transition: color 0.5s ease-in-out;
     &:hover {
       color: $hover-color;
     }
   }
 
-    /* DISCORD SHOP */
+  /* DISCORD SHOP */
   %shopPreview {
     background: transparent;
   }
@@ -278,7 +278,6 @@
   %shopWhatsNew {
     background-color: rgba(0, 0, 0, calc($bg-shading * 0.8));
   }
-
 
   // POPOUT GOING UP
   .popout__3f413,
@@ -576,7 +575,7 @@
     }
   }
 
-    // QUICKSWITCHER
+  // QUICKSWITCHER
   %quickswitcher {
     background-color: cv('bg.general.modal');
   }
