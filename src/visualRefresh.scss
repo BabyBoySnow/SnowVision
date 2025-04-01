@@ -2,7 +2,22 @@
   // APP BG
   %appMount {
     background: var(--background-overlay);
+    position: relative;
+    z-index: 1;
+    &::before {
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background: var(--frosted-glass-background);
+      backdrop-filter:blur(var(--backgrund-blur));
+      -webkit-backdrop-filter:blur(var(--background-blur));
+      z-index:-1;
+    }
   }
+
   %bg {
     background: cv('bg.app.img') cv('bg.app.pos') / cv('bg.app.size') cv('bg.app.repeat') cv('bg.app.attach');
     @include filters(cv('bg.app'));

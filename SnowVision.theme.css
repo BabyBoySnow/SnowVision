@@ -84,6 +84,7 @@
   --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
   --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
   --background-blur: 0px; /* app background blur [default: 0px] */
+  --frosted-glass-background: transparent; /* If you wish to add a frosted glass effect, you can change this to hsla(0,0%,100%,.1) */
 
   /* HOME BUTTON ICON */
   --home-icon: url(https://i.imgur.com/8YD6bUK.png); /* home button icon (link must be HTTPS) [default: url(https://i.imgur.com/8YD6bUK.png)]*/

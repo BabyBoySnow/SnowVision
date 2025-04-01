@@ -4380,7 +4380,9 @@ pre {
 .header_b3f026 {
   @extend %settingsHeader !optional;
 }
-
+.finePrint_df7724 {
+  @extend %nitroTOS !optional;
+}
 .headerText_b3f026 {
   @extend %settingsHeaderText !optional;
 }
