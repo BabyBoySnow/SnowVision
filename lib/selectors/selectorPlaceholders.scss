@@ -819,7 +819,8 @@
 .activityEmoji__972a0 {
   @extend %privateChannelActivityEmoji !optional;
 }
-.text__8ac07 {
+.text__8ac07,
+.text_c9d15c {
   @extend %privateChannelActivityText !optional;
 }
 
@@ -6493,6 +6494,7 @@ pre {
 .keybindHint__46002 {
   @extend %soundboardHint !optional;
 }
+
 
 .refresh__09f65 {
   @extend %soundboardRefresh !optional;
