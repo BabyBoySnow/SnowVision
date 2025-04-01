@@ -632,6 +632,10 @@
     background-color: cv('bg.general.modal');
     border-color: 1px solid $main-color;
   }
+
+  %pollEndContainer {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
 }
 
 // NEW VOICE FILTER THINGY
