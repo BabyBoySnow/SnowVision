@@ -46,6 +46,19 @@
     background: rgba(0, 0, 0, calc($bg-shading * 0.5));
   }
 
+  // UNREAD MESSAGES IN SERVER 
+  // IMPORTANT NEEDED BECAUSE DISCORD USED INLINE STYLING
+  %unreadMessages {
+    color: $text-normal !important;
+  }
+
+  // POLLS
+  %poll {
+    background-color: $popout-color;
+    border: 1px solid $main-color;
+  }
+
+
   // CHANNELS
   %channelsContainer,
   %privateChannels {

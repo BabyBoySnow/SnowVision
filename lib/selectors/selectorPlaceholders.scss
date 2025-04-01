@@ -5756,7 +5756,8 @@ pre {
   @extend %unreadChannel !optional;
 }
 
-.messages__1ccd1 {
+.messages__1ccd1,
+.barText__7aaec {
   @extend %unreadMessages !optional;
 }
 
@@ -7329,6 +7330,10 @@ pre {
 
 .container__0be77 {
   @extend %poll !optional;
+}
+
+.radioForeground_f4f0eb {
+  @extend %pollAnswerFill !optional;
 }
 
 .answerSelectionIcon__4c520 {
