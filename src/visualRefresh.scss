@@ -156,13 +156,16 @@
   %emojiPickerHeader,
   %emojiPickerWrapper,
   %emojiPicker,
-  %emojiPickerInspector,
   %emojiCategoryListWrapper,
   %gifPickerHeader,
   %stickerPickerHeader,
   %gifPickerContainer,
   %guildEmojisWrapper {
     background-color: $popout-color;
+  }
+
+  %emojiPickerInspector {
+    background-color: transparent;
   }
 
   .container_a45028 {

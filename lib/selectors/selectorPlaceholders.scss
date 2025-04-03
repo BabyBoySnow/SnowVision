@@ -1565,6 +1565,10 @@
   @extend %flowerStar !optional;
 }
 
+.categoryList_a1e0e0 {
+  @extend %soundBoardServers !optional;
+}
+
 .childContainer__3e3b0 {
   @extend %flowerStarChild !optional;
 }
@@ -3819,6 +3823,9 @@ pre {
 
 .inspector_aeaaeb {
   @extend %emojiPickerInspector !optional;
+}
+.soundButtonWrapper__9be63  {
+  @extend %soundBoardButtonWrapper !optional;
 }
 
 .categoryList_c0e32c {
