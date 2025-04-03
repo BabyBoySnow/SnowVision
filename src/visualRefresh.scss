@@ -744,3 +744,7 @@ html:not(.visual-refresh .scroller_ef3116) button.vc-ranb-button.button__201d5.l
 %visualRefreshChatInput %visualRefreshChatText {
   color: #fff;
 }
+
+%flowerStar > path {
+  fill: $main-color;
+}

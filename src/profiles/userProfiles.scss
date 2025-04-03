@@ -121,14 +121,11 @@
 // GENERAL
 // CONNECTED ACCOUNTS
 %userProfileConnectedAccountVerifiedIcon {
-  background: url(https://clearvision.github.io/icons/verified.svg) center/18px no-repeat;
-  opacity: 0.5;
-  z-index: 1;
   %flowerStar {
-    opacity: 0;
+    opacity: 1;
   }
   %flowerStarChild {
-    display: none;
+    margin-left: 3px;
   }
 }
 %userProfileConnectedAccountOpenIcon {
