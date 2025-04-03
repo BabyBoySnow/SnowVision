@@ -160,7 +160,7 @@
   color: $text-normal;
   background-color: $main-color;
   padding: 5px;
-  transition: background-color 1s ease-in-out;
+  transition: background-color .3s ease-in-out;
   &:hover {
     background-color: $hover-color;
   }
