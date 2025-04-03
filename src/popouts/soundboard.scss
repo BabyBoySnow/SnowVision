@@ -80,4 +80,11 @@
   %soundBoardServers {
     background-color: transparent !important;
   }
+
+  %soundboardShowAll {
+    background-color: $main-color;
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
 }
