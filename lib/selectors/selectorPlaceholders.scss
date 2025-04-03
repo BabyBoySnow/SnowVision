@@ -1904,6 +1904,9 @@
 .placeholderMask__87847 {
   @extend %guildPlaceholderMask !optional;
 }
+.clipBadgeIcon__8c88a {
+  @extend %clipsEnabledIcon !optional;
+}
 
 .dragInner__87847 {
   @extend %guildDragInner !optional;

@@ -706,6 +706,12 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   color: $main-color;
 }
 
+%clipsEnabledIcon > path {
+  fill: $main-color;
+  border-radius: 25px;
+  margin-right: 3px;
+}
+
 // important needed to override discord doing inline styling of -6? Makes it go out of the box, stupid af.
 %accountStandingPoints {
   background-color: rgba(0, 0, 0, 0.4);
