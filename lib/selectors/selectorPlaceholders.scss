@@ -942,10 +942,10 @@
 .active_f1ceac {
   @extend %callButtonActive !optional;
 }
-
+*/
 .participantsButton__211d1 {
   @extend %callParticipantsButton !optional;
-}*/
+}
 .tile__90dc5 {
   @extend %callTile !optional;
 }
@@ -3824,7 +3824,7 @@ pre {
 .inspector_aeaaeb {
   @extend %emojiPickerInspector !optional;
 }
-.soundButtonWrapper__9be63  {
+.soundButtonWrapper__9be63 {
   @extend %soundBoardButtonWrapper !optional;
 }
 
@@ -6508,7 +6508,6 @@ pre {
 .keybindHint__46002 {
   @extend %soundboardHint !optional;
 }
-
 
 .refresh__09f65 {
   @extend %soundboardRefresh !optional;

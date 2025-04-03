@@ -5,16 +5,16 @@
     position: relative;
     z-index: 1;
     &::before {
-      content:"";
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%;
-      height:100%;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       background: var(--frosted-glass-background);
-      backdrop-filter:blur(var(--backgrund-blur));
-      -webkit-backdrop-filter:blur(var(--background-blur));
-      z-index:-1;
+      backdrop-filter: blur(var(--backgrund-blur));
+      -webkit-backdrop-filter: blur(var(--background-blur));
+      z-index: -1;
     }
   }
 
@@ -61,7 +61,7 @@
     background: rgba(0, 0, 0, calc($bg-shading * 0.5));
   }
 
-  // UNREAD MESSAGES IN SERVER 
+  // UNREAD MESSAGES IN SERVER
   // IMPORTANT NEEDED BECAUSE DISCORD USED INLINE STYLING
   %unreadMessages {
     color: $text-normal !important;
@@ -72,7 +72,6 @@
     background-color: $popout-color;
     border: 1px solid $main-color;
   }
-
 
   // CHANNELS
   %channelsContainer,
