@@ -4,6 +4,9 @@
 .visual-refresh-chat-input {
   @extend %visualRefreshChatInput !optional;
 }
+.slateTextArea_ec4baf {
+  @extend %visualRefreshChatText !optional;
+}
 .appMount__51fd7 {
   @extend %appMount !optional;
 }
