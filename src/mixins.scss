@@ -122,3 +122,40 @@
     color: #000;
   }
 }
+
+// Visual refresh themeing
+@mixin leading($version: 'v3.0.0', $label: 'SnowVision', $img: 'https://i.imgur.com/ElceD67.png') {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  margin-left: 5px;
+  background-image: url(#{$img});
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &::before {
+    content: '#{$label}';
+    order: 2;
+    font-family: 'Lovely Home';
+    position: static;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--alt-color);
+  }
+
+  &::after {
+    content: '#{$version}';
+    order: 3;
+    position: static;
+    font-family: 'Bookerly Display Regular';
+    font-size: 12px;
+    font-weight: 600;
+    animation: rainbowText 3s linear infinite;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+}
