@@ -23,7 +23,7 @@
 [![Issues][issues-badge]][issues-link]  
 [![Pull Requests][prs-badge]][prs-link]  
 
-![Main Aquarion Preview](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Aquarion%20Preview.png)
+![Main Aquarion Preview](https://raw.githubusercontent.com/Aquarion-D/Aquarion/refs/heads/Aquarion/screenshots/Preview%20with%20stuff.png)
 
 <details>
   <summary>Click to view additional previews</summary>
