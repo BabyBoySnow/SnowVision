@@ -23,13 +23,14 @@
 [![Issues][issues-badge]][issues-link]  
 [![Pull Requests][prs-badge]][prs-link]  
 
-![Main Aquarion Preview](https://raw.githubusercontent.com/Aquarion-D/Aquarion/refs/heads/Aquarion/screenshots/Preview%20with%20stuff.png)
+![Main Aquarion Preview](https://raw.githubusercontent.com/Aquarion-D/Aquarion/refs/heads/Aquarion/screenshots/Aquarion%20Preview.png)
 
 <details>
   <summary>Click to view additional previews</summary>
-  
+
    ![Nitro Profile Preview](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Nitro%20Profile%20Preview.png)  
-   ![Regular Profile](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Preview%20with%20profile.png)  
+   ![Regular Profile](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Preview%20with%20profile.png)
+   ![Channel Hovered](https://raw.githubusercontent.com/Aquarion-D/Aquarion/refs/heads/Aquarion/screenshots/Channel%20Hovered.png)
 
 </details>
 
