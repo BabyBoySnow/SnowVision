@@ -165,14 +165,3 @@ npm run test # Outputs a 'main.css' file in /test
 - A lot more stuff that I can't be bothered to type. For a complete history of changes, it's best to read the [commits](https://github.com/Aquarion-D/Aquarion/commits/Aquarion/).
 
 </details>
-
-## Addons
-
-Any changes I make that I feel should not be in the main theme will be included in the [Addons](https://github.com/Aquarion-D/Aquarion/tree/Aquarion/Addons) folder.  
-To use one you can just take the css file and load it separately as a theme, or copy the contents into your custom css. Currently includes:
-
-- [vencord_read_all_mod.theme.css](https://github.com/Aquarion-D/Aquarion/blob/Aquarion/Addons/vencord_read_all_mod.theme.css) a change to the behavior of the vencord read all plugin.
-- [Fira_Code.theme.css](https://github.com/Aquarion-D/Aquarion/blob/Aquarion/Addons/Fira_Code.theme.css) a change to code blocks which requires the custom font [Fira Code.](https://github.com/tonsky/FiraCode/releases)
-- [Message_Box_Pulse.theme.css](https://github.com/Aquarion-D/Aquarion/blob/Aquarion/Addons/Message_Box_Pulse.theme.css) a change to the message box to have a breathing effect.
-
-In addition to the above, keep an eye on this section for new and experimental additions!
