@@ -124,7 +124,7 @@
 }
 
 // Visual refresh themeing
-@mixin leading($version: 'v1.0.0', $label: 'Aquarion', $img: 'https://i.imgur.com/ElceD67.png') {
+@mixin leading($version: 'v1.0.1', $label: 'Aquarion', $img: 'https://i.imgur.com/ElceD67.png') {
   display: flex;
   align-items: center;
   gap: 1px;

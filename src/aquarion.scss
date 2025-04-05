@@ -718,6 +718,10 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
   margin-right: 6px !important;
 }
 
+
+%guildProfilePreview {
+  background-color: rgba(0, 0, 0, 0.4);
+}
 // .header_ is the class of an element containing the username, timestamp and if the pronoun exists,
 // it contains an element with the class .vc-pronoundb-compact but not on the last child. The DOM is something like .header > [username, timestamp+vc-pronound-compact, timestamp]
 @supports selector(a:has(+ a)) {
@@ -728,5 +732,5 @@ button.vc-ranb-button%button%buttonFilled%sizeMin%grow {
 }
 
 [aria-label='Pronouns'] {
-  color: $alt-color;
+  color: $alt-color !important; // important needed because of some * shit I did
 }

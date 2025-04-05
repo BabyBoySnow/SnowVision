@@ -3011,7 +3011,9 @@ pre {
 .messageContent_c19a55 {
   @extend %messageContent !optional;
 }
-
+.profilePreview_dbba93 {
+  @extend %guildProfilePreview !optional;
+}
 .container__235ca {
   @extend %messageSystemContainer !optional;
 }

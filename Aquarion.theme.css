@@ -2,7 +2,7 @@
 
  * @name Aquarion
  * @author therealjustsnow and ClearVision Team
- * @version 1.0.0
+ * @version 1.0.1
  * @description A custimized fork of ClearVision keeping the same high custimizability, with some tweaks for a smoother experience.
  * @source https://github.com/Aquarion-D/Aquarion
  * @website https://clearvision.github.io
@@ -71,7 +71,7 @@
   /* APP BACKGROUND */
   --app-border-frame: none; /* the borders around app on the new UI. [default: none;] */
   --background-shading: 0%; /* app background shading (0 for complete smoothness) [default: 0%] */
-  --background-overlay: rgba(0, 0, 0, 0.2); /* app background overlay color/gradient [default: rgba(0,0,0,0.2)] */
+  --background-overlay: rgba(0, 0, 0, 0.3); /* app background overlay color/gradient [default: rgba(0,0,0,0.3)] */
   --background-image: url(https://i.imgur.com/kCndyb2.jpeg); /* app background image (link must be HTTPS) [default: url(https://i.imgur.com/kCndyb2.jpeg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */

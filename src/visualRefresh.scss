@@ -709,6 +709,11 @@
       border: 2px solid $hover-color;
     }
   }
+
+  %cozy %messageTimestamp {
+    color: #fff;
+    font-weight: 600;
+  }
 }
 
 // NEW VOICE FILTER THINGY
