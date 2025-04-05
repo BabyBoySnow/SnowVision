@@ -2,8 +2,8 @@
   // APP BG
   %appMount {
     background: var(--background-overlay);
-    position: relative;
-    z-index: 1;
+    position: static;
+    z-index: 1; //make the overlay over before in case they use frosted glass
     &::before {
       content: '';
       position: absolute;
@@ -14,14 +14,14 @@
       background: var(--frosted-glass-background);
       backdrop-filter: blur(var(--backgrund-blur));
       -webkit-backdrop-filter: blur(var(--background-blur));
-      z-index: -1;
+      z-index: -1; //frosted glass beneath overlay so they can darken it with an overlay
     }
   }
 
   %bg {
     background: cv('bg.app.img') cv('bg.app.pos') / cv('bg.app.size') cv('bg.app.repeat') cv('bg.app.attach');
     @include filters(cv('bg.app'));
-    z-index: -9999;
+    z-index: -9999; // background image behind all the overlays.
   }
 
   // GUILDS
