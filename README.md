@@ -23,7 +23,10 @@
 [![Pull Requests][prs-badge]][prs-link]
 
 ![Aquarion Preview]()
+<details>
+  <summary>Additional previews</summary>
 
+</details>
 </div>
 
 ## Credit
