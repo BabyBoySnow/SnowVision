@@ -1,27 +1,25 @@
 
 # Aquarion: Immerse Yourself in a Smoother ClearVision Experience
-
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square  
-[prettier-link]: https://github.com/prettier/prettier  
-[sass-badge]: https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=sass&logoColor=white  
-[sass-link]: https://sass-lang.com/  
-[release-badge]: https://img.shields.io/github/v/release/Aquarion-D/Aquarion?include_prereleases&style=flat-square  
-[release-link]: https://github.com/Aquarion-D/Aquarion/releases  
-[license-badge]: https://img.shields.io/github/license/Aquarion-D/Aquarion?style=flat-square  
-[license-link]: https://github.com/Aquarion-D/Aquarion/blob/Aquarion/LICENSE  
-[issues-badge]: https://img.shields.io/github/issues/Aquarion-D/Aquarion?style=flat-square  
-[issues-link]: https://github.com/Aquarion-D/Aquarion/issues  
-[prs-badge]: https://img.shields.io/github/issues-pr/Aquarion-D/Aquarion?style=flat-square  
-[prs-link]: https://github.com/Aquarion-D/Aquarion/pulls  
+[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+[prettier-link]: https://github.com/prettier/prettier
+[sass-badge]: https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=sass&logoColor=white
+[sass-link]: https://sass-lang.com/
+[release-badge]: https://img.shields.io/github/v/release/Aquarion-D/Aquarion?include_prereleases&style=flat-square
+[release-link]: https://github.com/Aquarion-D/Aquarion/releases
+[license-badge]: https://img.shields.io/github/license/Aquarion-D/Aquarion?style=flat-square
+[license-link]: https://github.com/Aquarion-D/Aquarion/blob/Aquarion/LICENSE
+[issues-badge]: https://img.shields.io/github/issues/Aquarion-D/Aquarion?style=flat-square
+[issues-link]: https://github.com/Aquarion-D/Aquarion/issues
+[prs-badge]: https://img.shields.io/github/issues-pr/Aquarion-D/Aquarion?style=flat-square
+[prs-link]: https://github.com/Aquarion-D/Aquarion/pulls
+[![code style: prettier][prettier-badge]][prettier-link]
+[![Language: Sass][sass-badge]][sass-link]
+[![Releases][release-badge]][release-link]
+[![License][license-badge]][license-link]
+[![Issues][issues-badge]][issues-link]
+[![Pull Requests][prs-badge]][prs-link]
 
 <div align="center">
-
-[![code style: prettier][prettier-badge]][prettier-link]  
-[![Language: Sass][sass-badge]][sass-link]  
-[![Releases][release-badge]][release-link]  
-[![License][license-badge]][license-link]  
-[![Issues][issues-badge]][issues-link]  
-[![Pull Requests][prs-badge]][prs-link]  
 
 ![Main Aquarion Preview](https://raw.githubusercontent.com/Aquarion-D/Aquarion/refs/heads/Aquarion/screenshots/Aquarion%20Preview.png)
 
