@@ -165,3 +165,9 @@ npm run test # Outputs a 'main.css' file in /test
 - A lot more stuff that I can't be bothered to type. For a complete history of changes, it's best to read the [commits](https://github.com/Aquarion-D/Aquarion/commits/Aquarion/).
 
 </details>
+
+## Analytics 
+Aquarion itself collects no user information or telemetry.
+When checking for updates, Aquarion will access https://aquarion-d.github.io/Aquarion/main.css & https://discordstyles.github.io/RadialStatus/RadialStatus.css
+to download updates and related information from the repository.
+GitHub may provide members of Aquarion-D with basic analytics regarding the number of downloads, forks, and various contributions from users and collaborators.
