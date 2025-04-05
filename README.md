@@ -27,8 +27,7 @@
 
 <details>
   <summary>Click to view additional previews</summary>
-
-   ![Secondary Aquarion Preview](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Aquarion%20Preview.png)  
+  
    ![Nitro Profile Preview](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Nitro%20Profile%20Preview.png)  
    ![Regular Profile](https://github.com/Aquarion-D/Aquarion/raw/Aquarion/screenshots/Preview%20with%20profile.png)  
 
@@ -41,6 +40,8 @@
 Huge thanks to [NyxIsBad](https://github.com/NyxIsBad) for helping me get this up and running!
 
 The **Aquarion Logo** is available for free download [here](https://www.kindpng.com/imgv/hwbRbbo_emoji-snow-snowflake-holographic-snowflake-emoji-png-transparent/).
+
+[Sessh](<https://discord.com/users/294957734552535040>) on discord, has helped by finding bugs and things that needed adjusted.
 
 ## Installation
 
@@ -157,11 +158,11 @@ npm run test # Outputs a 'main.css' file in /test
 - Made the forums list title slightly less intrusive. No one likes a flashbang.
 - Also changed the forums user and message content to be easier to see.
 - Added hover effect to emoji remove in server settings.
-- In user settings -> boost, adjusted popup about boost having a new home to be slightly transparent, also padded the "boost not used" thing.
-- Colored the message reply spine thing.
+- In user settings -> boost, adjusted popup about boost having a new home to be slightly transparent, also padded the "boost not used" popout.
 - Applied background overlay to the boost mural in server menu -> boost this server.
 - Changed the button to use white.
 - Adjusted the forums start chat to be easier to see.
+- Added an option to enable a frosted glass effect.
 - A lot more stuff that I can't be bothered to type. For a complete history of changes, it's best to read the [commits](https://github.com/Aquarion-D/Aquarion/commits/Aquarion/).
 
 </details>
