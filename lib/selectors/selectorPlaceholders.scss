@@ -3512,11 +3512,11 @@ pre {
   @extend %userProfileInner !optional;
 }
 
-.biteSize_c0bea0 {
+.user-profile-popout {
   @extend %userProfileSmall !optional;
 }
 
-.fullSize_c0bea0 {
+.user-profile-modal {
   @extend %userProfileFull !optional;
 }
 
@@ -5134,7 +5134,7 @@ pre {
   @extend %userSettingsAccountBadgeList !optional;
 }
 
-.container_ba7f98 {
+.container__5a2c6 {
   @extend %userSettingsProfilePreview !optional;
 }
 
@@ -7876,4 +7876,7 @@ pre {
 }
 .paymentBanner_e335a7 {
   @extend %nitroPaymentFailed !optional;
+}
+.sidebarListRounded_c48ade {
+  @extend %sidebarListRounded !optional;
 }

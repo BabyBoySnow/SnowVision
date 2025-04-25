@@ -714,6 +714,10 @@
     color: #fff;
     font-weight: 600;
   }
+
+  %sidebarListRounded {
+    backdrop-filter: none; //remove shading from channels list when transparency is on
+  }
 }
 
 // NEW VOICE FILTER THINGY
