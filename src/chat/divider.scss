@@ -3,7 +3,7 @@
 // UNREAD
 // -6px is to account for the 1px height of the divider
 %dividerUnread %dividerDate {
-  color: $main-color;
+  color: $alt-color;
 }
 %unreadPill {
   background-color: $main-color;
@@ -16,7 +16,7 @@
 // DATE
 %dividerDate {
   background: transparent;
-  color: $main-color;
+  color: $alt-color;
 }
 // change to no border / bg system
 %divider {
@@ -27,12 +27,12 @@
   &%dividerUnread {
     border: none;
     height: 1px;
-    background: $main-color;
+    background: $alt-color;
     // create gap when date is there
     &:has(%dividerDate) {
       border: none;
       height: 1px;
-      background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0) 55px, $main-color 55px);
+      background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0) 55px, $alt-color 55px);
     }
   }
   // create gap when date is there
