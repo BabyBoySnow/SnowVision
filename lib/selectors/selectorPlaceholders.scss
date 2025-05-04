@@ -1058,7 +1058,12 @@
 .wrapper_fc8177 {
   @extend %chatLoadingWrapper !optional;
 }
-
+.tabBar__133bf {
+  @extend %addFriendTab !optional;
+}
+.addFriend__133bf {
+  @extend %addFriend !optional;
+}
 .divider__5126c {
   @extend %divider !optional;
 }
