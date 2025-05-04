@@ -719,7 +719,7 @@
     backdrop-filter: none; //remove shading from channels list when transparency is on
   }
 
-  %addFriendTab %addFriend.%addFriend.%addFriend  {
+  %addFriendTab %addFriend%addFriend%addFriend  {
     background-color: $main-color;
     transition: ease-in-out;
     &:hover {
