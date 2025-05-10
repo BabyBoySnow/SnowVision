@@ -68,6 +68,13 @@
   background: transparent;
   margin: 1rem;
 }
+
+%newBoostPerksText {
+  color: #fff;
+}
+%newBoostPerksContainer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .song-tIdBpF {
   font-weight: 500;
   color: $alt-color;
